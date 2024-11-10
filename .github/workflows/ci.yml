@@ -34,6 +34,6 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./project.zip  # Utilise l'archive ZIP comme fichier à envoyer
+          local-dir: ./  # Indiquez ici le répertoire contenant votre projet (pas le fichier ZIP)
           server-dir: /www/  # Chemin sur le serveur OVH où déployer les fichiers
-          zip: true  # Déployer le fichier ZIP sur OVH et le décompresser
+          zip: false  # Ne pas compresser, car les fichiers sont déjà dans un répertoire
