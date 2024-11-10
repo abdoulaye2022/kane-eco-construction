@@ -28,7 +28,7 @@ Contact Area
                         <i class="fal fa-location-dot"></i>
                     </div>
                     <div class="media-body">
-                        <p class="contact-feature_label">Our Address</p>
+                        <p class="contact-feature_label">Notre adress</p>
                         <a href="https://www.google.com/maps" class="contact-feature_link">2690 Hiltona Street Victoria
                             Road, New York, Canada</a>
                     </div>
