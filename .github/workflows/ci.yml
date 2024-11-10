@@ -1,0 +1,43 @@
+name: Deploy to OVH
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout le code du dépôt
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # 2. Configurer PHP et installer les dépendances
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '7.4'  # Ajustez selon votre version de PHP
+
+      - name: Install Composer dependencies
+        run: composer install --no-dev --prefer-dist --optimize-autoloader
+
+      # 3. Linting du code PHP
+      - name: Run PHP Linting
+        run: ./vendor/bin/phpcs --standard=PSR12 includes/  # Remplacez 'includes/' par le dossier de votre code PHP
+
+      # 4. Créer une archive zip du projet
+      - name: Create zip archive
+        run: zip -r project.zip . -x ".git/*" "tests/*"
+
+      # 5. Déployer via FTP sur le serveur OVH
+      - name: Deploy to OVH via FTP
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: .
+          server-dir: /www/  # Ajustez selon votre configuration
+          zip: true
