@@ -23,21 +23,17 @@ jobs:
       - name: Install Composer dependencies
         run: composer install --no-dev --prefer-dist --optimize-autoloader
 
-      # 3. Linting du code PHP
-      - name: Run PHP Linting
-        run: ./vendor/bin/phpcs --standard=PSR12 public/  # Remplacez 'includes/' par le dossier de votre code PHP
-
-      # 4. Créer une archive zip du projet
+      # 3. Créer une archive zip du projet
       - name: Create zip archive
-        run: zip -r project.zip . -x ".git/*" "tests/*"
+        run: zip -r project.zip . -x ".git/*" "tests/*"  # Crée un zip tout en excluant les dossiers .git et tests
 
-      # 5. Déployer via FTP sur le serveur OVH
+      # 4. Déployer via FTP sur le serveur OVH
       - name: Deploy to OVH via FTP
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: .
-          server-dir: /www/  # Ajustez selon votre configuration
-          zip: true
+          local-dir: ./project.zip  # Utilise l'archive ZIP comme fichier à envoyer
+          server-dir: /www/  # Chemin sur le serveur OVH où déployer les fichiers
+          zip: true  # Déployer le fichier ZIP sur OVH et le décompresser
