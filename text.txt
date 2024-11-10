@@ -1,0 +1,23 @@
+my_php_project/
+├── public/                     # Dossier public, accessible au navigateur
+│   ├── index.php               # Point d'entrée principal de l'application
+│   ├── .htaccess               # Fichier de configuration Apache pour rediriger toutes les requêtes vers index.php
+│   ├── assets/                 # Fichiers statiques (CSS, JavaScript, images)
+│   │   ├── css/
+│   │   ├── js/
+│   │   └── images/
+│   └── uploads/                # Dossier pour les fichiers uploadés par les utilisateurs
+├── config/                     # Fichiers de configuration
+│   └── config.php              # Fichier de configuration générale
+├── includes/                   # Fichiers PHP inclus pour séparer la logique
+│   ├── db.php                  # Fichier pour la connexion à la base de données
+│   ├── functions.php           # Fonctions utilitaires globales
+│   ├── header.php              # En-tête HTML commun à toutes les pages
+│   ├── footer.php              # Pied de page HTML commun à toutes les pages
+│   └── router.php              # Fichier de routage pour diriger les requêtes
+├── pages/                      # Fichiers pour les pages spécifiques
+│   ├── home.php                # Page d'accueil
+│   ├── about.php               # Page "À propos"
+│   ├── contact.php             # Page de contact
+│   └── error.php               # Page d'erreur (404)
+└── README.md                   # Documentation du projet

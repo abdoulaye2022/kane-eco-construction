@@ -1,0 +1,16 @@
+{
+    "name": "m2ato/kane-eco-construction",
+    "description": "Real estate business site",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abdoulaye Mohamed Ahmed",
+            "email": "m2atodev@gmail.com"
+        }
+    ],
+    "require": {}
+}

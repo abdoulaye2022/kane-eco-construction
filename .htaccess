@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Rediriger toutes les requêtes vers le dossier "public"
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteRule ^(.*)$ /public/$1 [L]
+
+# Réécrire l'URL de l'index pour la rendre accessible sans "public/"
+RewriteCond %{REQUEST_URI} ^/public/index\.php
+RewriteRule ^public/index\.php$ /index.php [L]
