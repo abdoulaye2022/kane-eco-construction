@@ -26,7 +26,7 @@ jobs:
       # 3. Linting du code PHP
       - name: Run PHP Linting
         run: |
-          ./vendor/bin/phpcs --standard=PSR12 /  # Remplacez src/ par le dossier de votre code PHP
+          ./vendor/bin/phpcs --standard=PSR12 includes/  # Remplacez 'includes/' par le dossier de votre code PHP
 
       # 4. Créer une archive zip du projet
       - name: Create zip archive
@@ -39,6 +39,6 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./project.zip
+          local-dir: .
           server-dir: /www/  # Ajustez selon votre configuration
           zip: true
