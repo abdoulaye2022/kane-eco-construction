@@ -15,13 +15,12 @@ include '../includes/header.php';
                     <div class="col-xxl-8 col-lg-7 col-md-8">
                         <div class="hero-style1">
                             <span class="hero-subtitle" data-ani="slideinleft" data-ani-delay="0.1s"><img
-                                    src="assets/img/icon/subtitle-img1-1.svg" alt="img"> We Build, You Thrive</span>
-                            <h1 class="hero-title text-white" data-ani="slideinleft" data-ani-delay="0.4s">Quality
-                                Construction
-                                Lasting <span class="text-theme fw-normal">Impressions</span></h1>
-                            <p class="hero-text" data-ani="slideinleft" data-ani-delay="0.6s">Construction companies
-                                offer a wide range of services, such as pre-construction planning, project management,
-                                design and architectural services.</p>
+                                    src="assets/img/icon/subtitle-img1-1.svg" alt="img"> Nous construisons, vous prospérez</span>
+                            <h1 class="hero-title text-white" data-ani="slideinleft" data-ani-delay="0.4s">Construction de qualité durable
+                                 <span class="text-theme fw-normal">Impressions</span></h1>
+                            <p class="hero-text" data-ani="slideinleft" data-ani-delay="0.6s">Les entreprises de construction
+offrent une large gamme de services, tels que la planification préalable à la construction, la gestion de projet,
+la conception et les services d'architecture.</p>
                             <div class="btn-group" data-ani="slideinleft" data-ani-delay="0.8s">
                                 <a href="contact.html" class="th-btn style3">En savoir plus<i
                                         class="fas fa-arrow-right ms-2"></i></a>
@@ -595,9 +594,9 @@ Portfolio Area
             <div class="row justify-content-between align-items-center">
                 <div class="col-auto">
                     <div class="title-area mb-lg-0">
-                        <span class="sub-title"><img src="assets/img/icon/subtitle-img1-1.svg" alt="img"> Our
-                            Projects</span>
-                        <h2 class="sec-title">Building Your Dream Projects</h2>
+                        <span class="sub-title"><img src="assets/img/icon/subtitle-img1-1.svg" alt="img"> Nos
+                        Projets</span>
+                        <h2 class="sec-title">Construisez vos projets de rêve</h2>
                     </div>
                 </div>
                 <div class="col-auto">
@@ -797,8 +796,8 @@ Team Area
     data-overlay="title">
     <div class="container">
         <div class="title-area text-center">
-            <span class="sub-title"><img src="assets/img/icon/subtitle-img1-1.svg" alt="icon"> Team Members</span>
-            <h2 class="sec-title text-white">Our Professional Team</h2>
+            <span class="sub-title"><img src="assets/img/icon/subtitle-img1-1.svg" alt="icon">Membres de l'équipe</span>
+            <h2 class="sec-title text-white">Notre équipe professionnelle</h2>
         </div>
         <div class="row th-carousel arrow-style2" data-slide-show="4" data-lg-slide-show="3" data-md-slide-show="2"
             data-sm-slide-show="2" data-xs-slide-show="1" data-arrows="true">
@@ -881,87 +880,6 @@ Team Area
                     </div>
                 </div>
             </div>
-
-            <!-- Single Item -->
-            <div class="col-lg-6">
-                <div class="team-card">
-                    <div class="team-img-wrap">
-                        <div class="team-img">
-                            <img src="assets/img/team/team_1_1.jpg" alt="Team">
-                        </div>
-                        <div class="th-social">
-                            <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                            <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                            <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="team-content">
-                        <h3 class="team-title box-title"><a href="team-details.html">Mishel Marsh</a></h3>
-                        <span class="team-desig">Founder</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Single Item -->
-            <div class="col-lg-6">
-                <div class="team-card">
-                    <div class="team-img-wrap">
-                        <div class="team-img">
-                            <img src="assets/img/team/team_1_2.jpg" alt="Team">
-                        </div>
-                        <div class="th-social">
-                            <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                            <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                            <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="team-content">
-                        <h3 class="team-title box-title"><a href="team-details.html">Michel Richard</a></h3>
-                        <span class="team-desig">Architecture</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Single Item -->
-            <div class="col-lg-6">
-                <div class="team-card">
-                    <div class="team-img-wrap">
-                        <div class="team-img">
-                            <img src="assets/img/team/team_1_3.jpg" alt="Team">
-                        </div>
-                        <div class="th-social">
-                            <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                            <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                            <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="team-content">
-                        <h3 class="team-title box-title"><a href="team-details.html">Famhida Ruko</a></h3>
-                        <span class="team-desig">Engineer</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Single Item -->
-            <div class="col-lg-6">
-                <div class="team-card">
-                    <div class="team-img-wrap">
-                        <div class="team-img">
-                            <img src="assets/img/team/team_1_4.jpg" alt="Team">
-                        </div>
-                        <div class="th-social">
-                            <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                            <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                            <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="team-content">
-                        <h3 class="team-title box-title"><a href="team-details.html">Alex Anfantino</a></h3>
-                        <span class="team-desig">Site Manager</span>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </div>
 </div>
@@ -983,8 +901,9 @@ Cta Area
                                 <i class="fas fa-phone"></i>
                             </div>
                             <div>
-                                <p>Call Us Anytime:</p>
-                                <a class="cta-single-link" href="tel:+19524357106">+19524357106</a>
+                                <p>Appelez-nous à tout moment:</p>
+                                <a class="cta-single-link" href="tel:+22793333435" style="font-size: 13px;">+22793333435</a>
+                                <a class="cta-single-link" href="tel:+22782333433" style="font-size: 13px;">+22782333433</a>
                             </div>
                         </div>
                         <div class="cta-link">
@@ -992,8 +911,8 @@ Cta Area
                                 <i class="fas fa-envelope"></i>
                             </div>
                             <div>
-                                <p>Email Us:</p>
-                                <a class="cta-single-link" href="mailto:info@konta.com">info@konta.com</a>
+                                <p>Envoyez-nous un mail :</p>
+                                <a class="cta-single-link" href="mailto:contact@kane-eco-contruction.com" style="font-size: 13px;">contact@kane-eco-contruction.com</a>
                             </div>
                         </div>
                     </div>
@@ -1066,12 +985,12 @@ Project Area
                 <div class="col-auto">
                     <div class="title-area mb-md-0">
                         <span class="sub-title"><img src="assets/img/icon/subtitle-img1-1.svg" alt="img"> Photo
-                            Gallery</span>
-                        <h2 class="sec-title mb-0">Our Latest Complete Work</h2>
+                        Galerie</span>
+                        <h2 class="sec-title mb-0">Nos derniers travaux complets</h2>
                     </div>
                 </div>
                 <div class="col-auto">
-                    <a class="th-btn" href="project.html">View All Gallery <i class="fas fa-arrow-right ms-2"></i></a>
+                    <a class="th-btn" href="project.html">Voir toute la galerie <i class="fas fa-arrow-right ms-2"></i></a>
                 </div>
             </div>
         </div>
@@ -1082,7 +1001,7 @@ Project Area
             <div class="col-md-6 col-xl-4">
                 <div class="project-card style2">
                     <div class="project-card-img">
-                        <img src="assets/img/project/project-2-1.png" alt="project image">
+                        <img src="assets/img/products/cite.jpeg" alt="project image">
                     </div>
                     <div class="project-card-details-wrap">
                         <div class="project-card-details">
@@ -1092,7 +1011,7 @@ Project Area
                             <p class="project-card-content">A reliable construction company is adept at managing budgets
                                 and timelines effectively.</p>
                         </div>
-                        <a href="assets/img/project/project-2-1.png" class="gallery-btn popup-image"><i
+                        <a href="assets/img/products/cite.jpeg" class="gallery-btn popup-image"><i
                                 class="fas fa-plus"></i></a>
                     </div>
                 </div>
@@ -1101,7 +1020,7 @@ Project Area
             <div class="col-md-6 col-xl-4">
                 <div class="project-card style2">
                     <div class="project-card-img">
-                        <img src="assets/img/project/project-2-2.png" alt="project image">
+                        <img src="assets/img/products/cite2.jpeg" alt="project image">
                     </div>
                     <div class="project-card-details-wrap">
                         <div class="project-card-details">
@@ -1111,7 +1030,7 @@ Project Area
                             <p class="project-card-content">Industrial construction involves building facilities for
                                 manufacturing, processing.</p>
                         </div>
-                        <a href="assets/img/project/project-2-2.png" class="gallery-btn popup-image"><i
+                        <a href="assets/img/products/cite2.jpeg" class="gallery-btn popup-image"><i
                                 class="fas fa-plus"></i></a>
                     </div>
                 </div>
@@ -1120,7 +1039,7 @@ Project Area
             <div class="col-md-6 col-xl-4">
                 <div class="project-card style2">
                     <div class="project-card-img">
-                        <img src="assets/img/project/project-2-3.png" alt="project image">
+                        <img src="assets/img/products/cite 3.jpeg" alt="project image">
                     </div>
                     <div class="project-card-details-wrap">
                         <div class="project-card-details">
@@ -1129,7 +1048,7 @@ Project Area
                             <p class="project-card-content">Architects and designers work on creating the plans and
                                 drawings for construction</p>
                         </div>
-                        <a href="assets/img/project/project-2-3.png" class="gallery-btn popup-image"><i
+                        <a href="assets/img/products/cite 3.jpeg" class="gallery-btn popup-image"><i
                                 class="fas fa-plus"></i></a>
                     </div>
                 </div>
@@ -1138,7 +1057,7 @@ Project Area
             <div class="col-md-6 col-xl-4">
                 <div class="project-card style2">
                     <div class="project-card-img">
-                        <img src="assets/img/project/project-2-4.png" alt="project image">
+                        <img src="assets/img/products/f4 5.jpeg" alt="project image">
                     </div>
                     <div class="project-card-details-wrap">
                         <div class="project-card-details">
@@ -1148,7 +1067,7 @@ Project Area
                             <p class="project-card-content">This includes building homes, apartments, and other housing
                                 units. It can involve.</p>
                         </div>
-                        <a href="assets/img/project/project-2-4.png" class="gallery-btn popup-image"><i
+                        <a href="assets/img/products/f4 5.jpeg" class="gallery-btn popup-image"><i
                                 class="fas fa-plus"></i></a>
                     </div>
                 </div>
@@ -1157,7 +1076,7 @@ Project Area
             <div class="col-md-6 col-xl-4">
                 <div class="project-card style2">
                     <div class="project-card-img">
-                        <img src="assets/img/project/project-2-1.png" alt="project image">
+                        <img src="assets/img/products/f4 6.jpeg" alt="project image">
                     </div>
                     <div class="project-card-details-wrap">
                         <div class="project-card-details">
@@ -1167,7 +1086,7 @@ Project Area
                             <p class="project-card-content">A reliable construction company is adept at managing budgets
                                 and timelines effectively.</p>
                         </div>
-                        <a href="assets/img/project/project-2-1.png" class="gallery-btn popup-image"><i
+                        <a href="assets/img/products/f4 6.jpeg" class="gallery-btn popup-image"><i
                                 class="fas fa-plus"></i></a>
                     </div>
                 </div>
@@ -1176,7 +1095,7 @@ Project Area
             <div class="col-md-6 col-xl-4">
                 <div class="project-card style2">
                     <div class="project-card-img">
-                        <img src="assets/img/project/project-2-2.png" alt="project image">
+                        <img src="assets/img/products/f4 7.jpeg" alt="project image">
                     </div>
                     <div class="project-card-details-wrap">
                         <div class="project-card-details">
@@ -1186,7 +1105,7 @@ Project Area
                             <p class="project-card-content">Industrial construction involves building facilities for
                                 manufacturing, processing.</p>
                         </div>
-                        <a href="assets/img/project/project-2-2.png" class="gallery-btn popup-image"><i
+                        <a href="assets/img/products/f4 7.jpeg" class="gallery-btn popup-image"><i
                                 class="fas fa-plus"></i></a>
                     </div>
                 </div>
@@ -1195,7 +1114,7 @@ Project Area
             <div class="col-md-6 col-xl-4">
                 <div class="project-card style2">
                     <div class="project-card-img">
-                        <img src="assets/img/project/project-2-3.png" alt="project image">
+                        <img src="assets/img/products/f4 10.jpeg" alt="project image">
                     </div>
                     <div class="project-card-details-wrap">
                         <div class="project-card-details">
@@ -1204,7 +1123,7 @@ Project Area
                             <p class="project-card-content">Architects and designers work on creating the plans and
                                 drawings for construction</p>
                         </div>
-                        <a href="assets/img/project/project-2-3.png" class="gallery-btn popup-image"><i
+                        <a href="assets/img/products/f4 10.jpeg" class="gallery-btn popup-image"><i
                                 class="fas fa-plus"></i></a>
                     </div>
                 </div>
@@ -1213,7 +1132,7 @@ Project Area
             <div class="col-md-6 col-xl-4">
                 <div class="project-card style2">
                     <div class="project-card-img">
-                        <img src="assets/img/project/project-2-4.png" alt="project image">
+                        <img src="assets/img/products/f4 12.jpeg" alt="project image">
                     </div>
                     <div class="project-card-details-wrap">
                         <div class="project-card-details">
@@ -1223,7 +1142,7 @@ Project Area
                             <p class="project-card-content">This includes building homes, apartments, and other housing
                                 units. It can involve.</p>
                         </div>
-                        <a href="assets/img/project/project-2-4.png" class="gallery-btn popup-image"><i
+                        <a href="assets/img/products/f4 12.jpeg" class="gallery-btn popup-image"><i
                                 class="fas fa-plus"></i></a>
                     </div>
                 </div>
@@ -1239,8 +1158,8 @@ Testimonial Area
     data-opacity="9">
     <div class="container">
         <div class="title-area text-center mb-50">
-            <span class="sub-title"><img src="assets/img/icon/subtitle-img1-1.svg" alt="img"> Testimonials</span>
-            <h2 class="sec-title">What Our Clients Say?</h2>
+            <span class="sub-title"><img src="assets/img/icon/subtitle-img1-1.svg" alt="img"> Témoignages</span>
+            <h2 class="sec-title">Que disent nos clients?</h2>
         </div>
         <div class="row">
             <div class="col-xl-12">
@@ -1309,27 +1228,6 @@ Testimonial Area
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="testi-card">
-                            <div class="testi-card_img">
-                                <img src="assets/img/testimonial/testi_1_2.jpg" alt="Avater">
-                            </div>
-                            <div class="testi-card_content">
-                                <p class="testi-card_text">Interior designers They select color, texture, pattern, &
-                                    materials that create a cohesive and visual pleasing look while reflecting the
-                                    clients personality and taste.</p>
-                                <div class="testi-card_bottom">
-                                    <div>
-                                        <h3 class="testi-card_name">Alex Jordan</h3>
-                                        <span class="testi-card_desig">Contructor</span>
-                                    </div>
-                                    <div class="testi-card_icon">
-                                        <img src="assets/img/icon/testi-quote.svg" alt="img">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -1338,7 +1236,7 @@ Testimonial Area
 <!--==============================
 Contact Area  
 ==============================-->
-<div class="container">
+<!-- <div class="container">
     <div class=" bg-title z-index-common" data-pos-for=".testi-area-1" data-sec-pos="top-half">
         <div class="client-area-1">
             <div class="row align-items-center">
@@ -1450,11 +1348,11 @@ Contact Area
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!--==============================
 Blog Area  
 ==============================-->
-<section class="overflow-hidden space" id="blog-sec">
+<!-- <section class="overflow-hidden space" id="blog-sec">
     <div class="container">
         <div class="title-area text-center">
             <span class="sub-title"><img src="assets/img/icon/subtitle-img1-1.svg" alt="icon"> Our Blog</span>
@@ -1596,7 +1494,7 @@ Blog Area
 
         </div>
     </div>
-</section>
+</section> -->
 <!--==============================
 	Footer Area
 ==============================-->

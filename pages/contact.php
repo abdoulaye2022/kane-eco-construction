@@ -41,8 +41,8 @@ Contact Area
                     </div>
                     <div class="media-body">
                         <p class="contact-feature_label">Contact Number</p>
-                        <a href="tel:256214203215" class="contact-feature_link">Téléphone: +22793333435 /
-                            +22782333433</a>
+                        <a href="tel:256214203215" class="contact-feature_link">Téléphone: +227 93 33 34 35 /
+                            +227 82 33 34 33</a>
                         <a href="mailto:info@konta.com" class="contact-feature_link">E-mail:
                             contact@kane-eco-construction.com</a>
                     </div>

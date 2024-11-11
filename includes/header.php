@@ -94,7 +94,8 @@
             <div class="widget  ">
                 <div class="th-widget-about">
                     <div class="about-logo">
-                        <a href="accueil"><img src="assets/img/kane.jpeg" style="width: 170px; height: 77px" alt="Konta"></a>
+                        <a href="accueil"><img src="assets/img/kane.jpeg" style="width: 170px; height: 77px"
+                                alt="Konta"></a>
                     </div>
                     <p class="about-text">Quickly supply alternative strategic theme areas vis-a-vis B2C mindshare.
                         Objectively repurpose stand-alone synergy via user-centric architectures.</p>
@@ -194,7 +195,7 @@
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="accueil"><img src="assets/img/kane.jpeg" style="width: 100%; height: 147px" alt="Konta"></a>
+                <a href="accueil"><img src="assets/img/kane.jpeg" style="width: 90%; height: 60px" alt="Konta"></a>
             </div>
             <div class="th-mobile-menu">
                 <ul>
@@ -275,7 +276,8 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a href="accueil"><img src="assets/img/kane.jpeg" style="width: 170px; height: 77px" alt="Konta"></a>
+                                <a href="accueil"><img src="assets/img/kane.jpeg" style="width: 170px; height: 77px"
+                                        alt="Konta"></a>
                             </div>
                         </div>
                         <div class="col-auto d-none d-lg-block sticy-d-none">
@@ -283,22 +285,26 @@
                                 <div class="header-link">
                                     <i class="fas fa-phone"></i>
                                     <div>
-                                        <p>Call Us Any Time:</p>
-                                        <a class="header-single-link" href="tel:+256214203215">256 214 203 215</a>
+                                        <p>Appelez-nous à tout moment:</p>
+                                        <a class="header-single-link" href="tel:+22793333435"
+                                            style="font-size: 13px;">+22793333435</a>
+                                        <a class="header-single-link" href="tel:+22782333433"
+                                            style="font-size: 13px;">+22782333433</a>
                                     </div>
                                 </div>
                                 <div class="header-link">
                                     <i class="fas fa-envelope"></i>
                                     <div>
-                                        <p>Email Us:</p>
-                                        <a class="header-single-link" href="mailto:info@konta.com">info@konta.com</a>
+                                        <p>Envoyez-nous un e-mail:</p>
+                                        <a class="header-single-link" href="mailto:contact@kane-eco-construction.com"
+                                            style="font-size: 16px;">contact@kane-eco-construction.com</a>
                                     </div>
                                 </div>
                                 <div class="header-link d-xl-inline-flex d-none">
                                     <i class="fas fa-clock"></i>
                                     <div>
-                                        <p>Working Time:</p>
-                                        <span class="header-single-link">Mon - Sat: 18:00 - 15:00</span>
+                                        <p>Temps de travail:</p>
+                                        <span class="header-single-link" style="font-size: 16px;">Lundi - Vendredi: 8:00 - 16:00</span>
                                     </div>
                                 </div>
                             </div>
@@ -364,9 +370,9 @@
                                 <div class="header-button">
                                     <button type="button" class="icon-btn style2 searchBoxToggler"><i
                                             class="far fa-search"></i></button>
-                                    <button type="button" class="icon-btn style2 sideMenuToggler">
+                                    <!-- <button type="button" class="icon-btn style2 sideMenuToggler">
                                         <i class="fas fa-grid"></i>
-                                    </button>
+                                    </button> -->
                                     <a href="contact.html" class="th-btn style8 ml-25">OBTENIR UN DEVIS <i
                                             class="fas fa-arrow-right ms-1"></i></a>
                                 </div>

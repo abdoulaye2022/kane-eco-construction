@@ -1,4 +1,4 @@
-<footer class="footer-wrapper footer-layout1" data-bg-src="assets/img/bg/footer1-bg.png" data-overlay="title" data-opacity="9">
+<footer class="footer-wrapper footer-layout1" data-bg-src="../assets/img/bg/footer1-bg.png" data-overlay="title" data-opacity="9">
         <div class="widget-area space-top z-index-common">
             <div class="container">
                 <div class="row justify-content-between">
@@ -6,23 +6,27 @@
                         <div class="widget footer-widget">
                             <div class="th-widget-about">
                                 <div class="about-logo">
-                                    <a href="index.html"><img src="assets/img/logo-white.svg" alt="Konta"></a>
+                                    <a href="index.html"><img src="assets/img/kane.jpeg" style="widthL 170px; height: 66px;" alt="Konta"></a>
                                 </div>
-                                <p class="about-text mb-4">Quickly supply alternative strategic theme areas vis-à-vis B2C mindshare. Objectively repurpose stand-alone.</p>
+                                <p class="about-text mb-4">Kané Eco-Constructions est une société immobilière spécialisée dans les briques de terre compressée au Niger.</p>
                                 <div class="th-widget-contact">
-                                    <h6 class="info-box-title text-white mb-1">Phone Number</h6>
+                                    <h6 class="info-box-title text-white mb-1">Numéro de téléphone</h6>
                                     <div class="info-box-wrap">
                                         <div class="info-box_icon">
                                             <i class="fas fa-phone"></i>
                                         </div>
-                                        <a href="tel:+11234567890" class="info-box_link">+1 952-435-7106</a>
+                                        <a href="tel:+22793333435"
+                                            style="font-size: 13px;" class="info-box_link">+227 93 33 34 35</a>
+                                        <a href="tel:+22782333433"
+                                            style="font-size: 13px;" class="info-box_link">+227 82 33 34 33</a>
                                     </div>
                                     <h6 class="info-box-title text-white mb-1">Email address</h6>
                                     <div class="info-box-wrap">
                                         <div class="info-box_icon">
                                             <i class="fas fa-envelope"></i>
                                         </div>
-                                        <a href="mailto:info@konta.com" class="info-box_link">info@konta.com</a>
+                                        <a class="info-box_link" href="mailto:contact@kane-eco-construction.com"
+                                            style="font-size: 16px;">contact@kane-eco-construction.com</a>
                                     </div>
 
                                 </div>
@@ -31,20 +35,18 @@
                     </div>
                     <div class="col-md-6 col-xl-auto">
                         <div class="widget widget_nav_menu footer-widget">
-                            <h3 class="widget_title">About Us</h3>
+                            <h3 class="widget_title">À propos de nous</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="service.html">Services</a></li>
-                                    <li><a href="project.html">Projects</a></li>
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="pricing.html">Pricing Plans</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="">À propos de nous</a></li>
+                                    <li><a href="service.html">Nos services</a></li>
+                                    <li><a href="project.html">Projets réalisés</a></li>
+                                    <li><a href="contact.html">Contactez-nous</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-xl-auto">
+                    <!-- <div class="col-md-6 col-xl-auto">
                         <div class="widget footer-widget">
                             <h3 class="widget_title">Recent Posts</h3>
                             <div class="recent-post-wrap">
@@ -72,13 +74,12 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="col-md-6 col-xxl-3 col-xl-3">
                         <div class="widget newsletter-widget footer-widget">
                             <h3 class="widget_title">Newsletter</h3>
-                            <p class="footer-text">Sign Up to get updates & news about
-                                us . Get Latest Deals from Walker's
-                                Inbox to our mail address.</p>
+                            <p class="footer-text">Inscrivez-vous pour recevoir des mises à jour et des nouvelles sur nous. 
+                                Recevez les dernières offres de Walker's Inbox à notre adresse e-mail.</p>
                             <form class="newsletter-form form-group">
                                 <input class="form-control" type="email" placeholder="Email Email" required="">
                                 <button type="submit" class="th-btn style3"><i class="fas fa-paper-plane ms-1"></i></button>
@@ -98,13 +99,13 @@
             <div class="container">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-md-6">
-                        <p class="copyright-text">Copyright © 2024 <a href="index.html">Konta</a> All Rights Reserved.</p>
+                        <p class="copyright-text" style="font-size: 15px;">Copyright © 2024 <a href="home">Kane Eco Construction</a> Tous droits réservés. Créé par&nbsp;<a target="_blank" href="https://m2atech.com">M2atech</a></p>
                     </div>
                     <div class="col-md-6 text-end d-none d-md-block">
                         <div class="footer-links">
                             <ul>
-                                <li><a href="about.html">Privacy Policy</a></li>
-                                <li><a href="about.html">Terms & Condition</a></li>
+                                <li><a href="">Politique de confidentialité</a></li>
+                                <li><a href="">Conditions générales</a></li>
                             </ul>
                         </div>
                     </div>
