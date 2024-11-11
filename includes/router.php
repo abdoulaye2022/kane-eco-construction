@@ -1,10 +1,24 @@
 <?php
-// Récupère l'URL demandée
-$request = trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
-$request = str_replace('kane-eco-construction/public/', '', $request); // Enlevez le dossier du projet si nécessaire
+// Définir le dossier public
+$publicDir = '/kane-eco-construction/public';
+
+// Récupérer l'URL complète après le nom de domaine
+$requestUri = $_SERVER['REQUEST_URI'];
+
+// Supprimer le chemin vers le dossier public pour obtenir le path après
+$pathAfterPublic = str_replace($publicDir, '', $requestUri);
+
+// Nettoyer le path (supprimer les slashs initiaux et les extensions .php)
+$pathAfterPublic = trim($pathAfterPublic, '/');
+$pathAfterPublic = str_replace('.php', '', $pathAfterPublic);
+
+// Afficher le chemin après public pour vérification
+// var_dump($pathAfterPublic); die;
+
+
 
 // Routage des pages
-switch ($request) {
+switch ($pathAfterPublic) {
     case '':
         require __DIR__ . '/../pages/home.php';
         break;

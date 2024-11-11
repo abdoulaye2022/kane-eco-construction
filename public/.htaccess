@@ -1,4 +1,5 @@
 RewriteEngine On
+RewriteBase /kane-eco-construction/public
 
 # Rediriger toutes les requêtes vers index.php
 RewriteCond %{REQUEST_FILENAME} !-f

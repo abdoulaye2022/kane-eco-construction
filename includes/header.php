@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Konta - Construction & Real Estate Company HTML Template - Home Construction</title>
+    <title>Bienvenue chez Kane Eco Construction</title>
     <meta name="author" content="themeholy">
     <meta name="description" content="Konta - Construction & Real Estate Company HTML Template">
     <meta name="keywords" content="Konta - Construction & Real Estate Company HTML Template">
@@ -225,7 +225,7 @@
 	Header Area
 ==============================-->
     <header class="th-header header-layout1">
-        <div class="header-top" data-bg-src="../../public/assets/img/bg/header-top1-bg.png">
+        <div class="header-top" data-bg-src="assets/img/bg/header-to-bg.png">
             <div class="container th-container2">
                 <div class="row justify-content-center justify-content-lg-between align-items-center gy-2">
                     <div class="col-auto d-none d-lg-block">

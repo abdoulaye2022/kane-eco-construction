@@ -19,7 +19,7 @@ Contact Area
 <div class="contact-area-2 space-top" id="contact-sec">
     <div class="container">
         <div class="title-area text-center">
-            <h2 class="sec-title">Our Contact Information</h2>
+            <h2 class="sec-title">Nos coordonnées</h2>
         </div>
         <div class="row gy-4 justify-content-center">
             <div class="col-xl-4 col-lg-6">
@@ -41,8 +41,10 @@ Contact Area
                     </div>
                     <div class="media-body">
                         <p class="contact-feature_label">Contact Number</p>
-                        <a href="tel:256214203215" class="contact-feature_link">Mobile: +256 214 203 215</a>
-                        <a href="mailto:info@konta.com" class="contact-feature_link">Email: info@konta.com</a>
+                        <a href="tel:256214203215" class="contact-feature_link">Téléphone: +22793333435 /
+                            +22782333433</a>
+                        <a href="mailto:info@konta.com" class="contact-feature_link">E-mail:
+                            contact@kane-eco-construction.com</a>
                     </div>
                 </div>
             </div>
@@ -52,29 +54,30 @@ Contact Area
                         <i class="fal fa-clock"></i>
                     </div>
                     <div class="media-body">
-                        <p class="contact-feature_label">Hours of Operation</p>
-                        <span class="contact-feature_link">Monday - Saturday: 8:00 - 15:00</span>
-                        <span class="contact-feature_link">Sunday: Closed</span>
+                        <p class="contact-feature_label">heures d'ouverture</p>
+                        <span class="contact-feature_link">Lundi - Vendredi: 8:00 - 16:00</span>
+                        <span class="contact-feature_link">Samedi : Fermé</span>
+                        <span class="contact-feature_link">Dimanche : Fermé</span>
                     </div>
                 </div>
             </div>
             <div class="col-lg-12">
                 <div class="contact-wrap2">
                     <div class="contact-form-wrap">
-                        <h2 class="title h3 text-center mt-n1">Get In Touch</h2>
+                        <h2 class="title h3 text-center mt-n1">Entrer en contact</h2>
                         <form action="mail.php" method="POST" class="contact-form ajax-contact">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <input type="text" class="form-control" name="name" id="name"
-                                            placeholder="Your Name*">
+                                            placeholder="Votre nom*">
                                         <i class="fal fa-user"></i>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <input type="email" class="form-control" name="email" id="email"
-                                            placeholder="Email Address*">
+                                            placeholder="Adresse email*">
                                         <i class="fal fa-envelope"></i>
                                     </div>
                                 </div>
@@ -93,19 +96,19 @@ Contact Area
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <input type="tel" class="form-control" name="number" id="number"
-                                            placeholder="Phone Number*">
+                                            placeholder="Numéro de téléphone*">
                                         <i class="fal fa-phone"></i>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group ">
                                         <textarea name="message" id="message" cols="30" rows="3" class="form-control"
-                                            placeholder="Write Your Message*"></textarea>
+                                            placeholder="Écrivez votre message*"></textarea>
                                         <i class="fal fa-pen"></i>
                                     </div>
                                 </div>
                                 <div class="form-btn col-12">
-                                    <button class="th-btn w-100">Send Message<i
+                                    <button class="th-btn w-100">Envoyer un message<i
                                             class="fas fa-long-arrow-right ms-2"></i></button>
                                 </div>
                             </div>

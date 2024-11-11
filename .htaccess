@@ -1,9 +1,10 @@
 RewriteEngine On
 
-# Rediriger toutes les requêtes vers le dossier "public"
+# Rediriger toutes les requêtes vers le dossier public, sauf si le fichier ou dossier existe
 RewriteCond %{REQUEST_URI} !^/public/
 RewriteRule ^(.*)$ /public/$1 [L]
 
-# Réécrire l'URL de l'index pour la rendre accessible sans "public/"
-RewriteCond %{REQUEST_URI} ^/public/index\.php
-RewriteRule ^public/index\.php$ /index.php [L]
+# Si le fichier demandé n'existe pas, redirige vers index.php dans public
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /

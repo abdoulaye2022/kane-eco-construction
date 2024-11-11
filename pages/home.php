@@ -1,7 +1,6 @@
 <?php
 include '../includes/header.php';
 ?>
-
 <div class="th-hero-wrapper hero-1" id="hero">
     <div class="hero-slider-1 th-carousel" data-fade="true" data-slide-show="1" data-md-slide-show="1" data-dots="true"
         data-adaptive-height="true">
@@ -116,7 +115,7 @@ include '../includes/header.php';
 Service Area  
 ==============================-->
 <section class="service-sec space" id="service-sec">
-    <div class="shape-mockup service-bg-1-1" data-top="0" data-left="0"><img src="assets/img/bg/service_bg_1.png"
+    <div class="shape-mockup service-bg-1-1" data-top="0" data-left="0"><img src="assets/img/bg/service_bg_11.png"
             alt="img"></div>
     <div class="container">
         <div class="mb-35">
@@ -489,17 +488,17 @@ About Area
             <div class="col-xl-6">
                 <div class="img-box1">
                     <div class="img1">
-                        <img class="tilt-active" src="assets/img/normal/about_1_1.png" alt="About">
+                        <img class="tilt-active" src="assets/img/products/brique 2.jpeg" style="width: 331px; height: 621px;" alt="About">
                     </div>
                     <div class="about-grid">
                         <h3 class="about-grid_year"><span class="counter-number">25</span><span>+</span></h3>
                         <p class="about-grid_text">Years Experiences Of Construction Company</p>
                     </div>
                     <div class="img2">
-                        <img class="tilt-active" src="assets/img/normal/about_1_2.png" alt="About">
+                        <img class="tilt-active" src="assets/img/products/maison 2.jpeg" style="width: 333px; height: 288px;" alt="About">
                     </div>
                     <div class="shape-mockup about-shape1 jump" data-left="-67px" data-bottom="0">
-                        <img src="assets/img/normal/about_1_shape1.png" alt="img">
+                        <img src="assets/img/products/f4 10.jpeg" style="width: 183px; height: 93px;" alt="img">
                     </div>
                 </div>
             </div>
@@ -537,7 +536,7 @@ About Area
 <!--==============================
 Counter Area  
 ==============================-->
-<div class="counter-area-1 bg-theme" data-bg-src="assets/img/bg/counter-bg_1.png">
+<div class="counter-area-1 bg-theme" data-bg-src="assets/img/bg/counter-bg_1">
     <div class="container">
         <div class="row justify-content-between gy-5">
             <div class="col-sm-6 col-xl-3">
@@ -546,7 +545,7 @@ Counter Area
                         <img src="assets/img/icon/counter-icon1-1.svg" alt="img">
                     </div>
                     <div class="details">
-                        <h2 class="counter-grid_number"><span class="counter-number">2</span>k+</h2>
+                        <h2 class="counter-grid_number"><span class="counter-number">45</span>k+</h2>
                         <p class="counter-grid_text">Case Completed</p>
                     </div>
                 </div>
