@@ -202,18 +202,14 @@
                     <li>
                         <a href="accueil">Accueil</a>
                     </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Nos Services</a>
-                        <ul class="sub-menu">
-                            <li><a href="service.html">Service</a></li>
-                            <li><a href="service-details.html">Service Details</a></li>
-                        </ul>
+                    <li>
+                        <a href="nos-services">Nos Services</a>
                     </li>
                     <li>
-                        <a href="about.html">Projets Réalisés</a>
+                        <a href="about">Projets Réalisés</a>
                     </li>
                     <li>
-                        <a href="about.html">À Propos de Nous</a>
+                        <a href="about">À Propos de Nous</a>
                     </li>
                     <li>
                         <a href="contact">Contact</a>
@@ -315,18 +311,18 @@
                                     <li>
                                         <a href="accueil">Accueil</a>
                                     </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Nos Services</a>
-                                        <ul class="sub-menu">
+                                    <li>
+                                        <a href="nos-services">Nos Services</a>
+                                        <!-- <ul class="sub-menu">
                                             <li><a href="service.html">Service</a></li>
                                             <li><a href="service-details.html">Service Details</a></li>
-                                        </ul>
+                                        </ul> -->
                                     </li>
                                     <li>
-                                        <a href="about.html">Projets Réalisés</a>
+                                        <a href="about">Projets Réalisés</a>
                                     </li>
                                     <li>
-                                        <a href="about.html">À Propos de Nous</a>
+                                        <a href="about">À Propos de Nous</a>
                                     </li>
                                     <li>
                                         <a href="contact">Contact</a>
@@ -347,18 +343,14 @@
                                         <li>
                                             <a href="accueil">Accueil</a>
                                         </li>
-                                        <li class="menu-item-has-children">
-                                            <a href="#">Nos Services</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="service.html">Service</a></li>
-                                                <li><a href="service-details.html">Service Details</a></li>
-                                            </ul>
+                                        <li>
+                                            <a href="nos-services">Nos Services</a>
                                         </li>
                                         <li>
-                                            <a href="about.html">Projets Réalisés</a>
+                                            <a href="about">Projets Réalisés</a>
                                         </li>
                                         <li>
-                                            <a href="about.html">À Propos de Nous</a>
+                                            <a href="about">À Propos de Nous</a>
                                         </li>
                                         <li>
                                             <a href="contact">Contact</a>
@@ -373,7 +365,7 @@
                                     <!-- <button type="button" class="icon-btn style2 sideMenuToggler">
                                         <i class="fas fa-grid"></i>
                                     </button> -->
-                                    <a href="contact.html" class="th-btn style8 ml-25">OBTENIR UN DEVIS <i
+                                    <a href="contact" class="th-btn style8 ml-25">OBTENIR UN DEVIS <i
                                             class="fas fa-arrow-right ms-1"></i></a>
                                 </div>
                             </div>
