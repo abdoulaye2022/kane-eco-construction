@@ -736,63 +736,16 @@ Why choose us Area
                         matériau de construction qui utilise
                         des matières premières disponibles localement. Il s’agit généralement de terre, sable, roches
                         latéritiques, roches pouzzolaniques,
-                        graviers, argiles, etc.</p>
-                </div>
-                <div class="contact-form-wrap bg-smoke">
-                    <h6 class="subtitle text-theme text-center mb-2">Contact Us</h6>
-                    <h2 class="title h4 text-center">Need to Make An Enquiry</h2>
-                    <form action="mail.php" method="POST" class="contact-form ajax-contact">
-                        <div class="row">
-                            <div class="col-xxl-6 col-xl-12 col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control style-white" name="name" id="name"
-                                        placeholder="Your Name*">
-                                    <i class="fal fa-user"></i>
-                                </div>
-                            </div>
-                            <div class="col-xxl-6 col-xl-12 col-md-6">
-                                <div class="form-group">
-                                    <input type="email" class="form-control style-white" name="email" id="email"
-                                        placeholder="Email Address*">
-                                    <i class="fal fa-envelope"></i>
-                                </div>
-                            </div>
-                            <div class="col-xxl-6 col-xl-12 col-md-6">
-                                <div class="form-group">
-                                    <select name="subject" id="subject"
-                                        class="single-select nice-select form-select style-white">
-                                        <option value="" disabled selected hidden>Select Subject*</option>
-                                        <option value="Construction">Construction</option>
-                                        <option value="Real Estate">Real Estate</option>
-                                        <option value="Industry">Industry</option>
-                                        <option value="Architect">Architect</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-xxl-6 col-xl-12 col-md-6">
-                                <div class="form-group">
-                                    <input type="tel" class="form-control style-white" name="number" id="number"
-                                        placeholder="Phone Number*">
-                                    <i class="fal fa-phone"></i>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-group ">
-                                    <textarea name="message" id="message" cols="30" rows="3"
-                                        class="form-control style-white" placeholder="Write Your Message*"></textarea>
-                                    <i class="fal fa-pen"></i>
-                                </div>
-                            </div>
-                            <div class="form-btn col-12">
-                                <button class="th-btn w-100">Send Message<i
-                                        class="fas fa-long-arrow-right ms-2"></i></button>
-                            </div>
-                        </div>
-                        <p class="form-messages mb-0 mt-3"></p>
-                    </form>
+                        graviers, argiles, etc.
+                    </p>
+                    <img src="assets/img/products/mur.jpeg" alt="img">
                 </div>
             </div>
             <div class="col-xl-7">
+            <div class="title-area mb-30">
+                 <h5 style="text-align: center;">Avantages</h5>
+                </div>
+
                 <div class="accordion-area accordion mt-xl-0 mt-40" id="faqAccordion">
 
 
