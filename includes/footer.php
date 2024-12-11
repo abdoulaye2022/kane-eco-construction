@@ -6,7 +6,7 @@
                         <div class="widget footer-widget">
                             <div class="th-widget-about">
                                 <div class="about-logo">
-                                    <a href="index.html"><img src="assets/img/kane.jpeg" style="widthL 170px; height: 66px;" alt="Konta"></a>
+                                    <a href="accueil"><img src="assets/img/kane.jpeg" style="widthL 170px; height: 66px;" alt="Konta"></a>
                                 </div>
                                 <p class="about-text mb-4">Kané Eco-Constructions est une société immobilière spécialisée dans les briques de terre compressée au Niger.</p>
                                 <div class="th-widget-contact">
@@ -39,7 +39,7 @@
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
                                     <li><a href="">À propos de nous</a></li>
-                                    <li><a href="service.html">Nos services</a></li>
+                                    <li><a href="nos-services">Nos services</a></li>
                                     <li><a href="project.html">Projets réalisés</a></li>
                                     <li><a href="contact.html">Contactez-nous</a></li>
                                 </ul>
@@ -56,7 +56,7 @@
                                     </div>
                                     <div class="media-body">
                                         <div class="recent-post-meta">
-                                            <a href="blog.html"><i class="fa-solid fa-calendar-days"></i>06 Aug, 2024</a>
+                                            <a href=""><i class="fa-solid fa-calendar-days"></i>06 Aug, 2024</a>
                                         </div>
                                         <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Regular inspections and quality check</a></h4>
                                     </div>
@@ -67,7 +67,7 @@
                                     </div>
                                     <div class="media-body">
                                         <div class="recent-post-meta">
-                                            <a href="blog.html"><i class="fa-solid fa-calendar-days"></i>05 July, 2024</a>
+                                            <a href=""><i class="fa-solid fa-calendar-days"></i>05 July, 2024</a>
                                         </div>
                                         <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Starting Construction Is Not So Easy</a></h4>
                                     </div>

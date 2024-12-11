@@ -21,7 +21,8 @@ include '../includes/header.php';
                                 de qualité durable
                                 <span class="text-theme fw-normal">Impressions</span>
                             </h1>
-                            <p class="hero-text" data-ani="slideinleft" data-ani-delay="0.6s">Kané Eco-Constructions est une société immobilière spécialisée dans les briques de terre compressée au Niger.</p>
+                            <p class="hero-text" data-ani="slideinleft" data-ani-delay="0.6s">Kané Eco-Constructions est
+                                une société immobilière spécialisée dans les briques de terre compressée au Niger.</p>
                             <div class="btn-group" data-ani="slideinleft" data-ani-delay="0.8s">
                                 <a href="contact" class="th-btn style3">En savoir plus<i
                                         class="fas fa-arrow-right ms-2"></i></a>
@@ -51,9 +52,11 @@ include '../includes/header.php';
                         <div class="hero-style1">
                             <span class="hero-subtitle" data-ani="slideinleft" data-ani-delay="0.1s"><img
                                     src="assets/img/icon/subtitle-img1-1.svg" alt="img"> Nous construisons, vous
-                                    prospérez</span>
-                            <h1 class="hero-title text-white" data-ani="slideinleft" data-ani-delay="0.4s">Construire l’avenir, établir des ponts<span class="text-theme fw-normal">Innovations</span></h1>
-                            <p class="hero-text" data-ani="slideinleft" data-ani-delay="0.6s">Kané Eco-Constructions est une société immobilière spécialisée dans les briques de terre compressée au Niger.</p>
+                                prospérez</span>
+                            <h1 class="hero-title text-white" data-ani="slideinleft" data-ani-delay="0.4s">Construire
+                                l’avenir, établir des ponts<span class="text-theme fw-normal">Innovations</span></h1>
+                            <p class="hero-text" data-ani="slideinleft" data-ani-delay="0.6s">Kané Eco-Constructions est
+                                une société immobilière spécialisée dans les briques de terre compressée au Niger.</p>
                             <div class="btn-group" data-ani="slideinleft" data-ani-delay="0.8s">
                                 <a href="contact" class="th-btn style3">En savoir plus <i
                                         class="fas fa-arrow-right ms-2"></i></a>
@@ -83,9 +86,11 @@ include '../includes/header.php';
                         <div class="hero-style1">
                             <span class="hero-subtitle" data-ani="slideinleft" data-ani-delay="0.1s"><img
                                     src="assets/img/icon/subtitle-img1-1.svg" alt="img">Nous construisons, vous
-                                    prospérez</span>
-                            <h1 class="hero-title text-white" data-ani="slideinleft" data-ani-delay="0.4s">Élévation de structures, soulèvement <span class="text-theme fw-normal">Normes</span></h1>
-                            <p class="hero-text" data-ani="slideinleft" data-ani-delay="0.6s">Kané Eco-Constructions est une société immobilière spécialisée dans les briques de terre compressée au Niger.</p>
+                                prospérez</span>
+                            <h1 class="hero-title text-white" data-ani="slideinleft" data-ani-delay="0.4s">Élévation de
+                                structures, soulèvement <span class="text-theme fw-normal">Normes</span></h1>
+                            <p class="hero-text" data-ani="slideinleft" data-ani-delay="0.6s">Kané Eco-Constructions est
+                                une société immobilière spécialisée dans les briques de terre compressée au Niger.</p>
                             <div class="btn-group" data-ani="slideinleft" data-ani-delay="0.8s">
                                 <a href="contact" class="th-btn style3">En savoir plus <i
                                         class="fas fa-arrow-right ms-2"></i></a>
@@ -124,7 +129,7 @@ Service Area
                     </div>
                 </div>
                 <div class="col-auto">
-                    <a class="th-btn" href="service.html">Voir tous les services <i
+                    <a class="th-btn" href="nos-services">Voir tous les services <i
                             class="fas fa-arrow-right ms-2"></i></a>
                 </div>
             </div>
@@ -150,52 +155,28 @@ Service Area
                         <div class="row th-carousel" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2">
                             <div class="col-md-6 col-xl-4">
                                 <div class="service-card">
-                                    <div class="service-card-content"
-                                        data-bg-src="assets/img/service/service-card-bg-1-1.png">
-                                        <div class="service-card-icon">
-                                            <img src="assets/img/icon/service-icon-1-1.svg" alt="icon">
-                                        </div>
-                                        <h3 class="box-title"><a href="service-details.html">Best Engineering</a></h3>
-                                        <p class="service-card-text">Good communication is crucial in the construction
-                                            industry. A construction company maintal open and transparent.</p>
-                                    </div>
-                                    <div class="service-card-img">
-                                        <img src="assets/img/service/service-1-1.png" alt="img">
-                                    </div>
+                                    <img src="assets/img/logements/l1.jpeg"
+                                        style="height: 195px; width: 100%; margin-bottom: 10px;" alt="img">
+                                    <img src="assets/img/logements/l3.jpeg" style="height: 195px; width: 100%;"
+                                        alt="img">
                                 </div>
                             </div>
 
                             <div class="col-md-6 col-xl-4">
                                 <div class="service-card">
-                                    <div class="service-card-content"
-                                        data-bg-src="assets/img/service/service-card-bg-1-1.png">
-                                        <div class="service-card-icon">
-                                            <img src="assets/img/icon/service-icon-1-2.svg" alt="icon">
-                                        </div>
-                                        <h3 class="box-title"><a href="service-details.html">Smart Technology</a></h3>
-                                        <p class="service-card-text">Construction company,s utilize modern construction
-                                            material and technologies to enhance the efficiency.</p>
-                                    </div>
-                                    <div class="service-card-img">
-                                        <img src="assets/img/service/service-1-2.png" alt="img">
-                                    </div>
+                                    <img src="assets/img/logements/l4.jpeg"
+                                        style="height: 195px; width: 100%; margin-bottom: 10px;" alt="img">
+                                    <img src="assets/img/logements/l5.jpeg" style="height: 195px; width: 100%;"
+                                        alt="img">
                                 </div>
                             </div>
 
                             <div class="col-md-6 col-xl-4">
                                 <div class="service-card">
-                                    <div class="service-card-content"
-                                        data-bg-src="assets/img/service/service-card-bg-1-1.png">
-                                        <div class="service-card-icon">
-                                            <img src="assets/img/icon/service-icon-1-3.svg" alt="icon">
-                                        </div>
-                                        <h3 class="box-title"><a href="service-details.html">Chemical Research</a></h3>
-                                        <p class="service-card-text">A reputable construction company usually has a team
-                                            of experienced professionals, including architects.</p>
-                                    </div>
-                                    <div class="service-card-img">
-                                        <img src="assets/img/service/service-1-3.png" alt="img">
-                                    </div>
+                                    <img src="assets/img/logements/l6.jpeg"
+                                        style="height: 195px; width: 100%; margin-bottom: 10px;" alt="img">
+                                    <img src="assets/img/logements/l7.jpeg" style="height: 195px; width: 100%;"
+                                        alt="img">
                                 </div>
                             </div>
 
@@ -205,52 +186,28 @@ Service Area
                         <div class="row th-carousel" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2">
                             <div class="col-md-6 col-xl-4">
                                 <div class="service-card">
-                                    <div class="service-card-content"
-                                        data-bg-src="assets/img/service/service-card-bg-1-1.png">
-                                        <div class="service-card-icon">
-                                            <img src="assets/img/icon/service-icon-1-2.svg" alt="icon">
-                                        </div>
-                                        <h3 class="box-title"><a href="service-details.html">Smart Technology</a></h3>
-                                        <p class="service-card-text">Construction company,s utilize modern construction
-                                            material and technologies to enhance the efficiency.</p>
-                                    </div>
-                                    <div class="service-card-img">
-                                        <img src="assets/img/service/service-1-2.png" alt="img">
-                                    </div>
+                                    <img src="assets/img/logements/cite.jpeg"
+                                        style="height: 195px; width: 100%; margin-bottom: 10px;" alt="img">
+                                    <img src="assets/img/logements/l9.jpeg" style="height: 195px; width: 100%;"
+                                        alt="img">
                                 </div>
                             </div>
 
                             <div class="col-md-6 col-xl-4">
                                 <div class="service-card">
-                                    <div class="service-card-content"
-                                        data-bg-src="assets/img/service/service-card-bg-1-1.png">
-                                        <div class="service-card-icon">
-                                            <img src="assets/img/icon/service-icon-1-1.svg" alt="icon">
-                                        </div>
-                                        <h3 class="box-title"><a href="service-details.html">Best Engineering</a></h3>
-                                        <p class="service-card-text">Good communication is crucial in the construction
-                                            industry. A construction company maintal open and transparent.</p>
-                                    </div>
-                                    <div class="service-card-img">
-                                        <img src="assets/img/service/service-1-1.png" alt="img">
-                                    </div>
+                                    <img src="assets/img/logements/l10.jpeg"
+                                        style="height: 195px; width: 100%; margin-bottom: 10px;" alt="img">
+                                    <img src="assets/img/logements/cite2.jpeg" style="height: 195px; width: 100%;"
+                                        alt="img">
                                 </div>
                             </div>
 
                             <div class="col-md-6 col-xl-4">
                                 <div class="service-card">
-                                    <div class="service-card-content"
-                                        data-bg-src="assets/img/service/service-card-bg-1-1.png">
-                                        <div class="service-card-icon">
-                                            <img src="assets/img/icon/service-icon-1-3.svg" alt="icon">
-                                        </div>
-                                        <h3 class="box-title"><a href="service-details.html">Chemical Research</a></h3>
-                                        <p class="service-card-text">A reputable construction company usually has a team
-                                            of experienced professionals, including architects.</p>
-                                    </div>
-                                    <div class="service-card-img">
-                                        <img src="assets/img/service/service-1-3.png" alt="img">
-                                    </div>
+                                    <img src="assets/img/logements/s11.jpeg"
+                                        style="height: 195px; width: 100%; margin-bottom: 10px;" alt="img">
+                                    <img src="assets/img/logements/s1.jpeg" style="height: 195px; width: 100%;"
+                                        alt="img">
                                 </div>
                             </div>
 
@@ -260,52 +217,28 @@ Service Area
                         <div class="row th-carousel" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2">
                             <div class="col-md-6 col-xl-4">
                                 <div class="service-card">
-                                    <div class="service-card-content"
-                                        data-bg-src="assets/img/service/service-card-bg-1-1.png">
-                                        <div class="service-card-icon">
-                                            <img src="assets/img/icon/service-icon-1-3.svg" alt="icon">
-                                        </div>
-                                        <h3 class="box-title"><a href="service-details.html">Chemical Research</a></h3>
-                                        <p class="service-card-text">A reputable construction company usually has a team
-                                            of experienced professionals, including architects.</p>
-                                    </div>
-                                    <div class="service-card-img">
-                                        <img src="assets/img/service/service-1-3.png" alt="img">
-                                    </div>
+                                    <img src="assets/img/logements/l10.jpeg"
+                                        style="height: 195px; width: 100%; margin-bottom: 10px;" alt="img">
+                                    <img src="assets/img/logements/l15.jpeg" style="height: 195px; width: 100%;"
+                                        alt="img">
                                 </div>
                             </div>
 
                             <div class="col-md-6 col-xl-4">
                                 <div class="service-card">
-                                    <div class="service-card-content"
-                                        data-bg-src="assets/img/service/service-card-bg-1-1.png">
-                                        <div class="service-card-icon">
-                                            <img src="assets/img/icon/service-icon-1-2.svg" alt="icon">
-                                        </div>
-                                        <h3 class="box-title"><a href="service-details.html">Smart Technology</a></h3>
-                                        <p class="service-card-text">Good communication is crucial in the construction
-                                            industry. A construction company maintal open and transparent.</p>
-                                    </div>
-                                    <div class="service-card-img">
-                                        <img src="assets/img/service/service-1-2.png" alt="img">
-                                    </div>
+                                    <img src="assets/img/logements/l16.jpeg"
+                                        style="height: 195px; width: 100%; margin-bottom: 10px;" alt="img">
+                                    <img src="assets/img/logements/l17.jpeg" style="height: 195px; width: 100%;"
+                                        alt="img">
                                 </div>
                             </div>
 
                             <div class="col-md-6 col-xl-4">
                                 <div class="service-card">
-                                    <div class="service-card-content"
-                                        data-bg-src="assets/img/service/service-card-bg-1-1.png">
-                                        <div class="service-card-icon">
-                                            <img src="assets/img/icon/service-icon-1-1.svg" alt="icon">
-                                        </div>
-                                        <h3 class="box-title"><a href="service-details.html">Best Engineering</a></h3>
-                                        <p class="service-card-text">Construction company,s utilize modern construction
-                                            material and technologies to enhance the efficiency.</p>
-                                    </div>
-                                    <div class="service-card-img">
-                                        <img src="assets/img/service/service-1-1.png" alt="img">
-                                    </div>
+                                    <img src="assets/img/logements/l6.jpeg"
+                                        style="height: 195px; width: 100%; margin-bottom: 10px;" alt="img">
+                                    <img src="assets/img/logements/l7.jpeg" style="height: 195px; width: 100%;"
+                                        alt="img">
                                 </div>
                             </div>
 
@@ -315,52 +248,28 @@ Service Area
                         <div class="row th-carousel" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2">
                             <div class="col-md-6 col-xl-4">
                                 <div class="service-card">
-                                    <div class="service-card-content"
-                                        data-bg-src="assets/img/service/service-card-bg-1-1.png">
-                                        <div class="service-card-icon">
-                                            <img src="assets/img/icon/service-icon-1-1.svg" alt="icon">
-                                        </div>
-                                        <h3 class="box-title"><a href="service-details.html">Best Engineering</a></h3>
-                                        <p class="service-card-text">Good communication is crucial in the construction
-                                            industry. A construction company maintal open and transparent.</p>
-                                    </div>
-                                    <div class="service-card-img">
-                                        <img src="assets/img/service/service-1-1.png" alt="img">
-                                    </div>
+                                    <img src="assets/img/logements/l1.jpeg"
+                                        style="height: 195px; width: 100%; margin-bottom: 10px;" alt="img">
+                                    <img src="assets/img/logements/l3.jpeg" style="height: 195px; width: 100%;"
+                                        alt="img">
                                 </div>
                             </div>
 
                             <div class="col-md-6 col-xl-4">
                                 <div class="service-card">
-                                    <div class="service-card-content"
-                                        data-bg-src="assets/img/service/service-card-bg-1-1.png">
-                                        <div class="service-card-icon">
-                                            <img src="assets/img/icon/service-icon-1-2.svg" alt="icon">
-                                        </div>
-                                        <h3 class="box-title"><a href="service-details.html">Smart Technology</a></h3>
-                                        <p class="service-card-text">Construction company,s utilize modern construction
-                                            material and technologies to enhance the efficiency.</p>
-                                    </div>
-                                    <div class="service-card-img">
-                                        <img src="assets/img/service/service-1-2.png" alt="img">
-                                    </div>
+                                    <img src="assets/img/logements/l4.jpeg"
+                                        style="height: 195px; width: 100%; margin-bottom: 10px;" alt="img">
+                                    <img src="assets/img/logements/l5.jpeg" style="height: 195px; width: 100%;"
+                                        alt="img">
                                 </div>
                             </div>
 
                             <div class="col-md-6 col-xl-4">
                                 <div class="service-card">
-                                    <div class="service-card-content"
-                                        data-bg-src="assets/img/service/service-card-bg-1-1.png">
-                                        <div class="service-card-icon">
-                                            <img src="assets/img/icon/service-icon-1-3.svg" alt="icon">
-                                        </div>
-                                        <h3 class="box-title"><a href="service-details.html">Chemical Research</a></h3>
-                                        <p class="service-card-text">A reputable construction company usually has a team
-                                            of experienced professionals, including architects.</p>
-                                    </div>
-                                    <div class="service-card-img">
-                                        <img src="assets/img/service/service-1-3.png" alt="img">
-                                    </div>
+                                    <img src="assets/img/logements/l6.jpeg"
+                                        style="height: 195px; width: 100%; margin-bottom: 10px;" alt="img">
+                                    <img src="assets/img/logements/l7.jpeg" style="height: 195px; width: 100%;"
+                                        alt="img">
                                 </div>
                             </div>
 
@@ -370,52 +279,28 @@ Service Area
                         <div class="row th-carousel" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2">
                             <div class="col-md-6 col-xl-4">
                                 <div class="service-card">
-                                    <div class="service-card-content"
-                                        data-bg-src="assets/img/service/service-card-bg-1-1.png">
-                                        <div class="service-card-icon">
-                                            <img src="assets/img/icon/service-icon-1-2.svg" alt="icon">
-                                        </div>
-                                        <h3 class="box-title"><a href="service-details.html">Smart Technology</a></h3>
-                                        <p class="service-card-text">Construction company,s utilize modern construction
-                                            material and technologies to enhance the efficiency.</p>
-                                    </div>
-                                    <div class="service-card-img">
-                                        <img src="assets/img/service/service-1-2.png" alt="img">
-                                    </div>
+                                    <img src="assets/img/logements/l1.jpeg"
+                                        style="height: 195px; width: 100%; margin-bottom: 10px;" alt="img">
+                                    <img src="assets/img/logements/l3.jpeg" style="height: 195px; width: 100%;"
+                                        alt="img">
                                 </div>
                             </div>
 
                             <div class="col-md-6 col-xl-4">
                                 <div class="service-card">
-                                    <div class="service-card-content"
-                                        data-bg-src="assets/img/service/service-card-bg-1-1.png">
-                                        <div class="service-card-icon">
-                                            <img src="assets/img/icon/service-icon-1-1.svg" alt="icon">
-                                        </div>
-                                        <h3 class="box-title"><a href="service-details.html">Best Engineering</a></h3>
-                                        <p class="service-card-text">Good communication is crucial in the construction
-                                            industry. A construction company maintal open and transparent.</p>
-                                    </div>
-                                    <div class="service-card-img">
-                                        <img src="assets/img/service/service-1-1.png" alt="img">
-                                    </div>
+                                    <img src="assets/img/logements/l4.jpeg"
+                                        style="height: 195px; width: 100%; margin-bottom: 10px;" alt="img">
+                                    <img src="assets/img/logements/l5.jpeg" style="height: 195px; width: 100%;"
+                                        alt="img">
                                 </div>
                             </div>
 
                             <div class="col-md-6 col-xl-4">
                                 <div class="service-card">
-                                    <div class="service-card-content"
-                                        data-bg-src="assets/img/service/service-card-bg-1-1.png">
-                                        <div class="service-card-icon">
-                                            <img src="assets/img/icon/service-icon-1-3.svg" alt="icon">
-                                        </div>
-                                        <h3 class="box-title"><a href="service-details.html">Chemical Research</a></h3>
-                                        <p class="service-card-text">A reputable construction company usually has a team
-                                            of experienced professionals, including architects.</p>
-                                    </div>
-                                    <div class="service-card-img">
-                                        <img src="assets/img/service/service-1-3.png" alt="img">
-                                    </div>
+                                    <img src="assets/img/logements/l6.jpeg"
+                                        style="height: 195px; width: 100%; margin-bottom: 10px;" alt="img">
+                                    <img src="assets/img/logements/l7.jpeg" style="height: 195px; width: 100%;"
+                                        alt="img">
                                 </div>
                             </div>
 
@@ -425,52 +310,28 @@ Service Area
                         <div class="row th-carousel" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2">
                             <div class="col-md-6 col-xl-4">
                                 <div class="service-card">
-                                    <div class="service-card-content"
-                                        data-bg-src="assets/img/service/service-card-bg-1-1.png">
-                                        <div class="service-card-icon">
-                                            <img src="assets/img/icon/service-icon-1-3.svg" alt="icon">
-                                        </div>
-                                        <h3 class="box-title"><a href="service-details.html">Chemical Research</a></h3>
-                                        <p class="service-card-text">A reputable construction company usually has a team
-                                            of experienced professionals, including architects.</p>
-                                    </div>
-                                    <div class="service-card-img">
-                                        <img src="assets/img/service/service-1-3.png" alt="img">
-                                    </div>
+                                    <img src="assets/img/logements/l1.jpeg"
+                                        style="height: 195px; width: 100%; margin-bottom: 10px;" alt="img">
+                                    <img src="assets/img/logements/l3.jpeg" style="height: 195px; width: 100%;"
+                                        alt="img">
                                 </div>
                             </div>
 
                             <div class="col-md-6 col-xl-4">
                                 <div class="service-card">
-                                    <div class="service-card-content"
-                                        data-bg-src="assets/img/service/service-card-bg-1-1.png">
-                                        <div class="service-card-icon">
-                                            <img src="assets/img/icon/service-icon-1-1.svg" alt="icon">
-                                        </div>
-                                        <h3 class="box-title"><a href="service-details.html">Best Engineering</a></h3>
-                                        <p class="service-card-text">Good communication is crucial in the construction
-                                            industry. A construction company maintal open and transparent.</p>
-                                    </div>
-                                    <div class="service-card-img">
-                                        <img src="assets/img/service/service-1-1.png" alt="img">
-                                    </div>
+                                    <img src="assets/img/logements/l4.jpeg"
+                                        style="height: 195px; width: 100%; margin-bottom: 10px;" alt="img">
+                                    <img src="assets/img/logements/l5.jpeg" style="height: 195px; width: 100%;"
+                                        alt="img">
                                 </div>
                             </div>
 
                             <div class="col-md-6 col-xl-4">
                                 <div class="service-card">
-                                    <div class="service-card-content"
-                                        data-bg-src="assets/img/service/service-card-bg-1-1.png">
-                                        <div class="service-card-icon">
-                                            <img src="assets/img/icon/service-icon-1-2.svg" alt="icon">
-                                        </div>
-                                        <h3 class="box-title"><a href="service-details.html">Smart Technology</a></h3>
-                                        <p class="service-card-text">Construction company,s utilize modern construction
-                                            material and technologies to enhance the efficiency.</p>
-                                    </div>
-                                    <div class="service-card-img">
-                                        <img src="assets/img/service/service-1-2.png" alt="img">
-                                    </div>
+                                    <img src="assets/img/logements/f4 9.jpeg"
+                                        style="height: 195px; width: 100%; margin-bottom: 10px;" alt="img">
+                                    <img src="assets/img/logements/etage.jpeg" style="height: 195px; width: 100%;"
+                                        alt="img">
                                 </div>
                             </div>
 
@@ -742,8 +603,8 @@ Why choose us Area
                 </div>
             </div>
             <div class="col-xl-7">
-            <div class="title-area mb-30">
-                 <h5 style="text-align: center;">Avantages</h5>
+                <div class="title-area mb-30">
+                    <h5 style="text-align: center;">Avantages</h5>
                 </div>
 
                 <div class="accordion-area accordion mt-xl-0 mt-40" id="faqAccordion">
@@ -939,7 +800,8 @@ Team Area
         <div class="row align-items-center" style="margin-bottom: 40px;">
             <div class="col-md-12">
                 <h3 style="text-align: center;">Processus de Production de BTC</h3>
-                <p>La production de BTC Tout d'abord, il est important de noter que la réalisation des BTCS va passer par 5 étapes-clés que nous nous chargerons de mener avec succès</p>
+                <p>La production de BTC Tout d'abord, il est important de noter que la réalisation des BTCS va passer
+                    par 5 étapes-clés que nous nous chargerons de mener avec succès</p>
             </div>
         </div>
         <div class="row gy-40 justify-content-between">
@@ -949,7 +811,8 @@ Team Area
                         <i class="fal fa-file-lines"></i>
                     </div>
                     <!-- <h2 class="process-card2_title">1</h2> -->
-                    <p class="process-card2_text">L’extraction et le choix de la terre. Cette dernière est choisie sur la base d’un test effectué suivie des tests de qualité.
+                    <p class="process-card2_text">L’extraction et le choix de la terre. Cette dernière est choisie sur
+                        la base d’un test effectué suivie des tests de qualité.
                     </p>
                 </div>
             </div>
@@ -959,7 +822,8 @@ Team Area
                         <i class="fal fa-pen-ruler"></i>
                     </div>
                     <!-- <h2 class="process-card2_title">2</h2> -->
-                    <p class="process-card2_text">La préparation, qui correspond au mélange et broyage de cette terre additionnée à 8% de ciment.
+                    <p class="process-card2_text">La préparation, qui correspond au mélange et broyage de cette terre
+                        additionnée à 8% de ciment.
                     </p>
                 </div>
             </div>
@@ -969,7 +833,8 @@ Team Area
                         <i class="fal fa-sack-dollar"></i>
                     </div>
                     <!-- <h2 class="process-card2_title">3</h2> -->
-                    <p class="process-card2_text">Le moulage, durant lequel on va lui attribuer une forme spécifique selon votre plan architectural.
+                    <p class="process-card2_text">Le moulage, durant lequel on va lui attribuer une forme spécifique
+                        selon votre plan architectural.
                     </p>
                 </div>
             </div>
@@ -989,7 +854,7 @@ Team Area
                         <i class="fal fa-sack-dollar"></i>
                     </div>
                     <!-- <h2 class="process-card2_title">5</h2> -->
-                    <p class="process-card2_text">La construction de votre projet immobilier 
+                    <p class="process-card2_text">La construction de votre projet immobilier
                     </p>
                 </div>
             </div>
@@ -1025,16 +890,16 @@ Project Area
                     <div class="project-card-img">
                         <img src="assets/img/products/cite.jpeg" alt="project image">
                     </div>
-                    <div class="project-card-details-wrap">
-                        <div class="project-card-details">
+                    <div class="project-card-details-wrap" >
+                        <!-- <div class="project-card-details">
                             <h6 class="project-subtitle">Constructions</h6>
                             <h4 class="box-title"><a href="project-details.html" tabindex="-1">Contemporary Villa</a>
                             </h4>
                             <p class="project-card-content">A reliable construction company is adept at managing budgets
                                 and timelines effectively.</p>
-                        </div>
-                        <a href="assets/img/products/cite.jpeg" class="gallery-btn popup-image"><i
-                                class="fas fa-plus"></i></a>
+                        </div> -->
+                        <!-- <a href="assets/img/products/cite.jpeg" class="gallery-btn popup-image"><i
+                                class="fas fa-plus"></i></a> -->
                     </div>
                 </div>
             </div>
@@ -1045,15 +910,15 @@ Project Area
                         <img src="assets/img/products/cite2.jpeg" alt="project image">
                     </div>
                     <div class="project-card-details-wrap">
-                        <div class="project-card-details">
+                        <!-- <div class="project-card-details">
                             <h6 class="project-subtitle">Industrial</h6>
                             <h4 class="box-title"><a href="project-details.html" tabindex="-1">Industrial Design</a>
                             </h4>
                             <p class="project-card-content">Industrial construction involves building facilities for
                                 manufacturing, processing.</p>
-                        </div>
-                        <a href="assets/img/products/cite2.jpeg" class="gallery-btn popup-image"><i
-                                class="fas fa-plus"></i></a>
+                        </div> -->
+                        <!-- <a href="assets/img/products/cite2.jpeg" class="gallery-btn popup-image"><i
+                                class="fas fa-plus"></i></a> -->
                     </div>
                 </div>
             </div>
@@ -1064,14 +929,14 @@ Project Area
                         <img src="assets/img/products/cite 3.jpeg" alt="project image">
                     </div>
                     <div class="project-card-details-wrap">
-                        <div class="project-card-details">
+                        <!-- <div class="project-card-details">
                             <h6 class="project-subtitle">Architecture</h6>
                             <h4 class="box-title"><a href="project-details.html" tabindex="-1">Architect Design</a></h4>
                             <p class="project-card-content">Architects and designers work on creating the plans and
                                 drawings for construction</p>
                         </div>
                         <a href="assets/img/products/cite 3.jpeg" class="gallery-btn popup-image"><i
-                                class="fas fa-plus"></i></a>
+                                class="fas fa-plus"></i></a> -->
                     </div>
                 </div>
             </div>
@@ -1082,7 +947,7 @@ Project Area
                         <img src="assets/img/products/f4 5.jpeg" alt="project image">
                     </div>
                     <div class="project-card-details-wrap">
-                        <div class="project-card-details">
+                        <!-- <div class="project-card-details">
                             <h6 class="project-subtitle">Residential</h6>
                             <h4 class="box-title"><a href="project-details.html" tabindex="-1">Residential Design</a>
                             </h4>
@@ -1090,7 +955,7 @@ Project Area
                                 units. It can involve.</p>
                         </div>
                         <a href="assets/img/products/f4 5.jpeg" class="gallery-btn popup-image"><i
-                                class="fas fa-plus"></i></a>
+                                class="fas fa-plus"></i></a> -->
                     </div>
                 </div>
             </div>
@@ -1101,7 +966,7 @@ Project Area
                         <img src="assets/img/products/f4 6.jpeg" alt="project image">
                     </div>
                     <div class="project-card-details-wrap">
-                        <div class="project-card-details">
+                        <!-- <div class="project-card-details">
                             <h6 class="project-subtitle">Constructions</h6>
                             <h4 class="box-title"><a href="project-details.html" tabindex="-1">Contemporary Villa</a>
                             </h4>
@@ -1109,7 +974,7 @@ Project Area
                                 and timelines effectively.</p>
                         </div>
                         <a href="assets/img/products/f4 6.jpeg" class="gallery-btn popup-image"><i
-                                class="fas fa-plus"></i></a>
+                                class="fas fa-plus"></i></a> -->
                     </div>
                 </div>
             </div>
@@ -1120,7 +985,7 @@ Project Area
                         <img src="assets/img/products/f4 7.jpeg" alt="project image">
                     </div>
                     <div class="project-card-details-wrap">
-                        <div class="project-card-details">
+                        <!-- <div class="project-card-details">
                             <h6 class="project-subtitle">Industrial</h6>
                             <h4 class="box-title"><a href="project-details.html" tabindex="-1">Industrial Design</a>
                             </h4>
@@ -1128,7 +993,7 @@ Project Area
                                 manufacturing, processing.</p>
                         </div>
                         <a href="assets/img/products/f4 7.jpeg" class="gallery-btn popup-image"><i
-                                class="fas fa-plus"></i></a>
+                                class="fas fa-plus"></i></a> -->
                     </div>
                 </div>
             </div>
@@ -1139,14 +1004,14 @@ Project Area
                         <img src="assets/img/products/f4 10.jpeg" alt="project image">
                     </div>
                     <div class="project-card-details-wrap">
-                        <div class="project-card-details">
+                        <!-- <div class="project-card-details">
                             <h6 class="project-subtitle">Architecture</h6>
                             <h4 class="box-title"><a href="project-details.html" tabindex="-1">Architect Design</a></h4>
                             <p class="project-card-content">Architects and designers work on creating the plans and
                                 drawings for construction</p>
                         </div>
                         <a href="assets/img/products/f4 10.jpeg" class="gallery-btn popup-image"><i
-                                class="fas fa-plus"></i></a>
+                                class="fas fa-plus"></i></a> -->
                     </div>
                 </div>
             </div>
@@ -1157,7 +1022,7 @@ Project Area
                         <img src="assets/img/products/f4 12.jpeg" alt="project image">
                     </div>
                     <div class="project-card-details-wrap">
-                        <div class="project-card-details">
+                        <!-- <div class="project-card-details">
                             <h6 class="project-subtitle">Residential</h6>
                             <h4 class="box-title"><a href="project-details.html" tabindex="-1">Residential Design</a>
                             </h4>
@@ -1165,7 +1030,7 @@ Project Area
                                 units. It can involve.</p>
                         </div>
                         <a href="assets/img/products/f4 12.jpeg" class="gallery-btn popup-image"><i
-                                class="fas fa-plus"></i></a>
+                                class="fas fa-plus"></i></a> -->
                     </div>
                 </div>
             </div>
@@ -1197,8 +1062,9 @@ Project Area
                         </div>
                     </div>
                     <div class="team-content">
-                        <h3 class="team-title box-title"><a href="team-details.html">Mishel Marsh</a></h3>
-                        <span class="team-desig">Founder</span>
+                        <h3 class="team-title box-title"><a href="team-details.html">Badia Abdou 
+                        </a></h3>
+                        <!-- <span class="team-desig">Founder</span> -->
                     </div>
                 </div>
             </div>
@@ -1217,48 +1083,8 @@ Project Area
                         </div>
                     </div>
                     <div class="team-content">
-                        <h3 class="team-title box-title"><a href="team-details.html">Michel Richard</a></h3>
-                        <span class="team-desig">Architecture</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Single Item -->
-            <div class="col-lg-6">
-                <div class="team-card">
-                    <div class="team-img-wrap">
-                        <div class="team-img">
-                            <img src="assets/img/team/team_1_3.jpg" alt="Team">
-                        </div>
-                        <div class="th-social">
-                            <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                            <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                            <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="team-content">
-                        <h3 class="team-title box-title"><a href="team-details.html">Famhida Ruko</a></h3>
-                        <span class="team-desig">Engineer</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Single Item -->
-            <div class="col-lg-6">
-                <div class="team-card">
-                    <div class="team-img-wrap">
-                        <div class="team-img">
-                            <img src="assets/img/team/team_1_4.jpg" alt="Team">
-                        </div>
-                        <div class="th-social">
-                            <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                            <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                            <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="team-content">
-                        <h3 class="team-title box-title"><a href="team-details.html">Alex Anfantino</a></h3>
-                        <span class="team-desig">Site Manager</span>
+                        <h3 class="team-title box-title"><a href="team-details.html">Mahamane L. Abdou</a></h3>
+                        <!-- <span class="team-desig">Architecture</span> -->
                     </div>
                 </div>
             </div>
@@ -1469,42 +1295,42 @@ Contact Area
                         <div class="client-wrap text-center">
                             <div class="row gy-5 justify-content-center">
                                 <div class="col-sm-3 col-6">
-                                    <a href="blog.html" class="client-thumb">
+                                    <a href="" class="client-thumb">
                                         <img src="assets/img/client/cilent_1_1.png" alt="img">
                                     </a>
                                 </div>
                                 <div class="col-sm-3 col-6">
-                                    <a href="blog.html" class="client-thumb">
+                                    <a href="" class="client-thumb">
                                         <img src="assets/img/client/cilent_1_2.png" alt="img">
                                     </a>
                                 </div>
                                 <div class="col-sm-3 col-6">
-                                    <a href="blog.html" class="client-thumb">
+                                    <a href="" class="client-thumb">
                                         <img src="assets/img/client/cilent_1_3.png" alt="img">
                                     </a>
                                 </div>
                                 <div class="col-sm-3 col-6">
-                                    <a href="blog.html" class="client-thumb">
+                                    <a href="" class="client-thumb">
                                         <img src="assets/img/client/cilent_1_4.png" alt="img">
                                     </a>
                                 </div>
                                 <div class="col-sm-3 col-6">
-                                    <a href="blog.html" class="client-thumb">
+                                    <a href="" class="client-thumb">
                                         <img src="assets/img/client/cilent_1_5.png" alt="img">
                                     </a>
                                 </div>
                                 <div class="col-sm-3 col-6">
-                                    <a href="blog.html" class="client-thumb">
+                                    <a href="" class="client-thumb">
                                         <img src="assets/img/client/cilent_1_6.png" alt="img">
                                     </a>
                                 </div>
                                 <div class="col-sm-3 col-6">
-                                    <a href="blog.html" class="client-thumb">
+                                    <a href="" class="client-thumb">
                                         <img src="assets/img/client/cilent_1_7.png" alt="img">
                                     </a>
                                 </div>
                                 <div class="col-sm-3 col-6">
-                                    <a href="blog.html" class="client-thumb">
+                                    <a href="" class="client-thumb">
                                         <img src="assets/img/client/cilent_1_8.png" alt="img">
                                     </a>
                                 </div>
@@ -1513,42 +1339,42 @@ Contact Area
                         <div class="client-wrap text-center">
                             <div class="row gy-5 justify-content-center">
                                 <div class="col-sm-3 col-6">
-                                    <a href="blog.html" class="client-thumb">
+                                    <a href="" class="client-thumb">
                                         <img src="assets/img/client/cilent_1_9.png" alt="img">
                                     </a>
                                 </div>
                                 <div class="col-sm-3 col-6">
-                                    <a href="blog.html" class="client-thumb">
+                                    <a href="" class="client-thumb">
                                         <img src="assets/img/client/cilent_1_10.png" alt="img">
                                     </a>
                                 </div>
                                 <div class="col-sm-3 col-6">
-                                    <a href="blog.html" class="client-thumb">
+                                    <a href="" class="client-thumb">
                                         <img src="assets/img/client/cilent_1_11.png" alt="img">
                                     </a>
                                 </div>
                                 <div class="col-sm-3 col-6">
-                                    <a href="blog.html" class="client-thumb">
+                                    <a href="" class="client-thumb">
                                         <img src="assets/img/client/cilent_1_12.png" alt="img">
                                     </a>
                                 </div>
                                 <div class="col-sm-3 col-6">
-                                    <a href="blog.html" class="client-thumb">
+                                    <a href="" class="client-thumb">
                                         <img src="assets/img/client/cilent_1_2.png" alt="img">
                                     </a>
                                 </div>
                                 <div class="col-sm-3 col-6">
-                                    <a href="blog.html" class="client-thumb">
+                                    <a href="" class="client-thumb">
                                         <img src="assets/img/client/cilent_1_3.png" alt="img">
                                     </a>
                                 </div>
                                 <div class="col-sm-3 col-6">
-                                    <a href="blog.html" class="client-thumb">
+                                    <a href="" class="client-thumb">
                                         <img src="assets/img/client/cilent_1_4.png" alt="img">
                                     </a>
                                 </div>
                                 <div class="col-sm-3 col-6">
-                                    <a href="blog.html" class="client-thumb">
+                                    <a href="" class="client-thumb">
                                         <img src="assets/img/client/cilent_1_5.png" alt="img">
                                     </a>
                                 </div>
@@ -1581,8 +1407,8 @@ Blog Area
                             <span>06</span> Aug, 2024
                         </div>
                         <div class="blog-meta">
-                            <a class="author" href="blog.html"><i class="fa-solid fa-user"></i>Alex Michel</a>
-                            <a href="blog.html"><i class="fa-solid fa-tags"></i>Construction</a>
+                            <a class="author" href=""><i class="fa-solid fa-user"></i>Alex Michel</a>
+                            <a href=""><i class="fa-solid fa-tags"></i>Construction</a>
                         </div>
                         <h4 class="box-title"><a href="blog-details.html">The beast team around and
                                 how we make it work</a>
@@ -1603,8 +1429,8 @@ Blog Area
                             <span>03</span> Jun, 2024
                         </div>
                         <div class="blog-meta">
-                            <a class="author" href="blog.html"><i class="fa-solid fa-user"></i>Alex Michel</a>
-                            <a href="blog.html"><i class="fa-solid fa-tags"></i>Construction</a>
+                            <a class="author" href=""><i class="fa-solid fa-user"></i>Alex Michel</a>
+                            <a href=""><i class="fa-solid fa-tags"></i>Construction</a>
                         </div>
                         <h4 class="box-title"><a href="blog-details.html">Interior design is the Art and
                                 science Of Design</a>
@@ -1625,8 +1451,8 @@ Blog Area
                             <span>04</span> Jul, 2024
                         </div>
                         <div class="blog-meta">
-                            <a class="author" href="blog.html"><i class="fa-solid fa-user"></i>Alex Michel</a>
-                            <a href="blog.html"><i class="fa-solid fa-tags"></i>Construction</a>
+                            <a class="author" href=""><i class="fa-solid fa-user"></i>Alex Michel</a>
+                            <a href=""><i class="fa-solid fa-tags"></i>Construction</a>
                         </div>
                         <h4 class="box-title"><a href="blog-details.html">On an island in the sun, coal power
                                 is king over</a>
@@ -1647,8 +1473,8 @@ Blog Area
                             <span>06</span> Aug, 2024
                         </div>
                         <div class="blog-meta">
-                            <a class="author" href="blog.html"><i class="fa-solid fa-user"></i>Alex Michel</a>
-                            <a href="blog.html"><i class="fa-solid fa-tags"></i>Construction</a>
+                            <a class="author" href=""><i class="fa-solid fa-user"></i>Alex Michel</a>
+                            <a href=""><i class="fa-solid fa-tags"></i>Construction</a>
                         </div>
                         <h4 class="box-title"><a href="blog-details.html">The beast team around and
                                 how we make it work</a>
@@ -1669,8 +1495,8 @@ Blog Area
                             <span>03</span> Jun, 2024
                         </div>
                         <div class="blog-meta">
-                            <a class="author" href="blog.html"><i class="fa-solid fa-user"></i>Alex Michel</a>
-                            <a href="blog.html"><i class="fa-solid fa-tags"></i>Construction</a>
+                            <a class="author" href=""><i class="fa-solid fa-user"></i>Alex Michel</a>
+                            <a href=""><i class="fa-solid fa-tags"></i>Construction</a>
                         </div>
                         <h4 class="box-title"><a href="blog-details.html">Interior design is the Art and
                                 science Of Design</a>
@@ -1691,8 +1517,8 @@ Blog Area
                             <span>04</span> Jul, 2024
                         </div>
                         <div class="blog-meta">
-                            <a class="author" href="blog.html"><i class="fa-solid fa-user"></i>Alex Michel</a>
-                            <a href="blog.html"><i class="fa-solid fa-tags"></i>Construction</a>
+                            <a class="author" href=""><i class="fa-solid fa-user"></i>Alex Michel</a>
+                            <a href=""><i class="fa-solid fa-tags"></i>Construction</a>
                         </div>
                         <h4 class="box-title"><a href="blog-details.html">On an island in the sun, coal power
                                 is king over</a>

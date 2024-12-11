@@ -7,7 +7,7 @@ include '../includes/header.php';
         <div class="breadcumb-content">
             <h1 class="breadcumb-title">404 ERROR</h1>
             <ul class="breadcumb-menu">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="accueil">Home</a></li>
                 <li>404 ERROR</li>
             </ul>
         </div>
@@ -28,7 +28,7 @@ Error Area
                         <h2 class="error-title mb-20"><span class="text-theme">OooPs!</span> Page Not Found</h2>
                         <p class="error-text mb-30">Oops! The page you are looking for does not exist. It might have
                             been moved or deleted.</p>
-                        <a href="index.html" class="th-btn"><i class="fa-solid fa-home me-2"></i> Back To Home </a>
+                        <a href="accueil" class="th-btn"><i class="fa-solid fa-home me-2"></i> Back To Home </a>
                     </div>
                 </div>
             </div>

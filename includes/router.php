@@ -3,7 +3,14 @@
 $publicDir = '/kane-eco-construction/public';
 
 // Récupérer l'URL complète après le nom de domaine
-$requestUri = $_SERVER['REQUEST_URI'];
+$requestUri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+
+// Vérifier si l'URL contient une extension .php
+if (preg_match('/\.php$/', $requestUri)) {
+    // Rediriger vers la page 404
+    header("Location: /kane-eco-construction/public/not-found");
+    exit;
+}
 
 // Supprimer le chemin vers le dossier public pour obtenir le path après
 $pathAfterPublic = str_replace($publicDir, '', $requestUri);
@@ -12,29 +19,31 @@ $pathAfterPublic = str_replace($publicDir, '', $requestUri);
 $pathAfterPublic = trim($pathAfterPublic, '/');
 $pathAfterPublic = str_replace('.php', '', $pathAfterPublic);
 
-// Afficher le chemin après public pour vérification
-// var_dump($pathAfterPublic); die;
-
-
+// Fonction pour sécuriser les includes
+function secureInclude($filePath) {
+    if (file_exists($filePath)) {
+        require $filePath;
+    } else {
+        require __DIR__ . '/../pages/404.php';
+    }
+}
 
 // Routage des pages
 switch ($pathAfterPublic) {
     case '':
-        require __DIR__ . '/../pages/home.php';
-        break;
     case 'accueil':
-        require __DIR__ . '/../pages/home.php';
+        require_once(__DIR__ . '/../pages/home.php');
         break;
     case 'contact':
-        require __DIR__ . '/../pages/contact.php';
+        require_once(__DIR__ . '/../pages/contact.php');
         break;
-    case 'about':
-        require __DIR__ . '/../pages/about.php';
+    case 'a-propos-de-nous':
+        require_once(__DIR__ . '/../pages/about.php');
         break;
     case 'nos-services':
-        require __DIR__ . '/../pages/nos-services.php';
+        require_once(__DIR__ . '/../pages/nos-services.php');
         break;
     default:
-        require __DIR__ . '/../pages/404.php';
+        require_once(__DIR__ . '/../pages/404.php');
         break;
 }

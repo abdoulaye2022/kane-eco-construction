@@ -119,7 +119,7 @@
                         </div>
                         <div class="media-body">
                             <div class="recent-post-meta">
-                                <a href="blog.html"><i class="fa-solid fa-calendar-days"></i>06 Aug, 2024</a>
+                                <a href=""><i class="fa-solid fa-calendar-days"></i>06 Aug, 2024</a>
                             </div>
                             <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Regular inspections
                                     and quality check</a></h4>
@@ -132,7 +132,7 @@
                         </div>
                         <div class="media-body">
                             <div class="recent-post-meta">
-                                <a href="blog.html"><i class="fa-solid fa-calendar-days"></i>22 June, 2024</a>
+                                <a href=""><i class="fa-solid fa-calendar-days"></i>22 June, 2024</a>
                             </div>
                             <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Interior design is
                                     the Art and Design</a></h4>
@@ -145,7 +145,7 @@
                         </div>
                         <div class="media-body">
                             <div class="recent-post-meta">
-                                <a href="blog.html"><i class="fa-solid fa-calendar-days"></i>05 July, 2024</a>
+                                <a href=""><i class="fa-solid fa-calendar-days"></i>05 July, 2024</a>
                             </div>
                             <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Starting
                                     Construction Is Not So Easy</a></h4>
@@ -205,11 +205,11 @@
                     <li>
                         <a href="nos-services">Nos Services</a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="about">Projets Réalisés</a>
-                    </li>
+                    </li> -->
                     <li>
-                        <a href="about">À Propos de Nous</a>
+                        <a href="a-propos-de-nous">À Propos de Nous</a>
                     </li>
                     <li>
                         <a href="contact">Contact</a>
@@ -314,15 +314,15 @@
                                     <li>
                                         <a href="nos-services">Nos Services</a>
                                         <!-- <ul class="sub-menu">
-                                            <li><a href="service.html">Service</a></li>
+                                            <li><a href="nos-services">Service</a></li>
                                             <li><a href="service-details.html">Service Details</a></li>
                                         </ul> -->
                                     </li>
-                                    <li>
+                                    <!-- <li>
                                         <a href="about">Projets Réalisés</a>
-                                    </li>
+                                    </li> -->
                                     <li>
-                                        <a href="about">À Propos de Nous</a>
+                                        <a href="a-propos-de-nous">À Propos de Nous</a>
                                     </li>
                                     <li>
                                         <a href="contact">Contact</a>
@@ -346,11 +346,11 @@
                                         <li>
                                             <a href="nos-services">Nos Services</a>
                                         </li>
-                                        <li>
+                                        <!-- <li>
                                             <a href="about">Projets Réalisés</a>
-                                        </li>
+                                        </li> -->
                                         <li>
-                                            <a href="about">À Propos de Nous</a>
+                                            <a href="a-propos-de-nous">À Propos de Nous</a>
                                         </li>
                                         <li>
                                             <a href="contact">Contact</a>
