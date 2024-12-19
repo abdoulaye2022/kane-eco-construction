@@ -1039,7 +1039,7 @@ Project Area
     </div>
 </section>
 
-<div class="team-area overflow-hidden space-top" id="team-sec" data-bg-src="assets/img/bg/team_bg_1.png"
+<!-- <div class="team-area overflow-hidden space-top" id="team-sec" data-bg-src="assets/img/bg/team_bg_1.png"
     data-overlay="title">
     <div class="container">
         <div class="title-area text-center">
@@ -1048,7 +1048,6 @@ Project Area
         </div>
         <div class="row th-carousel arrow-style2" data-slide-show="4" data-lg-slide-show="3" data-md-slide-show="2"
             data-sm-slide-show="2" data-xs-slide-show="1" data-arrows="true">
-            <!-- Single Item -->
             <div class="col-lg-6">
                 <div class="team-card">
                     <div class="team-img-wrap">
@@ -1064,12 +1063,9 @@ Project Area
                     <div class="team-content">
                         <h3 class="team-title box-title"><a href="team-details.html">Badia Abdou 
                         </a></h3>
-                        <!-- <span class="team-desig">Founder</span> -->
                     </div>
                 </div>
             </div>
-
-            <!-- Single Item -->
             <div class="col-lg-6">
                 <div class="team-card">
                     <div class="team-img-wrap">
@@ -1084,13 +1080,13 @@ Project Area
                     </div>
                     <div class="team-content">
                         <h3 class="team-title box-title"><a href="team-details.html">Mahamane L. Abdou</a></h3>
-                        <!-- <span class="team-desig">Architecture</span> -->
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</div> -->
+
 <!--==============================
 Cta Area  
 ==============================-->
