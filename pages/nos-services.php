@@ -152,7 +152,7 @@ Service Area
         </div>
         <div class="row gy-4">
         <div class="col-md-6">
-            <img style="height: 350px;" src="assets/img/products/f2 service.png" alt="icon">
+            <img style="height: 350px;" src="assets/img/products/f2 service.PNG" alt="icon">
             </div>
             <div class="col-md-6">
             <p>la F2 Luxe est une villa de 2 pièces comprenant</p>
@@ -184,7 +184,7 @@ Service Area
                 et douche externe</p>
             </div>
             <div class="col-md-6">
-            <img style="height: 350px;" src="assets/img/products/f3 service.png" alt="icon">
+            <img style="height: 350px;" src="assets/img/products/f3 service.PNG" alt="icon">
             </div>
         </div>
         <br/>
@@ -194,7 +194,7 @@ Service Area
         </div>
         <div class="row gy-4">
         <div class="col-md-6">
-            <img style="height: 350px;" src="assets/img/products/f3 service.png" alt="icon">
+            <img style="height: 350px;" src="assets/img/products/f4 service.PNG" alt="icon">
             </div>
             <div class="col-md-6">
             <p>F4 Luxe est une villa de 4 pièces dont</p>
