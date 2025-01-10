@@ -123,6 +123,94 @@ Service Area
         </div>
     </div>
 </section>
+
+<section class="" id="service-sec">
+    <div class="container">
+        <div class="title-area text-center">
+            <h4 class="sec-title">LOGEMENTS SOCIAUX</h4>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+            <p>Kané Eco-Construction propose trois types de logements sociaux:</p>
+            <ul>
+                <li><p>F2 Luxe</p></li>
+                <li><p>F3 Luxe</p></li>
+                <li><p>F4 Luxe</p></li>
+            </ul>
+            <p>Nos villas sont équipées avec des portes et cadres des
+            fenêtres en PVC, de carrelage et plafonds PVC. Elles ont
+            des grilles modernes protégeant les portes et fenêtres.</p>
+            </div>
+            <div class="col-md-6">
+            <img src="assets/img/products/cite2.jpeg" alt="icon">
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <div class="title-area text-center">
+            <h6 class="sec-title">VILLA F2 LUXE</h6>
+        </div>
+        <div class="row gy-4">
+        <div class="col-md-6">
+            <img style="height: 350px;" src="assets/img/products/f2 service.png" alt="icon">
+            </div>
+            <div class="col-md-6">
+            <p>la F2 Luxe est une villa de 2 pièces comprenant</p>
+            <ul>
+                <li><p>Un salon</p></li>
+                <li><p>Une chambre</p></li>
+                <li><p>Une salle d’eau</p></li>
+                <li><p>Une cuisine</p></li>
+                <li><p>Un magasin</p></li>
+            </ul>
+            <p>La F 2 Luxe a une terrasse principale à l’entrée et une terrasse secondaire pour la cuisine La F 2 est abritée d’une
+                chambre annexe et une douche externe</p>
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <div class="title-area text-center">
+            <h6 class="sec-title">VILLA F3 LUXE</h6>
+        </div>
+        <div class="row gy-4">
+            <div class="col-md-6">
+            <p>F3 Luxe comprend 3 pièces dont</p>
+            <ul>
+                <li><p>Un salon</p></li>
+                <li><p>2 chambres et une douche</p></li>
+                <li><p>Une cuisine et un magasin</p></li>
+            </ul>
+            <p>La F3 Luxe a une terrasse principale à l’entrée et une terrasse secondaire pour la cuisine Une chambre annexe
+                et douche externe</p>
+            </div>
+            <div class="col-md-6">
+            <img style="height: 350px;" src="assets/img/products/f3 service.png" alt="icon">
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <div class="title-area text-center">
+            <h6 class="sec-title">VILLA F4 LUXE</h6>
+        </div>
+        <div class="row gy-4">
+        <div class="col-md-6">
+            <img style="height: 350px;" src="assets/img/products/f3 service.png" alt="icon">
+            </div>
+            <div class="col-md-6">
+            <p>F4 Luxe est une villa de 4 pièces dont</p>
+            <ul>
+                <li><p>Un salon</p></li>
+                <li><p>Une chambre principale et douche interne</p></li>
+                <li><p>Chambres secondaires avec douche commune</p></li>
+            </ul>
+            <p>La F4 est très confortable et comprend une cuisine américaine abritant cuisine et salle à manger, un magasin
+                La F 4 Luxe a également une chambre annexe et douche externe</p>
+            </div>
+        </div>
+        <br/>
+        <br/>
+    </div>
+</section>
 <!--==============================
 Contact Area  
 ==============================-->
