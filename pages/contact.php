@@ -13,9 +13,6 @@ include '../includes/header.php';
         </div>
     </div>
 </div>
-<!--==============================
-Contact Area  
-==============================-->
 <div class="contact-area-2 space-top" id="contact-sec">
     <div class="container">
         <div class="title-area text-center">
@@ -29,8 +26,7 @@ Contact Area
                     </div>
                     <div class="media-body">
                         <p class="contact-feature_label">Notre adress</p>
-                        <a href="https://www.google.com/maps" class="contact-feature_link">2690 Hiltona Street Victoria
-                            Road, New York, Canada</a>
+                        <a href="https://www.google.com/maps" class="contact-feature_link">BP 10727 Niamey Niger</a>
                     </div>
                 </div>
             </div>
