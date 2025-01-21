@@ -17,9 +17,8 @@ include '../includes/header.php';
                             <span class="hero-subtitle" data-ani="slideinleft" data-ani-delay="0.1s"><img
                                     src="assets/img/icon/subtitle-img1-1.svg" alt="img"> Nous construisons, vous
                                 prospérez</span>
-                            <h1 class="hero-title text-white" data-ani="slideinleft" data-ani-delay="0.4s">Construction
-                                de qualité durable
-                                <span class="text-theme fw-normal">Impressions</span>
+                            <h1 class="hero-title text-white" data-ani="slideinleft" data-ani-delay="0.4s">Construire l'avenir,
+                                <span class="text-theme fw-normal">Innovons autrement.</span>
                             </h1>
                             <p class="hero-text" data-ani="slideinleft" data-ani-delay="0.6s">Kané Eco-Constructions est
                                 une société immobilière spécialisée dans les briques de terre compressée au Niger.</p>
@@ -53,8 +52,9 @@ include '../includes/header.php';
                             <span class="hero-subtitle" data-ani="slideinleft" data-ani-delay="0.1s"><img
                                     src="assets/img/icon/subtitle-img1-1.svg" alt="img"> Nous construisons, vous
                                 prospérez</span>
-                            <h1 class="hero-title text-white" data-ani="slideinleft" data-ani-delay="0.4s">Construire
-                                l’avenir, établir des ponts<span class="text-theme fw-normal">Innovations</span></h1>
+                                <h1 class="hero-title text-white" data-ani="slideinleft" data-ani-delay="0.4s">Construire l'avenir,
+                                <span class="text-theme fw-normal">Innovons autrement.</span>
+                            </h1>
                             <p class="hero-text" data-ani="slideinleft" data-ani-delay="0.6s">Kané Eco-Constructions est
                                 une société immobilière spécialisée dans les briques de terre compressée au Niger.</p>
                             <div class="btn-group" data-ani="slideinleft" data-ani-delay="0.8s">
@@ -87,8 +87,9 @@ include '../includes/header.php';
                             <span class="hero-subtitle" data-ani="slideinleft" data-ani-delay="0.1s"><img
                                     src="assets/img/icon/subtitle-img1-1.svg" alt="img">Nous construisons, vous
                                 prospérez</span>
-                            <h1 class="hero-title text-white" data-ani="slideinleft" data-ani-delay="0.4s">Élévation de
-                                structures, soulèvement <span class="text-theme fw-normal">Normes</span></h1>
+                                <h1 class="hero-title text-white" data-ani="slideinleft" data-ani-delay="0.4s">Construire l'avenir,
+                                <span class="text-theme fw-normal">Innovons autrement.</span>
+                            </h1>
                             <p class="hero-text" data-ani="slideinleft" data-ani-delay="0.6s">Kané Eco-Constructions est
                                 une société immobilière spécialisée dans les briques de terre compressée au Niger.</p>
                             <div class="btn-group" data-ani="slideinleft" data-ani-delay="0.8s">
@@ -111,10 +112,6 @@ include '../includes/header.php';
     </div>
     <div class="hero-shape"></div>
 </div>
-<!--======== / Hero Section ========-->
-<!--==============================
-Service Area  
-==============================-->
 <section class="service-sec space" id="service-sec">
     <div class="shape-mockup service-bg-1-1" data-top="0" data-left="0"><img src="assets/img/bg/service_bg_11.png"
             alt="img"></div>
@@ -402,9 +399,6 @@ About Area
         </div>
     </div>
 </div>
-<!--==============================
-Counter Area  
-==============================-->
 <div class="counter-area-1 bg-theme" data-bg-src="assets/img/bg/counter-bg_1">
     <div class="container">
         <div class="row justify-content-between gy-5">
@@ -455,143 +449,11 @@ Counter Area
         </div>
     </div>
 </div>
-<!--==============================
-Portfolio Area  
-==============================-->
-<!-- <div class="overflow-hidden space" data-bg-src="assets/img/bg/project_bg_1.png">
-    <div class="container">
-        <div class="mb-35">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-auto">
-                    <div class="title-area mb-lg-0">
-                        <span class="sub-title"><img src="assets/img/icon/subtitle-img1-1.svg" alt="img"> Nos
-                            Projets</span>
-                        <h2 class="sec-title">Construisez vos projets de rêve</h2>
-                    </div>
-                </div>
-                <div class="col-auto">
-                    <a class="th-btn" href="project.html">View All Projects <i class="fas fa-arrow-right ms-2"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="row th-carousel project-slider1" data-slide-show="3" data-xl-slide-show="3" data-ml-slide-show="3"
-            data-lg-slide-show="2" data-md-slide-show="2" data-sm-slide-show="1" data-xs-slide-show="1"
-            data-center-mode="true" data-xl-center-mode="true" data-ml-center-mode="true" data-dots="false"
-            data-adaptive-height="true">
-            <div class="col-lg-4 col-xl-3">
-                <div class="project-card">
-                    <div class="project-card-img">
-                        <img src="assets/img/project/project-1-1.png" alt="project image">
-                    </div>
-                    <div class="project-card-icon">
-                        <img src="assets/img/icon/project-icon1-1.svg" alt="">
-                    </div>
-                    <div class="project-card-details" data-bg-src="assets/img/project/project-card-bg.png">
-                        <h4 class="box-title"><a href="project-details.html">General Construction</a></h4>
-                        <p class="project-card-content">Good communication is crucial in the construction industry. A
-                            construction company maintains open</p>
-                        <a href="project-details.html" class="th-btn style9">Read More <i
-                                class="fas fa-arrow-right ms-1"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-xl-3">
-                <div class="project-card">
-                    <div class="project-card-img">
-                        <img src="assets/img/project/project-1-2.png" alt="project image">
-                    </div>
-                    <div class="project-card-icon">
-                        <img src="assets/img/icon/project-icon1-2.svg" alt="">
-                    </div>
-                    <div class="project-card-details" data-bg-src="assets/img/project/project-card-bg.png">
-                        <h4 class="box-title"><a href="project-details.html">Architecture & Building</a></h4>
-                        <p class="project-card-content">Some companies may specialize in specific types of projects,
-                            while others may handle diverse projects.</p>
-                        <a href="project-details.html" class="th-btn style9">Read More <i
-                                class="fas fa-arrow-right ms-1"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-xl-3">
-                <div class="project-card">
-                    <div class="project-card-img">
-                        <img src="assets/img/project/project-1-3.png" alt="project image">
-                    </div>
-                    <div class="project-card-icon">
-                        <img src="assets/img/icon/project-icon1-3.svg" alt="">
-                    </div>
-                    <div class="project-card-details" data-bg-src="assets/img/project/project-card-bg.png">
-                        <h4 class="box-title"><a href="project-details.html">Interior Design</a></h4>
-                        <p class="project-card-content">Interior design is the art and science of enhancing the interior
-                            spaces of a building to achieve a healthier</p>
-                        <a href="project-details.html" class="th-btn style9">Read More <i
-                                class="fas fa-arrow-right ms-1"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-xl-3">
-                <div class="project-card">
-                    <div class="project-card-img">
-                        <img src="assets/img/project/project-1-1.png" alt="project image">
-                    </div>
-                    <div class="project-card-icon">
-                        <img src="assets/img/icon/project-icon1-1.svg" alt="">
-                    </div>
-                    <div class="project-card-details" data-bg-src="assets/img/project/project-card-bg.png">
-                        <h4 class="box-title"><a href="project-details.html">General Construction</a></h4>
-                        <p class="project-card-content">Good communication is crucial in the construction industry. A
-                            construction company maintains open</p>
-                        <a href="project-details.html" class="th-btn style9">Read More <i
-                                class="fas fa-arrow-right ms-1"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-xl-3">
-                <div class="project-card">
-                    <div class="project-card-img">
-                        <img src="assets/img/project/project-1-2.png" alt="project image">
-                    </div>
-                    <div class="project-card-icon">
-                        <img src="assets/img/icon/project-icon1-2.svg" alt="">
-                    </div>
-                    <div class="project-card-details" data-bg-src="assets/img/project/project-card-bg.png">
-                        <h4 class="box-title"><a href="project-details.html">Architecture & Building</a></h4>
-                        <p class="project-card-content">Some companies may specialize in specific types of projects,
-                            while others may handle diverse projects.</p>
-                        <a href="project-details.html" class="th-btn style9">Read More <i
-                                class="fas fa-arrow-right ms-1"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-xl-3">
-                <div class="project-card">
-                    <div class="project-card-img">
-                        <img src="assets/img/project/project-1-3.png" alt="project image">
-                    </div>
-                    <div class="project-card-icon">
-                        <img src="assets/img/icon/project-icon1-3.svg" alt="">
-                    </div>
-                    <div class="project-card-details" data-bg-src="assets/img/project/project-card-bg.png">
-                        <h4 class="box-title"><a href="project-details.html">Interior Design</a></h4>
-                        <p class="project-card-content">Interior design is the art and science of enhancing the interior
-                            spaces of a building to achieve a healthier</p>
-                        <a href="project-details.html" class="th-btn style9">Read More <i
-                                class="fas fa-arrow-right ms-1"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
-<!--==============================
-Why choose us Area  
-==============================-->
 <div class="overflow-hidden space">
     <div class="container">
         <div class="row flex-row-reverse">
             <div class="col-xl-5">
                 <div class="title-area mb-30">
-                    <!-- <span class="sub-title4">Qu’est-ce qu’une brique de terre compressée (BTC) ?<</span> -->
                     <h2 class="h3 sec-title fw-semibold">Qu’est-ce qu’une brique de terre compressée (BTC) ?</h2>
                     <p class="sec-text mt-20">La brique de terre compressée ou brique de terre stabilisée est un
                         matériau de construction qui utilise
@@ -792,9 +654,7 @@ Why choose us Area
         </div>
     </div>
 </div>
-<!--==============================
-Team Area  
-==============================-->
+
 <section class="space overflow-hidden">
     <div class="container">
         <div class="row align-items-center" style="margin-bottom: 40px;">
@@ -810,7 +670,6 @@ Team Area
                     <div class="process-card2_icon">
                         <i class="fal fa-file-lines"></i>
                     </div>
-                    <!-- <h2 class="process-card2_title">1</h2> -->
                     <p class="process-card2_text">L’extraction et le choix de la terre. Cette dernière est choisie sur
                         la base d’un test effectué suivie des tests de qualité.
                     </p>
@@ -821,7 +680,6 @@ Team Area
                     <div class="process-card2_icon">
                         <i class="fal fa-pen-ruler"></i>
                     </div>
-                    <!-- <h2 class="process-card2_title">2</h2> -->
                     <p class="process-card2_text">La préparation, qui correspond au mélange et broyage de cette terre
                         additionnée à 8% de ciment.
                     </p>
@@ -832,7 +690,6 @@ Team Area
                     <div class="process-card2_icon">
                         <i class="fal fa-sack-dollar"></i>
                     </div>
-                    <!-- <h2 class="process-card2_title">3</h2> -->
                     <p class="process-card2_text">Le moulage, durant lequel on va lui attribuer une forme spécifique
                         selon votre plan architectural.
                     </p>
@@ -843,7 +700,6 @@ Team Area
                     <div class="process-card2_icon">
                         <i class="fal fa-sack-dollar"></i>
                     </div>
-                    <!-- <h2 class="process-card2_title">4</h2> -->
                     <p class="process-card2_text" style="min-width: 187px;">Le curage des briques.
                     </p>
                 </div>
@@ -853,7 +709,6 @@ Team Area
                     <div class="process-card2_icon">
                         <i class="fal fa-sack-dollar"></i>
                     </div>
-                    <!-- <h2 class="process-card2_title">5</h2> -->
                     <p class="process-card2_text">La construction de votre projet immobilier
                     </p>
                 </div>
@@ -891,15 +746,6 @@ Project Area
                         <img src="assets/img/products/cite.jpeg" alt="project image">
                     </div>
                     <div class="project-card-details-wrap" >
-                        <!-- <div class="project-card-details">
-                            <h6 class="project-subtitle">Constructions</h6>
-                            <h4 class="box-title"><a href="project-details.html" tabindex="-1">Contemporary Villa</a>
-                            </h4>
-                            <p class="project-card-content">A reliable construction company is adept at managing budgets
-                                and timelines effectively.</p>
-                        </div> -->
-                        <!-- <a href="assets/img/products/cite.jpeg" class="gallery-btn popup-image"><i
-                                class="fas fa-plus"></i></a> -->
                     </div>
                 </div>
             </div>
@@ -910,15 +756,6 @@ Project Area
                         <img src="assets/img/products/cite2.jpeg" alt="project image">
                     </div>
                     <div class="project-card-details-wrap">
-                        <!-- <div class="project-card-details">
-                            <h6 class="project-subtitle">Industrial</h6>
-                            <h4 class="box-title"><a href="project-details.html" tabindex="-1">Industrial Design</a>
-                            </h4>
-                            <p class="project-card-content">Industrial construction involves building facilities for
-                                manufacturing, processing.</p>
-                        </div> -->
-                        <!-- <a href="assets/img/products/cite2.jpeg" class="gallery-btn popup-image"><i
-                                class="fas fa-plus"></i></a> -->
                     </div>
                 </div>
             </div>
@@ -929,14 +766,6 @@ Project Area
                         <img src="assets/img/products/cite 3.jpeg" alt="project image">
                     </div>
                     <div class="project-card-details-wrap">
-                        <!-- <div class="project-card-details">
-                            <h6 class="project-subtitle">Architecture</h6>
-                            <h4 class="box-title"><a href="project-details.html" tabindex="-1">Architect Design</a></h4>
-                            <p class="project-card-content">Architects and designers work on creating the plans and
-                                drawings for construction</p>
-                        </div>
-                        <a href="assets/img/products/cite 3.jpeg" class="gallery-btn popup-image"><i
-                                class="fas fa-plus"></i></a> -->
                     </div>
                 </div>
             </div>
@@ -947,15 +776,6 @@ Project Area
                         <img src="assets/img/products/f4 5.jpeg" alt="project image">
                     </div>
                     <div class="project-card-details-wrap">
-                        <!-- <div class="project-card-details">
-                            <h6 class="project-subtitle">Residential</h6>
-                            <h4 class="box-title"><a href="project-details.html" tabindex="-1">Residential Design</a>
-                            </h4>
-                            <p class="project-card-content">This includes building homes, apartments, and other housing
-                                units. It can involve.</p>
-                        </div>
-                        <a href="assets/img/products/f4 5.jpeg" class="gallery-btn popup-image"><i
-                                class="fas fa-plus"></i></a> -->
                     </div>
                 </div>
             </div>
@@ -966,15 +786,6 @@ Project Area
                         <img src="assets/img/products/f4 6.jpeg" alt="project image">
                     </div>
                     <div class="project-card-details-wrap">
-                        <!-- <div class="project-card-details">
-                            <h6 class="project-subtitle">Constructions</h6>
-                            <h4 class="box-title"><a href="project-details.html" tabindex="-1">Contemporary Villa</a>
-                            </h4>
-                            <p class="project-card-content">A reliable construction company is adept at managing budgets
-                                and timelines effectively.</p>
-                        </div>
-                        <a href="assets/img/products/f4 6.jpeg" class="gallery-btn popup-image"><i
-                                class="fas fa-plus"></i></a> -->
                     </div>
                 </div>
             </div>
@@ -985,15 +796,6 @@ Project Area
                         <img src="assets/img/products/f4 7.jpeg" alt="project image">
                     </div>
                     <div class="project-card-details-wrap">
-                        <!-- <div class="project-card-details">
-                            <h6 class="project-subtitle">Industrial</h6>
-                            <h4 class="box-title"><a href="project-details.html" tabindex="-1">Industrial Design</a>
-                            </h4>
-                            <p class="project-card-content">Industrial construction involves building facilities for
-                                manufacturing, processing.</p>
-                        </div>
-                        <a href="assets/img/products/f4 7.jpeg" class="gallery-btn popup-image"><i
-                                class="fas fa-plus"></i></a> -->
                     </div>
                 </div>
             </div>
@@ -1004,14 +806,6 @@ Project Area
                         <img src="assets/img/products/f4 10.jpeg" alt="project image">
                     </div>
                     <div class="project-card-details-wrap">
-                        <!-- <div class="project-card-details">
-                            <h6 class="project-subtitle">Architecture</h6>
-                            <h4 class="box-title"><a href="project-details.html" tabindex="-1">Architect Design</a></h4>
-                            <p class="project-card-content">Architects and designers work on creating the plans and
-                                drawings for construction</p>
-                        </div>
-                        <a href="assets/img/products/f4 10.jpeg" class="gallery-btn popup-image"><i
-                                class="fas fa-plus"></i></a> -->
                     </div>
                 </div>
             </div>
@@ -1022,15 +816,6 @@ Project Area
                         <img src="assets/img/products/f4 12.jpeg" alt="project image">
                     </div>
                     <div class="project-card-details-wrap">
-                        <!-- <div class="project-card-details">
-                            <h6 class="project-subtitle">Residential</h6>
-                            <h4 class="box-title"><a href="project-details.html" tabindex="-1">Residential Design</a>
-                            </h4>
-                            <p class="project-card-content">This includes building homes, apartments, and other housing
-                                units. It can involve.</p>
-                        </div>
-                        <a href="assets/img/products/f4 12.jpeg" class="gallery-btn popup-image"><i
-                                class="fas fa-plus"></i></a> -->
                     </div>
                 </div>
             </div>
@@ -1038,54 +823,6 @@ Project Area
         </div>
     </div>
 </section>
-
-<!-- <div class="team-area overflow-hidden space-top" id="team-sec" data-bg-src="assets/img/bg/team_bg_1.png"
-    data-overlay="title">
-    <div class="container">
-        <div class="title-area text-center">
-            <span class="sub-title"><img src="assets/img/icon/subtitle-img1-1.svg" alt="icon">Membres de l'équipe</span>
-            <h2 class="sec-title text-white">Notre équipe professionnelle</h2>
-        </div>
-        <div class="row th-carousel arrow-style2" data-slide-show="4" data-lg-slide-show="3" data-md-slide-show="2"
-            data-sm-slide-show="2" data-xs-slide-show="1" data-arrows="true">
-            <div class="col-lg-6">
-                <div class="team-card">
-                    <div class="team-img-wrap">
-                        <div class="team-img">
-                            <img src="assets/img/team/team_1_1.jpg" alt="Team">
-                        </div>
-                        <div class="th-social">
-                            <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                            <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                            <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="team-content">
-                        <h3 class="team-title box-title"><a href="team-details.html">Badia Abdou 
-                        </a></h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="team-card">
-                    <div class="team-img-wrap">
-                        <div class="team-img">
-                            <img src="assets/img/team/team_1_2.jpg" alt="Team">
-                        </div>
-                        <div class="th-social">
-                            <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                            <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                            <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="team-content">
-                        <h3 class="team-title box-title"><a href="team-details.html">Mahamane L. Abdou</a></h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
 <br/>
 <br/>
 <br/>
@@ -1190,10 +927,8 @@ Cta Area
         </div>
     </div>
 </div>
-<!--==============================
-Testimonial Area  
-==============================-->
-<section class="testi-area-1 overflow-hidden space" data-bg-src="assets/img/bg/testi_bg_1.png" data-overlay="smoke"
+
+<!-- <section class="testi-area-1 overflow-hidden space" data-bg-src="assets/img/bg/testi_bg_1.png" data-overlay="smoke"
     data-opacity="9">
     <div class="container">
         <div class="title-area text-center mb-50">
@@ -1271,273 +1006,7 @@ Testimonial Area
             </div>
         </div>
     </div>
-</section>
-<!--==============================
-Contact Area  
-==============================-->
-<!-- <div class="container">
-    <div class=" bg-title z-index-common" data-pos-for=".testi-area-1" data-sec-pos="top-half">
-        <div class="client-area-1">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="title-area mb-lg-0 text-lg-start text-center">
-                        <h2 class="sec-title text-white">Our Trusted Brands</h2>
-                        <p class="text-light">Good communication is crucial in the construction industry. A construction
-                            company maintains.</p>
-                        <div class="icon-box">
-                            <button data-slick-prev=".client-slider1" class="slick-arrow default"><i
-                                    class="far fa-arrow-left"></i></button>
-                            <button data-slick-next=".client-slider1" class="slick-arrow default"><i
-                                    class="far fa-arrow-right"></i></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="client-slider1 th-carousel">
-                        <div class="client-wrap text-center">
-                            <div class="row gy-5 justify-content-center">
-                                <div class="col-sm-3 col-6">
-                                    <a href="" class="client-thumb">
-                                        <img src="assets/img/client/cilent_1_1.png" alt="img">
-                                    </a>
-                                </div>
-                                <div class="col-sm-3 col-6">
-                                    <a href="" class="client-thumb">
-                                        <img src="assets/img/client/cilent_1_2.png" alt="img">
-                                    </a>
-                                </div>
-                                <div class="col-sm-3 col-6">
-                                    <a href="" class="client-thumb">
-                                        <img src="assets/img/client/cilent_1_3.png" alt="img">
-                                    </a>
-                                </div>
-                                <div class="col-sm-3 col-6">
-                                    <a href="" class="client-thumb">
-                                        <img src="assets/img/client/cilent_1_4.png" alt="img">
-                                    </a>
-                                </div>
-                                <div class="col-sm-3 col-6">
-                                    <a href="" class="client-thumb">
-                                        <img src="assets/img/client/cilent_1_5.png" alt="img">
-                                    </a>
-                                </div>
-                                <div class="col-sm-3 col-6">
-                                    <a href="" class="client-thumb">
-                                        <img src="assets/img/client/cilent_1_6.png" alt="img">
-                                    </a>
-                                </div>
-                                <div class="col-sm-3 col-6">
-                                    <a href="" class="client-thumb">
-                                        <img src="assets/img/client/cilent_1_7.png" alt="img">
-                                    </a>
-                                </div>
-                                <div class="col-sm-3 col-6">
-                                    <a href="" class="client-thumb">
-                                        <img src="assets/img/client/cilent_1_8.png" alt="img">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="client-wrap text-center">
-                            <div class="row gy-5 justify-content-center">
-                                <div class="col-sm-3 col-6">
-                                    <a href="" class="client-thumb">
-                                        <img src="assets/img/client/cilent_1_9.png" alt="img">
-                                    </a>
-                                </div>
-                                <div class="col-sm-3 col-6">
-                                    <a href="" class="client-thumb">
-                                        <img src="assets/img/client/cilent_1_10.png" alt="img">
-                                    </a>
-                                </div>
-                                <div class="col-sm-3 col-6">
-                                    <a href="" class="client-thumb">
-                                        <img src="assets/img/client/cilent_1_11.png" alt="img">
-                                    </a>
-                                </div>
-                                <div class="col-sm-3 col-6">
-                                    <a href="" class="client-thumb">
-                                        <img src="assets/img/client/cilent_1_12.png" alt="img">
-                                    </a>
-                                </div>
-                                <div class="col-sm-3 col-6">
-                                    <a href="" class="client-thumb">
-                                        <img src="assets/img/client/cilent_1_2.png" alt="img">
-                                    </a>
-                                </div>
-                                <div class="col-sm-3 col-6">
-                                    <a href="" class="client-thumb">
-                                        <img src="assets/img/client/cilent_1_3.png" alt="img">
-                                    </a>
-                                </div>
-                                <div class="col-sm-3 col-6">
-                                    <a href="" class="client-thumb">
-                                        <img src="assets/img/client/cilent_1_4.png" alt="img">
-                                    </a>
-                                </div>
-                                <div class="col-sm-3 col-6">
-                                    <a href="" class="client-thumb">
-                                        <img src="assets/img/client/cilent_1_5.png" alt="img">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
-<!--==============================
-Blog Area  
-==============================-->
-<!-- <section class="overflow-hidden space" id="blog-sec">
-    <div class="container">
-        <div class="title-area text-center">
-            <span class="sub-title"><img src="assets/img/icon/subtitle-img1-1.svg" alt="icon"> Our Blog</span>
-            <h2 class="sec-title">Our Latest News & Blog</h2>
-        </div>
-        <div class="row slider-shadow th-carousel blog-slider-1" data-slide-show="3" data-lg-slide-show="2"
-            data-md-slide-show="2" data-sm-slide-show="1" data-arrows="true">
-            <div class="col-md-6 col-xl-4">
-                <div class="th-blog blog-single style2">
-                    <div class="blog-img">
-                        <a href="blog-details.html"><img src="assets/img/blog/blog-1-1.jpg" alt="Blog Image"></a>
-                    </div>
-                    <div class="blog-content">
-                        <div class="blog-date">
-                            <span>06</span> Aug, 2024
-                        </div>
-                        <div class="blog-meta">
-                            <a class="author" href=""><i class="fa-solid fa-user"></i>Alex Michel</a>
-                            <a href=""><i class="fa-solid fa-tags"></i>Construction</a>
-                        </div>
-                        <h4 class="box-title"><a href="blog-details.html">The beast team around and
-                                how we make it work</a>
-                        </h4>
-                        <a href="blog-details.html" class="link-btn style2">Read More<i
-                                class="fas fa-arrow-right ms-2"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-xl-4">
-                <div class="th-blog blog-single style2">
-                    <div class="blog-img">
-                        <a href="blog-details.html"><img src="assets/img/blog/blog-1-2.jpg" alt="Blog Image"></a>
-                    </div>
-                    <div class="blog-content">
-                        <div class="blog-date">
-                            <span>03</span> Jun, 2024
-                        </div>
-                        <div class="blog-meta">
-                            <a class="author" href=""><i class="fa-solid fa-user"></i>Alex Michel</a>
-                            <a href=""><i class="fa-solid fa-tags"></i>Construction</a>
-                        </div>
-                        <h4 class="box-title"><a href="blog-details.html">Interior design is the Art and
-                                science Of Design</a>
-                        </h4>
-                        <a href="blog-details.html" class="link-btn style2">Read More<i
-                                class="fas fa-arrow-right ms-2"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-xl-4">
-                <div class="th-blog blog-single style2">
-                    <div class="blog-img">
-                        <a href="blog-details.html"><img src="assets/img/blog/blog-1-3.jpg" alt="Blog Image"></a>
-                    </div>
-                    <div class="blog-content">
-                        <div class="blog-date">
-                            <span>04</span> Jul, 2024
-                        </div>
-                        <div class="blog-meta">
-                            <a class="author" href=""><i class="fa-solid fa-user"></i>Alex Michel</a>
-                            <a href=""><i class="fa-solid fa-tags"></i>Construction</a>
-                        </div>
-                        <h4 class="box-title"><a href="blog-details.html">On an island in the sun, coal power
-                                is king over</a>
-                        </h4>
-                        <a href="blog-details.html" class="link-btn style2">Read More<i
-                                class="fas fa-arrow-right ms-2"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-xl-4">
-                <div class="th-blog blog-single style2">
-                    <div class="blog-img">
-                        <a href="blog-details.html"><img src="assets/img/blog/blog-1-1.jpg" alt="Blog Image"></a>
-                    </div>
-                    <div class="blog-content">
-                        <div class="blog-date">
-                            <span>06</span> Aug, 2024
-                        </div>
-                        <div class="blog-meta">
-                            <a class="author" href=""><i class="fa-solid fa-user"></i>Alex Michel</a>
-                            <a href=""><i class="fa-solid fa-tags"></i>Construction</a>
-                        </div>
-                        <h4 class="box-title"><a href="blog-details.html">The beast team around and
-                                how we make it work</a>
-                        </h4>
-                        <a href="blog-details.html" class="link-btn style2">Read More<i
-                                class="fas fa-arrow-right ms-2"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-xl-4">
-                <div class="th-blog blog-single style2">
-                    <div class="blog-img">
-                        <a href="blog-details.html"><img src="assets/img/blog/blog-1-2.jpg" alt="Blog Image"></a>
-                    </div>
-                    <div class="blog-content">
-                        <div class="blog-date">
-                            <span>03</span> Jun, 2024
-                        </div>
-                        <div class="blog-meta">
-                            <a class="author" href=""><i class="fa-solid fa-user"></i>Alex Michel</a>
-                            <a href=""><i class="fa-solid fa-tags"></i>Construction</a>
-                        </div>
-                        <h4 class="box-title"><a href="blog-details.html">Interior design is the Art and
-                                science Of Design</a>
-                        </h4>
-                        <a href="blog-details.html" class="link-btn style2">Read More<i
-                                class="fas fa-arrow-right ms-2"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-xl-4">
-                <div class="th-blog blog-single style2">
-                    <div class="blog-img">
-                        <a href="blog-details.html"><img src="assets/img/blog/blog-1-3.jpg" alt="Blog Image"></a>
-                    </div>
-                    <div class="blog-content">
-                        <div class="blog-date">
-                            <span>04</span> Jul, 2024
-                        </div>
-                        <div class="blog-meta">
-                            <a class="author" href=""><i class="fa-solid fa-user"></i>Alex Michel</a>
-                            <a href=""><i class="fa-solid fa-tags"></i>Construction</a>
-                        </div>
-                        <h4 class="box-title"><a href="blog-details.html">On an island in the sun, coal power
-                                is king over</a>
-                        </h4>
-                        <a href="blog-details.html" class="link-btn style2">Read More<i
-                                class="fas fa-arrow-right ms-2"></i></a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
 </section> -->
-<!--==============================
-	Footer Area
-==============================-->
-
 
 <?php
 include __DIR__ . '/../includes/footer.php';

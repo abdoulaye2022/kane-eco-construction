@@ -1,94 +1,41 @@
 <!doctype html>
-<html class="no-js" lang="zxx">
+<html class="no-js" lang="fr">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Bienvenue chez Kane Eco Construction</title>
-    <meta name="author" content="themeholy">
-    <meta name="description" content="Konta - Construction & Real Estate Company HTML Template">
-    <meta name="keywords" content="Konta - Construction & Real Estate Company HTML Template">
-    <meta name="robots" content="INDEX,FOLLOW">
+    <title>Kane Eco Construction - Construction Écologique au Niger</title>
+    <meta property="og:title" content="Kane Eco Construction - Construction Écologique au Niger">
+    <meta property="og:description"
+        content="Kane Eco Construction, spécialiste des briques de terre compressée au Niger. Découvrez nos services de construction écologique et durable.">
+    <meta property="og:image" content="https://www.kane-eco-construction.com/assets/img/kane.jpeg">
+    <meta property="og:url" content="https://www.kane-eco-construction.com">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://www.kane-eco-construction.com" />
 
-    <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Favicons - Place favicon.ico in the root directory -->
-    <!-- <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="public/assets/img/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
-    <link rel="manifest" href="assets/img/favicons/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png"> -->
     <link rel="icon" type="image/png" sizes="192x192" href="assets/img/kane.jpeg">
     <meta name="theme-color" content="#ffffff">
 
-    <!--==============================
-	  Google Fonts
-	============================== -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500;600;700;800;900&family=Public+Sans:wght@100;200;300;400;500;600;700&display=swap"
         rel="stylesheet">
 
-
-    <!--==============================
-	    All CSS File
-	============================== -->
-    <!-- Bootstrap -->
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!-- Fontawesome Icon -->
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-    <!-- Magnific Popup -->
     <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
-    <!-- Slick Slider -->
     <link rel="stylesheet" href="assets/css/slick.min.css">
-    <!-- Nice Select -->
     <link rel="stylesheet" href="assets/css/nice-select.min.css">
-    <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
-
 </head>
 
 <body>
-
-
-    <!--[if lte IE 9]>
-    	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
-
-
-
-    <!--********************************
-   		Code Start From Here 
-	******************************** -->
-
-
-
-
-    <!--==============================
-     Preloader
-  ==============================-->
     <div class="preloader ">
-        <!-- <button class="th-btn style3 preloaderCls">Cancel Preloader </button> -->
-        <!-- <div class="preloader-inner">
-            <span class="loader"></span>
-        </div> -->
     </div>
-    <!--==============================
-    Sidemenu
-============================== -->
     <div class="sidemenu-wrapper d-none d-lg-block ">
         <div class="sidemenu-content sidemenu-area">
             <button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
@@ -189,9 +136,6 @@
             <button type="submit"><i class="fal fa-search"></i></button>
         </form>
     </div>
-    <!--==============================
-    Mobile Menu
-  ============================== -->
     <div class="th-menu-wrapper">
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
@@ -206,9 +150,6 @@
                     <li>
                         <a href="nos-services">Nos Services</a>
                     </li>
-                    <!-- <li>
-                        <a href="about">Projets Réalisés</a>
-                    </li> -->
                     <li>
                         <a href="a-propos-de-nous">À Propos de Nous</a>
                     </li>
@@ -219,9 +160,6 @@
             </div>
         </div>
     </div>
-    <!--==============================
-	Header Area
-==============================-->
     <header class="th-header header-layout1">
         <div class="header-top" data-bg-src="assets/img/bg/header-to-bg.png">
             <div class="container th-container2">
@@ -230,21 +168,6 @@
                         <div class="header-links">
                             <ul>
                                 <li>Bienvenue chez Kane Eco Construction</li>
-                                <!-- <li>
-                                    <div class="dropdown-link">
-                                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink1" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa fa-globe"></i> English</a>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
-                                            <li>
-                                                <a href="#">German</a>
-                                                <a href="#">French</a>
-                                                <a href="#">Italian</a>
-                                                <a href="#">Latvian</a>
-                                                <a href="#">Spanish</a>
-                                                <a href="#">Greek</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li> -->
                             </ul>
                         </div>
                     </div>
@@ -253,11 +176,14 @@
                             <ul>
                                 <li>
                                     <div class="header-social">
-                                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                                        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
-                                        <a href="https://www.skype.com/"><i class="fab fa-skype"></i></a>
+                                        <a href="https://www.facebook.com/" title="Suivez-nous sur Facebook"><i
+                                                class="fab fa-facebook-f"></i></a>
+                                        <a href="https://www.twitter.com/" title="Suivez-nous sur Twitter"><i
+                                                class="fab fa-twitter"></i></a>
+                                        <a href="https://www.linkedin.com/" title="Suivez-nous sur LinkedIn"><i
+                                                class="fab fa-linkedin-in"></i></a>
+                                        <a href="https://www.youtube.com/" title="Suivez-nous sur YouTube"><i
+                                                class="fab fa-youtube"></i></a>
                                     </div>
                                 </li>
                             </ul>
@@ -267,7 +193,6 @@
             </div>
         </div>
         <div class="sticky-wrapper">
-            <!-- Main Menu Area -->
             <div class="menu-area">
                 <div class="container th-container2">
                     <div class="row align-items-center justify-content-between">
@@ -301,7 +226,8 @@
                                     <i class="fas fa-clock"></i>
                                     <div>
                                         <p>Temps de travail:</p>
-                                        <span class="header-single-link" style="font-size: 16px;">Lundi - Vendredi: 8:00 - 16:00</span>
+                                        <span class="header-single-link" style="font-size: 16px;">Lundi - Vendredi: 8:00
+                                            - 16:00</span>
                                     </div>
                                 </div>
                             </div>
@@ -310,23 +236,18 @@
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
                                     <li>
-                                        <a href="accueil">Accueil</a>
+                                        <a href="accueil" title="Accueil - Kane Eco Construction">Accueil</a>
                                     </li>
                                     <li>
-                                        <a href="nos-services">Nos Services</a>
-                                        <!-- <ul class="sub-menu">
-                                            <li><a href="nos-services">Service</a></li>
-                                            <li><a href="service-details.html">Service Details</a></li>
-                                        </ul> -->
-                                    </li>
-                                    <!-- <li>
-                                        <a href="about">Projets Réalisés</a>
-                                    </li> -->
-                                    <li>
-                                        <a href="a-propos-de-nous">À Propos de Nous</a>
+                                        <a href="nos-services" title="Nos Services - Kane Eco Construction">Nos
+                                            Services</a>
                                     </li>
                                     <li>
-                                        <a href="contact">Contact</a>
+                                        <a href="a-propos-de-nous" title="À Propos de Nous - Kane Eco Construction">À
+                                            Propos de Nous</a>
+                                    </li>
+                                    <li>
+                                        <a href="contact" title="Contact - Kane Eco Construction">Contact</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -347,9 +268,6 @@
                                         <li>
                                             <a href="nos-services">Nos Services</a>
                                         </li>
-                                        <!-- <li>
-                                            <a href="about">Projets Réalisés</a>
-                                        </li> -->
                                         <li>
                                             <a href="a-propos-de-nous">À Propos de Nous</a>
                                         </li>
@@ -363,9 +281,6 @@
                                 <div class="header-button">
                                     <button type="button" class="icon-btn style2 searchBoxToggler"><i
                                             class="far fa-search"></i></button>
-                                    <!-- <button type="button" class="icon-btn style2 sideMenuToggler">
-                                        <i class="fas fa-grid"></i>
-                                    </button> -->
                                     <a href="contact" class="th-btn style8 ml-25">OBTENIR UN DEVIS <i
                                             class="fas fa-arrow-right ms-1"></i></a>
                                 </div>
@@ -377,6 +292,3 @@
             </div>
         </div>
     </header>
-    <!--==============================
-Hero Area
-==============================-->
