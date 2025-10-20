@@ -23,10 +23,6 @@ include '../includes/header.php';
                         <img class="tilt-active" src="assets/img/products/brique 2.jpeg"
                             style="width: 331px; height: 621px;" alt="About">
                     </div>
-                    <!-- <div class="about-grid">
-                        <h3 class="about-grid_year"><span class="counter-number">25</span><span>+</span></h3>
-                        <p class="about-grid_text">Years Experiences Of Construction Company</p>
-                    </div> -->
                     <div class="img2">
                         <img class="tilt-active" src="assets/img/products/maison 2.jpeg"
                             style="width: 333px; height: 288px;" alt="About">
@@ -51,8 +47,8 @@ include '../includes/header.php';
                         <img src="assets/img/icon/about-grid-icon1.svg" alt="img">
                     </div>
                     <div class="about-grid-details">
-                        <h3 class="about-grid_title h6">Worldwide Services</h3>
-                        <p>They provide clients with transparent cost estimates and adhere to the agreed-upon</p>
+                        <h3 class="about-grid_title h6">Construction Écologique</h3>
+                        <p>Nous utilisons des briques de terre compressée pour une construction durable et respectueuse de l'environnement</p>
                     </div>
                 </div>
                 <div class="about-grid2">
@@ -60,12 +56,12 @@ include '../includes/header.php';
                         <img src="assets/img/icon/about-grid-icon2.svg" alt="img">
                     </div>
                     <div class="about-grid-details">
-                        <h3 class="about-grid_title h6">Best Company Award Winner</h3>
-                        <p>A reliable construction company is adept at managing budgets and timelines effectively.</p>
+                        <h3 class="about-grid_title h6">Économique et Durable</h3>
+                        <p>Nos constructions reviennent 30% moins cher avec une durée de vie de plus de 100 ans</p>
                     </div>
                 </div>
                 <div class="btn-group mt-40">
-                    <a href="about.html" class="th-btn">More About Us<i class="fa-regular fa-arrow-right ms-2"></i></a>
+                    <a href="contact" class="th-btn">Contactez-nous<i class="fa-regular fa-arrow-right ms-2"></i></a>
                 </div>
             </div>
         </div>

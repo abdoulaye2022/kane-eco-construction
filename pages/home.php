@@ -353,7 +353,7 @@ About Area
                     </div>
                     <div class="about-grid">
                         <h3 class="about-grid_year"><span class="counter-number">25</span><span>+</span></h3>
-                        <p class="about-grid_text">Years Experiences Of Construction Company</p>
+                        <p class="about-grid_text">Années d'expérience en construction</p>
                     </div>
                     <div class="img2">
                         <img class="tilt-active" src="assets/img/products/maison 2.jpeg"
@@ -379,8 +379,8 @@ About Area
                         <img src="assets/img/icon/about-grid-icon1.svg" alt="img">
                     </div>
                     <div class="about-grid-details">
-                        <h3 class="about-grid_title h6">Worldwide Services</h3>
-                        <p>They provide clients with transparent cost estimates and adhere to the agreed-upon</p>
+                        <h3 class="about-grid_title h6">Construction Écologique</h3>
+                        <p>Nous utilisons des briques de terre compressée pour une construction durable et respectueuse de l'environnement</p>
                     </div>
                 </div>
                 <div class="about-grid2">
@@ -388,12 +388,12 @@ About Area
                         <img src="assets/img/icon/about-grid-icon2.svg" alt="img">
                     </div>
                     <div class="about-grid-details">
-                        <h3 class="about-grid_title h6">Best Company Award Winner</h3>
-                        <p>A reliable construction company is adept at managing budgets and timelines effectively.</p>
+                        <h3 class="about-grid_title h6">Économique et Durable</h3>
+                        <p>Nos constructions reviennent 30% moins cher avec une durée de vie de plus de 100 ans</p>
                     </div>
                 </div>
                 <div class="btn-group mt-40">
-                    <a href="about.html" class="th-btn">More About Us<i class="fa-regular fa-arrow-right ms-2"></i></a>
+                    <a href="a-propos-de-nous" class="th-btn">En savoir plus<i class="fa-regular fa-arrow-right ms-2"></i></a>
                 </div>
             </div>
         </div>
@@ -408,8 +408,8 @@ About Area
                         <img src="assets/img/icon/counter-icon1-1.svg" alt="img">
                     </div>
                     <div class="details">
-                        <h2 class="counter-grid_number"><span class="counter-number">45</span>k+</h2>
-                        <p class="counter-grid_text">Case Completed</p>
+                        <h2 class="counter-grid_number"><span class="counter-number">500</span>+</h2>
+                        <p class="counter-grid_text">Projets Réalisés</p>
                     </div>
                 </div>
             </div>
@@ -419,8 +419,8 @@ About Area
                         <img src="assets/img/icon/counter-icon1-2.svg" alt="img">
                     </div>
                     <div class="details">
-                        <h2 class="counter-grid_number"><span class="counter-number">3</span>k+</h2>
-                        <p class="counter-grid_text">Team Members</p>
+                        <h2 class="counter-grid_number"><span class="counter-number">50</span>+</h2>
+                        <p class="counter-grid_text">Membres de l'équipe</p>
                     </div>
                 </div>
             </div>
@@ -430,8 +430,8 @@ About Area
                         <img src="assets/img/icon/counter-icon1-3.svg" alt="img">
                     </div>
                     <div class="details">
-                        <h2 class="counter-grid_number"><span class="counter-number">1.9</span>k+</h2>
-                        <p class="counter-grid_text">Clients Are Happy</p>
+                        <h2 class="counter-grid_number"><span class="counter-number">1000</span>+</h2>
+                        <p class="counter-grid_text">Clients Satisfaits</p>
                     </div>
                 </div>
             </div>
@@ -441,8 +441,8 @@ About Area
                         <img src="assets/img/icon/counter-icon1-4.svg" alt="img">
                     </div>
                     <div class="details">
-                        <h2 class="counter-grid_number"><span class="counter-number">1</span>k+</h2>
-                        <p class="counter-grid_text">Award Wins</p>
+                        <h2 class="counter-grid_number"><span class="counter-number">25</span>+</h2>
+                        <p class="counter-grid_text">Années d'Expérience</p>
                     </div>
                 </div>
             </div>
@@ -731,7 +731,7 @@ Project Area
                     </div>
                 </div>
                 <div class="col-auto">
-                    <a class="th-btn" href="project.html">Voir toute la galerie <i
+                    <a class="th-btn" href="contact">Contactez-nous <i
                             class="fas fa-arrow-right ms-2"></i></a>
                 </div>
             </div>
@@ -841,8 +841,7 @@ Cta Area
                     <span class="sub-title text-white"><img src="assets/img/icon/subtitle-img1-1.svg" alt="img"> Appel à
                         l'action</span>
                     <h2 class="sec-title text-white">Avez-vous des projets à venir ? Parlons-en maintenant!</h2>
-                    <p class="sec-text text-white">An increasing number of interior designers focus on sustainable and
-                        eco-friendly design practices.</p>
+                    <p class="sec-text text-white">Nous sommes spécialisés dans la construction écologique avec des briques de terre compressée. Contactez-nous pour un devis gratuit.</p>
                     <div class="cta-link-wrap mb-40">
                         <div class="cta-link">
                             <div class="cta-link-icon">
@@ -867,7 +866,7 @@ Cta Area
                             </div>
                         </div>
                     </div>
-                    <a href="about.html" class="th-btn style6">En savoir plus sur nous<i
+                    <a href="a-propos-de-nous" class="th-btn style6">En savoir plus sur nous<i
                             class="fas fa-arrow-right ms-1"></i></a>
                 </div>
             </div>
@@ -927,86 +926,6 @@ Cta Area
         </div>
     </div>
 </div>
-
-<!-- <section class="testi-area-1 overflow-hidden space" data-bg-src="assets/img/bg/testi_bg_1.png" data-overlay="smoke"
-    data-opacity="9">
-    <div class="container">
-        <div class="title-area text-center mb-50">
-            <span class="sub-title"><img src="assets/img/icon/subtitle-img1-1.svg" alt="img"> Témoignages</span>
-            <h2 class="sec-title">Que disent nos clients?</h2>
-        </div>
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="th-carousel testi-slider1 slider-shadow row" data-slide-show="2" data-ml-slide-show="2"
-                    data-lg-slide-show="1" data-md-slide-show="1" data-arrows="true">
-                    <div class="col-lg-6">
-                        <div class="testi-card">
-                            <div class="testi-card_img">
-                                <img src="assets/img/testimonial/testi_1_1.jpg" alt="Avater">
-                            </div>
-                            <div class="testi-card_content">
-                                <p class="testi-card_text">They select color, texture, pattern, & materials that create
-                                    a cohesive and visual pleasing look while reflecting the clients personality and
-                                    taste. Interior designers.</p>
-                                <div class="testi-card_bottom">
-                                    <div>
-                                        <h3 class="testi-card_name">Michel Carlos</h3>
-                                        <span class="testi-card_desig">Architect</span>
-                                    </div>
-                                    <div class="testi-card_icon">
-                                        <img src="assets/img/icon/testi-quote.svg" alt="img">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="testi-card">
-                            <div class="testi-card_img">
-                                <img src="assets/img/testimonial/testi_1_2.jpg" alt="Avater">
-                            </div>
-                            <div class="testi-card_content">
-                                <p class="testi-card_text">Interior designers they select color, texture, pattern, &
-                                    materials that create a cohesive and visual pleasing look while reflecting the
-                                    clients personality and taste.</p>
-                                <div class="testi-card_bottom">
-                                    <div>
-                                        <h3 class="testi-card_name">Alex Jordan</h3>
-                                        <span class="testi-card_desig">Contructor</span>
-                                    </div>
-                                    <div class="testi-card_icon">
-                                        <img src="assets/img/icon/testi-quote.svg" alt="img">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="testi-card">
-                            <div class="testi-card_img">
-                                <img src="assets/img/testimonial/testi_1_1.jpg" alt="Avater">
-                            </div>
-                            <div class="testi-card_content">
-                                <p class="testi-card_text">They select color, texture, pattern, & materials that create
-                                    a cohesive and visual pleasing look while reflecting the clients personality and
-                                    taste. Interior designers.</p>
-                                <div class="testi-card_bottom">
-                                    <div>
-                                        <h3 class="testi-card_name">Michel Carlos</h3>
-                                        <span class="testi-card_desig">Architect</span>
-                                    </div>
-                                    <div class="testi-card_icon">
-                                        <img src="assets/img/icon/testi-quote.svg" alt="img">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
 
 <?php
 include __DIR__ . '/../includes/footer.php';

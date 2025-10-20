@@ -45,8 +45,7 @@
                         <a href="accueil"><img src="assets/img/kane.jpeg" style="width: 170px; height: 77px"
                                 alt="Konta"></a>
                     </div>
-                    <p class="about-text">Quickly supply alternative strategic theme areas vis-a-vis B2C mindshare.
-                        Objectively repurpose stand-alone synergy via user-centric architectures.</p>
+                    <p class="about-text">Kané Eco-Constructions est une société immobilière spécialisée dans les briques de terre compressée au Niger. Notre objectif est de révolutionner le secteur immobilier à travers une construction écologique et économique.</p>
                     <div class="th-social style2">
                         <h6 class="title">FOLLOW US ON:</h6>
                         <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
@@ -57,73 +56,30 @@
                     </div>
                 </div>
             </div>
-            <div class="widget  ">
-                <h3 class="widget_title">Recent Posts</h3>
-                <div class="recent-post-wrap">
-                    <div class="recent-post">
-                        <div class="media-img">
-                            <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-1.jpg"
-                                    alt="Blog Image"></a>
-                        </div>
-                        <div class="media-body">
-                            <div class="recent-post-meta">
-                                <a href=""><i class="fa-solid fa-calendar-days"></i>06 Aug, 2024</a>
-                            </div>
-                            <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Regular inspections
-                                    and quality check</a></h4>
-                        </div>
-                    </div>
-                    <div class="recent-post">
-                        <div class="media-img">
-                            <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-2.jpg"
-                                    alt="Blog Image"></a>
-                        </div>
-                        <div class="media-body">
-                            <div class="recent-post-meta">
-                                <a href=""><i class="fa-solid fa-calendar-days"></i>22 June, 2024</a>
-                            </div>
-                            <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Interior design is
-                                    the Art and Design</a></h4>
-                        </div>
-                    </div>
-                    <div class="recent-post">
-                        <div class="media-img">
-                            <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-3.jpg"
-                                    alt="Blog Image"></a>
-                        </div>
-                        <div class="media-body">
-                            <div class="recent-post-meta">
-                                <a href=""><i class="fa-solid fa-calendar-days"></i>05 July, 2024</a>
-                            </div>
-                            <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Starting
-                                    Construction Is Not So Easy</a></h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="widget widget_contact  ">
-                <h3 class="widget_title">Get in touch!</h3>
-                <p class="contact-text">Fusce varius, dolor tempor interdum tristiquei bibendum service life.</p>
+                <h3 class="widget_title">Contactez-nous!</h3>
+                <p class="contact-text">Nous sommes à votre écoute pour tous vos projets de construction écologique.</p>
                 <div class="th-widget-contact">
                     <div class="info-box-wrap">
                         <div class="info-box_icon">
                             <i class="fas fa-location-dot"></i>
                         </div>
                         <p class="info-box_text">
-                            147/I, Green Road, Gulshan Avenue, Panthapath, Dhaka
+                            BP 10727 Niamey Niger
                         </p>
                     </div>
                     <div class="info-box-wrap">
                         <div class="info-box_icon">
                             <i class="fas fa-envelope"></i>
                         </div>
-                        <a href="mailto:info@Konta.com" class="info-box_link">abdoulaye@konta.com</a>
+                        <a href="mailto:contact@kane-eco-construction.com" class="info-box_link">contact@kane-eco-construction.com</a>
                     </div>
                     <div class="info-box-wrap">
                         <div class="info-box_icon">
                             <i class="fas fa-phone"></i>
                         </div>
-                        <a href="tel:+11234567890" class="info-box_link">+256 214 203 215</a>
+                        <a href="tel:+22793333435" class="info-box_link">+227 93 33 34 35</a>
+                        <a href="tel:+22782333433" class="info-box_link">+227 82 33 34 33</a>
                     </div>
                 </div>
             </div>

@@ -47,48 +47,18 @@
                         <h3 class="widget_title">À propos de nous</h3>
                         <div class="menu-all-pages-container">
                             <ul class="menu">
-                                <li><a href="">À propos de nous</a></li>
+                                <li><a href="a-propos-de-nous">À propos de nous</a></li>
                                 <li><a href="nos-services">Nos services</a></li>
-                                <li><a href="project.html">Projets réalisés</a></li>
-                                <li><a href="contact.html">Contactez-nous</a></li>
+                                <li><a href="accueil">Accueil</a></li>
+                                <li><a href="contact">Contactez-nous</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-md-6 col-xl-auto">
-                        <div class="widget footer-widget">
-                            <h3 class="widget_title">Recent Posts</h3>
-                            <div class="recent-post-wrap">
-                                <div class="recent-post">
-                                    <div class="media-img">
-                                        <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a>
-                                    </div>
-                                    <div class="media-body">
-                                        <div class="recent-post-meta">
-                                            <a href=""><i class="fa-solid fa-calendar-days"></i>06 Aug, 2024</a>
-                                        </div>
-                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Regular inspections and quality check</a></h4>
-                                    </div>
-                                </div>
-                                <div class="recent-post">
-                                    <div class="media-img">
-                                        <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
-                                    </div>
-                                    <div class="media-body">
-                                        <div class="recent-post-meta">
-                                            <a href=""><i class="fa-solid fa-calendar-days"></i>05 July, 2024</a>
-                                        </div>
-                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Starting Construction Is Not So Easy</a></h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
                 <div class="col-md-6 col-xxl-3 col-xl-3">
                     <div class="widget newsletter-widget footer-widget">
                         <h3 class="widget_title">Newsletter</h3>
-                        <p class="footer-text">Inscrivez-vous pour recevoir des mises à jour et des nouvelles sur nous.
-                            Recevez les dernières offres de Walker's Inbox à notre adresse e-mail.</p>
+                        <p class="footer-text">Inscrivez-vous pour recevoir des mises à jour sur nos derniers projets et nos offres exclusives de construction écologique.</p>
                         <form class="newsletter-form form-group">
                             <input class="form-control" type="email" placeholder="Email Email" required="">
                             <button type="submit" class="th-btn style3"><i class="fas fa-paper-plane ms-1"></i></button>
