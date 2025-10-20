@@ -43,6 +43,10 @@ switch ($pathAfterPublic) {
     case 'nos-services':
         require_once(__DIR__ . '/../pages/nos-services.php');
         break;
+    case 'nos-realisations':
+    case 'realisations':
+        require_once(__DIR__ . '/../pages/realisations.php');
+        break;
     default:
         require_once(__DIR__ . '/../pages/404.php');
         break;

@@ -107,6 +107,9 @@
                         <a href="nos-services">Nos Services</a>
                     </li>
                     <li>
+                        <a href="nos-realisations">Nos Réalisations</a>
+                    </li>
+                    <li>
                         <a href="a-propos-de-nous">À Propos de Nous</a>
                     </li>
                     <li>
@@ -199,6 +202,10 @@
                                             Services</a>
                                     </li>
                                     <li>
+                                        <a href="nos-realisations" title="Nos Réalisations - Kane Eco Construction">Nos
+                                            Réalisations</a>
+                                    </li>
+                                    <li>
                                         <a href="a-propos-de-nous" title="À Propos de Nous - Kane Eco Construction">À
                                             Propos de Nous</a>
                                     </li>
@@ -223,6 +230,9 @@
                                         </li>
                                         <li>
                                             <a href="nos-services">Nos Services</a>
+                                        </li>
+                                        <li>
+                                            <a href="nos-realisations">Nos Réalisations</a>
                                         </li>
                                         <li>
                                             <a href="a-propos-de-nous">À Propos de Nous</a>
