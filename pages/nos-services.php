@@ -118,6 +118,92 @@ Service Area
     </div>
 </section>
 
+<!--==============================
+Production de briques
+==============================-->
+<section class="space-bottom" id="production-sec">
+    <div class="container">
+        <div class="title-area text-center">
+            <span class="sub-title2"><img class="me-1" src="assets/img/icon/subtitle-img2-1.svg" alt="img">Notre
+                atelier</span>
+            <h2 class="sec-title">Notre production de briques</h2>
+            <p class="sec-text mt-20">Nous fabriquons nous-mêmes nos briques de terre compressée (BTC) sur notre site de
+                Niamey, à l'aide de presses Hydraform. Maîtriser la production, c'est garantir la qualité du bâtiment et
+                un coût de revient maîtrisé pour nos clients.</p>
+        </div>
+
+        <div class="row gy-4 gx-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="production-card">
+                    <img src="assets/img/realisations/production-presse-01.jpeg"
+                        alt="Presse Hydraform en action sur le site de production Kané Eco-Construction" loading="lazy">
+                    <span class="production-card_label">Compression de la terre</span>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="production-card">
+                    <img src="assets/img/realisations/production-presse-03.jpeg"
+                        alt="Remplissage de la presse à briques avec la terre tamisée" loading="lazy">
+                    <span class="production-card_label">Préparation de la matière</span>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="production-card">
+                    <img src="assets/img/realisations/production-briques-03.jpeg"
+                        alt="Stock de briques de terre compressée Kané Eco-Construction" loading="lazy">
+                    <span class="production-card_label">Séchage et stockage</span>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="production-card">
+                    <img src="assets/img/realisations/production-equipe-01.jpeg"
+                        alt="L'équipe Kané Eco-Construction sur la chaîne de production" loading="lazy">
+                    <span class="production-card_label">Une équipe qualifiée</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-50">
+            <a href="nos-realisations" class="th-btn">Voir toutes nos réalisations <i
+                    class="fas fa-arrow-right ms-2"></i></a>
+        </div>
+    </div>
+</section>
+
+<style>
+.production-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.production-card img {
+    display: block;
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.production-card:hover img {
+    transform: scale(1.06);
+}
+
+.production-card_label {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 30px 20px 16px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.78), transparent);
+    color: #fff;
+    font-family: var(--title-font);
+    font-size: 16px;
+    font-weight: 600;
+}
+</style>
+
 <section class="" id="service-sec">
     <div class="container">
         <div class="title-area text-center">
