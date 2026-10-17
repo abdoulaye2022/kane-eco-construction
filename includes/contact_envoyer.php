@@ -18,6 +18,26 @@ $champ = function ($nom, $max = 500) {
     return mb_substr($v, 0, $max);
 };
 
+// Limite anti-abus : 5 envois par adresse IP toutes les 10 minutes.
+$ip = isset($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR'] : 'inconnue';
+$fichierLimite = dirname(__DIR__) . '/data/contact_limite.json';
+$limites = json_decode((string) @file_get_contents($fichierLimite), true);
+$limites = is_array($limites) ? $limites : [];
+$maintenant = time();
+foreach ($limites as $adresse => $horodatages) {
+    $limites[$adresse] = array_values(array_filter($horodatages, function ($t) use ($maintenant) {
+        return $maintenant - $t < 600;
+    }));
+    if (!$limites[$adresse]) {
+        unset($limites[$adresse]);
+    }
+}
+if (isset($limites[$ip]) && count($limites[$ip]) >= 5) {
+    http_response_code(429);
+    echo "Vous avez envoyé plusieurs messages en peu de temps. Merci de réessayer dans quelques minutes, ou appelez-nous au +227 93 33 34 35.";
+    exit;
+}
+
 // Champ piège anti-robots : un humain ne le voit pas, un robot le remplit.
 if (!empty($_POST['site_web'])) {
     echo "Merci, votre message a bien été envoyé.";
@@ -58,6 +78,9 @@ $gabarit = mail_template_contact([
     'message' => strip_tags($message),
     'date' => date('d/m/Y à H:i'),
 ]);
+
+$limites[$ip][] = $maintenant;
+@file_put_contents($fichierLimite, json_encode($limites), LOCK_EX);
 
 $resultat = mailer_envoyer($objet, $gabarit['texte'], $email, $nom, $gabarit['html']);
 
