@@ -1,3 +1,6 @@
 /vendor/
 .htaccess
 /public/.htaccess
+!/public/uploads/.htaccess
+/public/_preview_*.html
+.DS_Store

@@ -1,0 +1,262 @@
+/* ==========================================================================
+   Kané Eco-Construction — surcharges et compléments du thème
+   Chargé après style.css. Tout ce qui est propre au site vit ici.
+   ========================================================================== */
+
+:root {
+    --theme-color: #FF5E14;
+    --theme-dark: #E04E0C;
+    --whatsapp: #25D366;
+    --radius: 12px;
+}
+
+html { scroll-behavior: smooth; }
+img { max-width: 100%; height: auto; }
+
+/* --------------------------------------------------------------------------
+   Header
+   -------------------------------------------------------------------------- */
+.header-top { background: var(--title-color); }
+.header-top .header-links li { color: #fff; font-size: 13px; }
+.header-top .header-links li i { color: var(--theme-color); margin-right: 6px; }
+.header-top .header-links ul { display: flex; gap: 24px; margin: 0; padding: 0; list-style: none; }
+
+.header-logo img,
+.mobile-logo img,
+.footer-wrapper .about-logo img { width: 170px; height: auto; max-height: 77px; object-fit: contain; }
+.mobile-logo img { width: 150px; }
+
+/* Le texte du bloc téléphone était masqué par la forme blanche du logo : on la raccourcit. */
+.header-layout1 .menu-area .logo-bg { width: 330px; clip-path: polygon(100% 0, 86% 45%, 94% 100%, 0 100%, 0 0); }
+@media (min-width: 1922px) { .header-layout1 .menu-area .logo-bg { width: 560px; } }
+.header-layout1 .header-middle { padding-left: 24px; }
+.header-layout1 .header-middle .header-link .header-single-link { font-size: 15px; display: block; line-height: 1.5; }
+.header-layout1 .header-middle .header-link p { margin-bottom: 2px; font-size: 13px; opacity: .9; }
+.header-layout1 .header-middle .header-link i { flex: none; }
+
+.main-menu > ul > li.active > a { color: var(--theme-color); }
+.header-whatsapp { background: var(--whatsapp) !important; color: #fff !important; border-color: var(--whatsapp) !important; }
+.header-whatsapp:hover { background: #1ebe5a !important; }
+
+/* Menu mobile : coordonnées en bas */
+.mobile-contact { padding: 24px 20px 40px; text-align: left; border-top: 1px solid rgba(255,255,255,.1); margin-top: 20px; }
+.mobile-contact .th-btn { margin-bottom: 18px; }
+.mobile-contact_link { display: block; color: #fff; font-size: 14px; padding: 7px 0; }
+.mobile-contact_link i { color: var(--theme-color); width: 22px; }
+.th-mobile-menu ul li.active > a { color: var(--theme-color); }
+
+/* --------------------------------------------------------------------------
+   Hero (accueil)
+   -------------------------------------------------------------------------- */
+.hero-1 .th-hero-bg { background-size: cover; background-position: center; }
+.hero-1 .th-hero-bg::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(100deg, rgba(14,18,29,.92) 0%, rgba(14,18,29,.78) 40%, rgba(14,18,29,.25) 100%);
+}
+.hero-1 .th-hero-slide { min-height: 680px; display: flex; align-items: center; padding: 120px 0; }
+.hero-1 .container { position: relative; z-index: 2; }
+.hero-style1 .hero-subtitle { color: #fff; letter-spacing: .5px; }
+.hero-style1 .hero-title { font-size: 58px; line-height: 1.12; text-transform: none; }
+.hero-style1 .hero-title .text-theme { color: var(--theme-color) !important; }
+.hero-style1 .hero-text { color: rgba(255,255,255,.88); max-width: 560px; }
+.hero-1 .btn-group { gap: 14px; }
+.hero-1 .th-btn.style2 { border-color: rgba(255,255,255,.6); color: #fff; }
+.hero-1 .th-btn.style2:hover { background: #fff; color: var(--title-color); }
+.hero-points { display: flex; flex-wrap: wrap; gap: 10px 26px; margin-top: 30px; padding: 0; list-style: none; }
+.hero-points li { color: #fff; font-size: 15px; font-weight: 500; }
+.hero-points li i { color: var(--theme-color); margin-right: 8px; }
+.hero-side-card {
+    background: rgba(255,255,255,.08);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255,255,255,.18);
+    border-radius: var(--radius);
+    padding: 28px;
+    color: #fff;
+    max-width: 360px;
+    margin-left: auto;
+}
+.hero-side-card h3 { color: #fff; font-size: 20px; margin-bottom: 8px; }
+.hero-side-card p { color: rgba(255,255,255,.85); margin-bottom: 18px; font-size: 15px; }
+.hero-side-card_icone { display: inline-flex; width: 52px; height: 52px; align-items: center; justify-content: center; border-radius: 12px; background: var(--theme-color); color: #fff; font-size: 22px; margin-bottom: 16px; }
+@media (max-width: 1199px) {
+    .hero-style1 .hero-title { font-size: 48px; }
+}
+@media (max-width: 991px) {
+    .hero-1 .th-hero-slide { min-height: 0; padding: 90px 0 70px; }
+    .hero-style1 .hero-title { font-size: 40px; }
+    .hero-side-card { display: none; }
+}
+@media (max-width: 575px) {
+    .hero-1 { padding-right: 0; }
+    .hero-style1 .hero-title { font-size: 32px; }
+    .hero-style1 .hero-text { font-size: 16px; }
+    .hero-1 .th-btn { padding: 14px 20px; font-size: 13px; }
+}
+
+/* --------------------------------------------------------------------------
+   Sections communes
+   -------------------------------------------------------------------------- */
+.breadcumb-wrapper { background: var(--title-color); padding: 120px 0 90px; position: relative; overflow: hidden; }
+.breadcumb-wrapper::before {
+    content: "";
+    position: absolute; inset: 0;
+    background: url("../img/realisations/batiment-r2-01.jpeg") center/cover no-repeat;
+    opacity: .18;
+}
+.breadcumb-wrapper .container { position: relative; }
+.breadcumb-title { font-size: 46px; text-transform: none; }
+@media (max-width: 767px) { .breadcumb-wrapper { padding: 80px 0 60px; } .breadcumb-title { font-size: 32px; } }
+
+.sec-title { letter-spacing: -.2px; }
+.sec-text { max-width: 720px; margin-left: auto; margin-right: auto; }
+
+.th-btn { border-radius: 6px; }
+.th-btn.style-whatsapp { background: var(--whatsapp); color: #fff; margin-top: 12px; }
+.th-btn.style-whatsapp:hover { background: #1ebe5a; color: #fff; }
+.th-btn.style-whatsapp::before { background: #1ebe5a; }
+
+/* Cartes services : hauteur homogène, image propre */
+.service-card img { object-fit: cover; border-radius: 8px; }
+.service-tab-menu .tab-btn { border-radius: 6px; }
+
+/* Bloc "à propos" : images proprement cadrées (les tailles fixes en ligne sont neutralisées) */
+.img-box1 .img1 img, .img-box1 .img2 img { object-fit: cover; border-radius: var(--radius); }
+.img-box1 .about-shape1 img { object-fit: cover; border-radius: 8px; }
+@media (max-width: 1199px) {
+    .img-box1 { margin-bottom: 40px; }
+    .img-box1 .img1 img { width: 100% !important; height: 420px !important; }
+    .img-box1 .img2 img { height: 220px !important; }
+    .img-box1 .about-shape1 { display: none; }
+}
+@media (max-width: 575px) {
+    .img-box1 .img2 { display: none; }
+    .img-box1 .img1 img { height: 320px !important; }
+}
+
+/* Compteurs */
+.counter-area-1 { background: var(--theme-color); }
+
+/* FAQ / accordéon */
+.accordion-card .accordion-button { border-radius: 8px; }
+
+/* --------------------------------------------------------------------------
+   Galerie "Nos réalisations" (page + extrait sur l'accueil)
+   -------------------------------------------------------------------------- */
+.galerie-filtres { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+.galerie-filtre {
+    background: #fff; border: 1px solid var(--border-color); border-radius: 30px;
+    padding: 10px 24px; font-family: var(--title-font); font-size: 14px; font-weight: 600;
+    color: var(--title-color); transition: all .25s ease;
+}
+.galerie-filtre:hover { border-color: var(--theme-color); color: var(--theme-color); }
+.galerie-filtre.active { background: var(--theme-color); border-color: var(--theme-color); color: #fff; }
+.galerie-filtre .nb { font-weight: 500; opacity: .7; margin-left: 4px; font-size: 12px; }
+.galerie-item.is-hidden { display: none; }
+
+.gallery-card {
+    position: relative; overflow: hidden; border-radius: var(--radius);
+    box-shadow: 0 4px 18px rgba(14,18,29,.08); transition: transform .3s ease, box-shadow .3s ease; background: #eee;
+}
+.gallery-card:hover { transform: translateY(-5px); box-shadow: 0 14px 30px rgba(14,18,29,.16); }
+.gallery-card > a { display: block; }
+.gallery-card img { display: block; width: 100%; height: 280px; object-fit: cover; transition: transform .5s ease; }
+.gallery-card:hover img { transform: scale(1.06); }
+.gallery-card .gallery-cat {
+    position: absolute; top: 14px; left: 14px; z-index: 2;
+    background: rgba(255,255,255,.92); color: var(--title-color); font-size: 12px; font-weight: 600;
+    padding: 5px 10px; border-radius: 20px; font-family: var(--title-font);
+}
+.gallery-card .gallery-overlay {
+    position: absolute; inset: 0; display: flex; align-items: flex-end;
+    background: linear-gradient(to top, rgba(14,18,29,.85) 0%, rgba(14,18,29,.2) 55%, rgba(14,18,29,0) 100%);
+    opacity: 0; transition: opacity .3s ease; padding: 18px;
+}
+.gallery-card:hover .gallery-overlay { opacity: 1; }
+.gallery-card .gallery-overlay p { color: #fff; margin: 0; font-size: 14px; font-weight: 500; line-height: 1.45; padding-right: 44px; }
+.gallery-card .gallery-overlay i {
+    position: absolute; right: 16px; bottom: 16px; width: 40px; height: 40px; line-height: 40px; text-align: center;
+    background: var(--theme-color); color: #fff; border-radius: 50%; font-size: 15px;
+}
+@media (hover: none) { .gallery-card .gallery-overlay { opacity: 1; } }
+@media (max-width: 575px) { .gallery-card img { height: 230px; } }
+
+.gallery-video { border-radius: var(--radius); overflow: hidden; box-shadow: 0 4px 18px rgba(14,18,29,.08); background: #000; }
+.gallery-video video { display: block; width: 100%; height: auto; }
+
+/* Extrait sur l'accueil : grille simple, pas de slider */
+.home-galerie .gallery-card img { height: 240px; }
+.home-galerie .col-plus a {
+    display: flex; flex-direction: column; align-items: center; justify-content: center; height: 240px;
+    border-radius: var(--radius); background: var(--title-color); color: #fff; text-align: center; padding: 20px;
+    font-family: var(--title-font); font-weight: 600; transition: background .3s;
+}
+.home-galerie .col-plus a:hover { background: var(--theme-color); }
+.home-galerie .col-plus a span { font-size: 40px; font-weight: 800; line-height: 1; margin-bottom: 8px; color: var(--theme-color); }
+.home-galerie .col-plus a:hover span { color: #fff; }
+
+/* --------------------------------------------------------------------------
+   Services : fiches villas
+   -------------------------------------------------------------------------- */
+.villa-bloc { padding: 40px 0; border-top: 1px solid var(--border-color); }
+.villa-bloc:first-of-type { border-top: 0; }
+.villa-bloc .villa-titre { font-size: 26px; margin-bottom: 6px; }
+.villa-bloc .villa-sous { color: var(--theme-color); font-weight: 600; font-family: var(--title-font); text-transform: uppercase; font-size: 13px; letter-spacing: .6px; }
+.villa-bloc ul.villa-liste { list-style: none; padding: 0; margin: 18px 0; display: grid; grid-template-columns: 1fr 1fr; gap: 10px 20px; }
+.villa-bloc ul.villa-liste li { padding-left: 26px; position: relative; color: var(--title-color); font-weight: 500; }
+.villa-bloc ul.villa-liste li::before { content: "\f00c"; font-family: var(--icon-font); font-weight: 900; color: var(--theme-color); position: absolute; left: 0; top: 1px; font-size: 13px; }
+.villa-bloc .villa-img { border-radius: var(--radius); overflow: hidden; box-shadow: 0 6px 24px rgba(14,18,29,.1); background: #f3f3f3; }
+.villa-bloc .villa-img img { width: 100%; height: 360px; object-fit: cover; display: block; }
+.villa-bloc .villa-img.plan img { object-fit: contain; background: #fff; padding: 10px; }
+@media (max-width: 767px) { .villa-bloc .villa-img img { height: 260px; } .villa-bloc ul.villa-liste { grid-template-columns: 1fr; } }
+
+.atelier-card img { height: 260px; object-fit: cover; }
+
+/* --------------------------------------------------------------------------
+   Contact
+   -------------------------------------------------------------------------- */
+.contact-feature { height: 100%; }
+.contact-map iframe { width: 100%; height: 420px; border: 0; display: block; filter: grayscale(.2); }
+.form-messages { font-size: 14px; }
+.form-messages.success { color: var(--success-color); }
+.form-messages.error { color: var(--error-color); }
+.champ-piege { position: absolute; left: -9999px; opacity: 0; height: 0; width: 0; }
+
+/* --------------------------------------------------------------------------
+   Footer
+   -------------------------------------------------------------------------- */
+.footer-layout1 .about-logo img { background: #fff; padding: 6px 10px; border-radius: 8px; }
+.footer-widget .info-box_link { font-size: 15px; }
+.footer-cta .th-btn { justify-content: center; }
+.copyright-text { font-size: 14px; }
+.footer-links ul { display: flex; gap: 18px; justify-content: flex-end; list-style: none; margin: 0; padding: 0; }
+.footer-links a { color: rgba(255,255,255,.7); font-size: 14px; }
+.footer-links a:hover { color: var(--theme-color); }
+@media (max-width: 767px) { .footer-links ul { justify-content: center; margin-top: 10px; } .copyright-text { text-align: center; } }
+
+/* Page 404 */
+.error-img img { max-width: 420px; }
+
+/* Sécurité : le texte du hero reste visible même si l'animation d'entrée ne se déclenche pas. */
+.hero-1 [data-ani] { opacity: 1; animation-fill-mode: both; }
+
+/* Bouton contour (style2) sur fond clair */
+.bg-smoke .th-btn.style2, .error-page .th-btn.style2, .space:not(.bg-theme) .th-btn.style2 {
+    color: var(--title-color); border-color: var(--title-color);
+}
+.bg-smoke .th-btn.style2:hover, .error-page .th-btn.style2:hover, .space:not(.bg-theme) .th-btn.style2:hover { color: #fff; border-color: var(--title-color); }
+.bg-smoke .th-btn.style2:hover:before, .bg-smoke .th-btn.style2:hover:after,
+.error-page .th-btn.style2:hover:before, .error-page .th-btn.style2:hover:after,
+.space:not(.bg-theme) .th-btn.style2:hover:before, .space:not(.bg-theme) .th-btn.style2:hover:after { background-color: var(--title-color); }
+.hero-1 .th-btn.style2 { color: #fff; border-color: rgba(255,255,255,.6); }
+@media (max-width: 767px) { .header-top .header-links li::after, .header-top .header-links li::before { display: none !important; } }
+@media (prefers-reduced-motion: reduce) { .hero-1 [data-ani] { animation: none !important; transform: none !important; } }
+
+/* Bande d'atouts (remplace les compteurs chiffrés) */
+.atouts-band { background: var(--title-color); padding: 64px 0; }
+.atout { display: flex; gap: 18px; align-items: flex-start; }
+.atout_icone { flex: none; width: 64px; height: 64px; border-radius: 14px; background: rgba(255,94,20,.14); border: 1px solid rgba(255,94,20,.4); color: var(--theme-color); display: flex; align-items: center; justify-content: center; font-size: 26px; }
+.atout_titre { color: #fff; font-size: 19px; margin: 4px 0 6px; }
+.atout_texte { color: rgba(255,255,255,.75); margin: 0; font-size: 15px; line-height: 1.55; }
+.about-grid_year i { font-size: 44px; }

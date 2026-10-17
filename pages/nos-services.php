@@ -1,8 +1,10 @@
 <?php
+$page_title = 'Nos services';
+$page_description = "Logements sociaux F2, F3, F4, cités modernes, classes scolaires, centres de santé et habitats modernes : les services de construction en briques de terre compressée de Kané Eco-Construction au Niger.";
 include '../includes/header.php';
 ?>
 
-<div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb_shape_1_1.jpg">
+<div class="breadcumb-wrapper " >
     <div class="container">
         <div class="breadcumb-content">
             <h1 class="breadcumb-title">NOS SERVICES</h1>
@@ -204,94 +206,95 @@ Production de briques
 }
 </style>
 
-<section class="" id="service-sec">
+<section class="space-bottom" id="logements-sec">
     <div class="container">
         <div class="title-area text-center">
-            <h4 class="sec-title">LOGEMENTS SOCIAUX</h4>
+            <span class="sub-title"><img src="assets/img/icon/subtitle-img1-1.svg" alt=""> Logements sociaux</span>
+            <h2 class="sec-title">Trois villas pensées pour les familles</h2>
+            <p class="sec-text mt-20">Kané Eco-Construction propose trois types de logements sociaux en briques de terre
+                compressée. Toutes nos villas sont livrées avec portes et cadres de fenêtres en PVC, carrelage, plafonds
+                PVC et grilles modernes de protection.</p>
         </div>
-        <div class="row">
-            <div class="col-md-6">
-            <p>Kané Eco-Construction propose trois types de logements sociaux:</p>
-            <ul>
-                <li><p>F2 Luxe</p></li>
-                <li><p>F3 Luxe</p></li>
-                <li><p>F4 Luxe</p></li>
-            </ul>
-            <p>Nos villas sont équipées avec des portes et cadres des
-            fenêtres en PVC, de carrelage et plafonds PVC. Elles ont
-            des grilles modernes protégeant les portes et fenêtres.</p>
-            </div>
-            <div class="col-md-6">
-            <img src="assets/img/products/cite2.jpeg" alt="icon">
-            </div>
-        </div>
-        <br/>
-        <br/>
-        <div class="title-area text-center">
-            <h6 class="sec-title">VILLA F2 LUXE</h6>
-        </div>
-        <div class="row gy-4">
-        <div class="col-md-6">
-            <img style="height: 350px;" src="assets/img/products/f2 service.PNG" alt="icon">
-            </div>
-            <div class="col-md-6">
-            <p>la F2 Luxe est une villa de 2 pièces comprenant</p>
-            <ul>
-                <li><p>Un salon</p></li>
-                <li><p>Une chambre</p></li>
-                <li><p>Une salle d’eau</p></li>
-                <li><p>Une cuisine</p></li>
-                <li><p>Un magasin</p></li>
-            </ul>
-            <p>La F 2 Luxe a une terrasse principale à l’entrée et une terrasse secondaire pour la cuisine La F 2 est abritée d’une
-                chambre annexe et une douche externe</p>
+
+        <div class="villa-bloc">
+            <div class="row align-items-center gy-4">
+                <div class="col-lg-6">
+                    <div class="villa-img"><img src="assets/img/products/cite2.jpeg" alt="Cité de logements sociaux en briques de terre compressée"></div>
+                </div>
+                <div class="col-lg-6">
+                    <span class="villa-sous">Nos gammes</span>
+                    <h3 class="villa-titre">F2, F3 et F4 Luxe</h3>
+                    <p>Des villas confortables, fraîches et économiques, conçues pour durer. Chaque modèle dispose d'une
+                        terrasse principale à l'entrée, d'une terrasse secondaire côté cuisine, d'une chambre annexe et d'une
+                        douche externe.</p>
+                    <a href="contact" class="th-btn mt-2">Demander un devis <i class="fas fa-arrow-right ms-2"></i></a>
+                </div>
             </div>
         </div>
-        <br/>
-        <br/>
-        <div class="title-area text-center">
-            <h6 class="sec-title">VILLA F3 LUXE</h6>
-        </div>
-        <div class="row gy-4">
-            <div class="col-md-6">
-            <p>F3 Luxe comprend 3 pièces dont</p>
-            <ul>
-                <li><p>Un salon</p></li>
-                <li><p>2 chambres et une douche</p></li>
-                <li><p>Une cuisine et un magasin</p></li>
-            </ul>
-            <p>La F3 Luxe a une terrasse principale à l’entrée et une terrasse secondaire pour la cuisine Une chambre annexe
-                et douche externe</p>
-            </div>
-            <div class="col-md-6">
-            <img style="height: 350px;" src="assets/img/products/f3 service.PNG" alt="icon">
-            </div>
-        </div>
-        <br/>
-        <br/>
-        <div class="title-area text-center">
-            <h6 class="sec-title">VILLA F4 LUXE</h6>
-        </div>
-        <div class="row gy-4">
-        <div class="col-md-6">
-            <img style="height: 350px;" src="assets/img/products/f4 service.PNG" alt="icon">
-            </div>
-            <div class="col-md-6">
-            <p>F4 Luxe est une villa de 4 pièces dont</p>
-            <ul>
-                <li><p>Un salon</p></li>
-                <li><p>Une chambre principale et douche interne</p></li>
-                <li><p>Chambres secondaires avec douche commune</p></li>
-            </ul>
-            <p>La F4 est très confortable et comprend une cuisine américaine abritant cuisine et salle à manger, un magasin
-                La F 4 Luxe a également une chambre annexe et douche externe</p>
+
+        <div class="villa-bloc">
+            <div class="row align-items-center gy-4 flex-lg-row-reverse">
+                <div class="col-lg-6">
+                    <div class="villa-img plan"><img src="assets/img/products/f2 service.PNG" alt="Plan de la villa F2 Luxe"></div>
+                </div>
+                <div class="col-lg-6">
+                    <span class="villa-sous">2 pièces</span>
+                    <h3 class="villa-titre">Villa F2 Luxe</h3>
+                    <p>La F2 Luxe est une villa de 2 pièces comprenant :</p>
+                    <ul class="villa-liste">
+                        <li>Un salon</li>
+                        <li>Une chambre</li>
+                        <li>Une salle d'eau</li>
+                        <li>Une cuisine</li>
+                        <li>Un magasin</li>
+                        <li>Chambre annexe et douche externe</li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <br/>
-        <br/>
+
+        <div class="villa-bloc">
+            <div class="row align-items-center gy-4">
+                <div class="col-lg-6">
+                    <div class="villa-img plan"><img src="assets/img/products/f3 service.PNG" alt="Plan de la villa F3 Luxe"></div>
+                </div>
+                <div class="col-lg-6">
+                    <span class="villa-sous">3 pièces</span>
+                    <h3 class="villa-titre">Villa F3 Luxe</h3>
+                    <p>La F3 Luxe comprend 3 pièces :</p>
+                    <ul class="villa-liste">
+                        <li>Un salon</li>
+                        <li>Deux chambres et une douche</li>
+                        <li>Une cuisine et un magasin</li>
+                        <li>Terrasse principale et terrasse cuisine</li>
+                        <li>Chambre annexe et douche externe</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="villa-bloc">
+            <div class="row align-items-center gy-4 flex-lg-row-reverse">
+                <div class="col-lg-6">
+                    <div class="villa-img plan"><img src="assets/img/products/f4 service.PNG" alt="Plan de la villa F4 Luxe"></div>
+                </div>
+                <div class="col-lg-6">
+                    <span class="villa-sous">4 pièces</span>
+                    <h3 class="villa-titre">Villa F4 Luxe</h3>
+                    <p>La F4 Luxe est notre villa la plus confortable :</p>
+                    <ul class="villa-liste">
+                        <li>Un salon</li>
+                        <li>Une chambre principale avec douche interne</li>
+                        <li>Chambres secondaires avec douche commune</li>
+                        <li>Cuisine américaine ouverte sur la salle à manger</li>
+                        <li>Un magasin</li>
+                        <li>Chambre annexe et douche externe</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
 <?php
 include __DIR__ . '/../includes/footer.php';
-?>

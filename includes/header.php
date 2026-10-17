@@ -1,21 +1,45 @@
+<?php
+// Métadonnées par page (définies avant l'inclusion du header ; valeurs par défaut sinon).
+$page_title = isset($page_title) ? $page_title . ' | Kané Eco-Construction' : 'Kané Eco-Construction - Briques de terre compressée et construction écologique au Niger';
+$page_description = isset($page_description) ? $page_description : "Kané Eco-Construction fabrique des briques de terre compressée (BTC) à Niamey et construit des logements, écoles et bâtiments écologiques, économiques et durables au Niger.";
+$page_path = isset($pathAfterPublic) ? $pathAfterPublic : '';
+$page_canonical = 'https://www.kane-eco-construction.com/' . ($page_path === 'accueil' ? '' : $page_path);
+$page_active = $page_path === '' ? 'accueil' : $page_path;
+if ($page_active === 'realisations') {
+    $page_active = 'nos-realisations';
+}
+$nav = [
+    'accueil'          => 'Accueil',
+    'nos-services'     => 'Nos Services',
+    'nos-realisations' => 'Nos Réalisations',
+    'a-propos-de-nous' => 'À Propos de Nous',
+    'contact'          => 'Contact',
+];
+$telephones = [
+    ['+227 93 33 34 35', '+22793333435'],
+    ['+227 82 33 34 33', '+22782333433'],
+];
+$whatsapp = 'https://wa.me/22793333435?text=' . rawurlencode("Bonjour Kané Eco-Construction, je souhaite un devis.");
+?>
 <!doctype html>
 <html class="no-js" lang="fr">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Kane Eco Construction - Construction Écologique au Niger</title>
-    <meta property="og:title" content="Kane Eco Construction - Construction Écologique au Niger">
-    <meta property="og:description"
-        content="Kane Eco Construction, spécialiste des briques de terre compressée au Niger. Découvrez nos services de construction écologique et durable.">
-    <meta property="og:image" content="https://www.kane-eco-construction.com/assets/img/kane.jpeg">
-    <meta property="og:url" content="https://www.kane-eco-construction.com">
+    <title><?= htmlspecialchars($page_title, ENT_QUOTES) ?></title>
+    <meta name="description" content="<?= htmlspecialchars($page_description, ENT_QUOTES) ?>">
+    <meta property="og:title" content="<?= htmlspecialchars($page_title, ENT_QUOTES) ?>">
+    <meta property="og:description" content="<?= htmlspecialchars($page_description, ENT_QUOTES) ?>">
+    <meta property="og:image" content="https://www.kane-eco-construction.com/assets/img/realisations/batiment-r2-01.jpeg">
+    <meta property="og:url" content="<?= htmlspecialchars($page_canonical, ENT_QUOTES) ?>">
     <meta property="og:type" content="website">
-    <link rel="canonical" href="https://www.kane-eco-construction.com" />
+    <meta property="og:locale" content="fr_FR">
+    <link rel="canonical" href="<?= htmlspecialchars($page_canonical, ENT_QUOTES) ?>" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/kane.jpeg">
-    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" type="image/jpeg" href="assets/img/kane.jpeg">
+    <meta name="theme-color" content="#FF5E14">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,120 +55,53 @@
     <link rel="stylesheet" href="assets/css/slick.min.css">
     <link rel="stylesheet" href="assets/css/nice-select.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
 </head>
 
 <body>
-    <div class="preloader ">
-    </div>
-    <div class="sidemenu-wrapper d-none d-lg-block ">
-        <div class="sidemenu-content sidemenu-area">
-            <button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
-            <div class="widget  ">
-                <div class="th-widget-about">
-                    <div class="about-logo">
-                        <a href="accueil"><img src="assets/img/kane.jpeg" style="width: 170px; height: 77px"
-                                alt="Konta"></a>
-                    </div>
-                    <p class="about-text">Kané Eco-Constructions est une société immobilière spécialisée dans les briques de terre compressée au Niger. Notre objectif est de révolutionner le secteur immobilier à travers une construction écologique et économique.</p>
-                    <div class="th-social style2">
-                        <h6 class="title">FOLLOW US ON:</h6>
-                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
-                        <a href="https://www.skype.com/"><i class="fab fa-skype"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="widget widget_contact  ">
-                <h3 class="widget_title">Contactez-nous!</h3>
-                <p class="contact-text">Nous sommes à votre écoute pour tous vos projets de construction écologique.</p>
-                <div class="th-widget-contact">
-                    <div class="info-box-wrap">
-                        <div class="info-box_icon">
-                            <i class="fas fa-location-dot"></i>
-                        </div>
-                        <p class="info-box_text">
-                            BP 10727 Niamey Niger
-                        </p>
-                    </div>
-                    <div class="info-box-wrap">
-                        <div class="info-box_icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <a href="mailto:contact@kane-eco-construction.com" class="info-box_link">contact@kane-eco-construction.com</a>
-                    </div>
-                    <div class="info-box-wrap">
-                        <div class="info-box_icon">
-                            <i class="fas fa-phone"></i>
-                        </div>
-                        <a href="tel:+22793333435" class="info-box_link">+227 93 33 34 35</a>
-                        <a href="tel:+22782333433" class="info-box_link">+227 82 33 34 33</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="popup-search-box d-none d-lg-block">
-        <button class="searchClose"><i class="fal fa-times"></i></button>
-        <form action="#">
-            <input type="text" placeholder="What are you looking for?">
-            <button type="submit"><i class="fal fa-search"></i></button>
-        </form>
-    </div>
+    <div class="preloader"></div>
+
+    <!-- Menu mobile -->
     <div class="th-menu-wrapper">
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="accueil"><img src="assets/img/kane.jpeg" style="width: 90%; height: 60px" alt="Konta"></a>
+                <a href="accueil"><img src="assets/img/kane.jpeg" alt="Kané Eco-Construction"></a>
             </div>
             <div class="th-mobile-menu">
                 <ul>
-                    <li>
-                        <a href="accueil">Accueil</a>
-                    </li>
-                    <li>
-                        <a href="nos-services">Nos Services</a>
-                    </li>
-                    <li>
-                        <a href="nos-realisations">Nos Réalisations</a>
-                    </li>
-                    <li>
-                        <a href="a-propos-de-nous">À Propos de Nous</a>
-                    </li>
-                    <li>
-                        <a href="contact">Contact</a>
-                    </li>
+                    <?php foreach ($nav as $slug => $libelle): ?>
+                        <li class="<?= $page_active === $slug ? 'active' : '' ?>"><a href="<?= $slug ?>"><?= $libelle ?></a></li>
+                    <?php endforeach; ?>
                 </ul>
+            </div>
+            <div class="mobile-contact">
+                <a href="contact" class="th-btn w-100">Obtenir un devis <i class="fas fa-arrow-right ms-1"></i></a>
+                <?php foreach ($telephones as $tel): ?>
+                    <a href="tel:<?= $tel[1] ?>" class="mobile-contact_link"><i class="fas fa-phone"></i> <?= $tel[0] ?></a>
+                <?php endforeach; ?>
+                <a href="mailto:contact@kane-eco-construction.com" class="mobile-contact_link"><i class="fas fa-envelope"></i> contact@kane-eco-construction.com</a>
+                <a href="<?= htmlspecialchars($whatsapp, ENT_QUOTES) ?>" class="mobile-contact_link" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> Écrire sur WhatsApp</a>
             </div>
         </div>
     </div>
+
     <header class="th-header header-layout1">
-        <div class="header-top" data-bg-src="assets/img/bg/header-to-bg.png">
+        <div class="header-top">
             <div class="container th-container2">
                 <div class="row justify-content-center justify-content-lg-between align-items-center gy-2">
                     <div class="col-auto d-none d-lg-block">
                         <div class="header-links">
                             <ul>
-                                <li>Bienvenue chez Kane Eco Construction</li>
+                                <li><i class="fas fa-leaf"></i> Briques de terre compressée fabriquées à Niamey</li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-auto">
                         <div class="header-links header-right">
                             <ul>
-                                <li>
-                                    <div class="header-social">
-                                        <a href="https://www.facebook.com/" title="Suivez-nous sur Facebook"><i
-                                                class="fab fa-facebook-f"></i></a>
-                                        <a href="https://www.twitter.com/" title="Suivez-nous sur Twitter"><i
-                                                class="fab fa-twitter"></i></a>
-                                        <a href="https://www.linkedin.com/" title="Suivez-nous sur LinkedIn"><i
-                                                class="fab fa-linkedin-in"></i></a>
-                                        <a href="https://www.youtube.com/" title="Suivez-nous sur YouTube"><i
-                                                class="fab fa-youtube"></i></a>
-                                    </div>
-                                </li>
+                                <li><i class="fas fa-location-dot"></i> BP 10727 Niamey, Niger</li>
+                                <li class="d-none d-md-inline-block"><i class="fas fa-clock"></i> Lundi - Vendredi : 8h - 16h</li>
                             </ul>
                         </div>
                     </div>
@@ -157,8 +114,7 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a href="accueil"><img src="assets/img/kane.jpeg" style="width: 170px; height: 77px"
-                                        alt="Konta"></a>
+                                <a href="accueil"><img src="assets/img/kane.jpeg" alt="Kané Eco-Construction"></a>
                             </div>
                         </div>
                         <div class="col-auto d-none d-lg-block sticy-d-none">
@@ -166,27 +122,24 @@
                                 <div class="header-link">
                                     <i class="fas fa-phone"></i>
                                     <div>
-                                        <p>Appelez-nous à tout moment:</p>
-                                        <a class="header-single-link" href="tel:+22793333435"
-                                            style="font-size: 13px;">+22793333435</a>
-                                        <a class="header-single-link" href="tel:+22782333433"
-                                            style="font-size: 13px;">+22782333433</a>
+                                        <p>Appelez-nous</p>
+                                        <?php foreach ($telephones as $tel): ?>
+                                            <a class="header-single-link" href="tel:<?= $tel[1] ?>"><?= $tel[0] ?></a>
+                                        <?php endforeach; ?>
                                     </div>
                                 </div>
                                 <div class="header-link">
                                     <i class="fas fa-envelope"></i>
                                     <div>
-                                        <p>Envoyez-nous un e-mail:</p>
-                                        <a class="header-single-link" href="mailto:contact@kane-eco-construction.com"
-                                            style="font-size: 16px;">contact@kane-eco-construction.com</a>
+                                        <p>Écrivez-nous</p>
+                                        <a class="header-single-link" href="mailto:contact@kane-eco-construction.com">contact@kane-eco-construction.com</a>
                                     </div>
                                 </div>
                                 <div class="header-link d-xl-inline-flex d-none">
                                     <i class="fas fa-clock"></i>
                                     <div>
-                                        <p>Temps de travail:</p>
-                                        <span class="header-single-link" style="font-size: 16px;">Lundi - Vendredi: 8:00
-                                            - 16:00</span>
+                                        <p>Horaires</p>
+                                        <span class="header-single-link">Lundi - Vendredi : 8h - 16h</span>
                                     </div>
                                 </div>
                             </div>
@@ -194,30 +147,14 @@
                         <div class="col-auto sticy-d-block">
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
-                                    <li>
-                                        <a href="accueil" title="Accueil - Kane Eco Construction">Accueil</a>
-                                    </li>
-                                    <li>
-                                        <a href="nos-services" title="Nos Services - Kane Eco Construction">Nos
-                                            Services</a>
-                                    </li>
-                                    <li>
-                                        <a href="nos-realisations" title="Nos Réalisations - Kane Eco Construction">Nos
-                                            Réalisations</a>
-                                    </li>
-                                    <li>
-                                        <a href="a-propos-de-nous" title="À Propos de Nous - Kane Eco Construction">À
-                                            Propos de Nous</a>
-                                    </li>
-                                    <li>
-                                        <a href="contact" title="Contact - Kane Eco Construction">Contact</a>
-                                    </li>
+                                    <?php foreach ($nav as $slug => $libelle): ?>
+                                        <li class="<?= $page_active === $slug ? 'active' : '' ?>"><a href="<?= $slug ?>"><?= $libelle ?></a></li>
+                                    <?php endforeach; ?>
                                 </ul>
                             </nav>
                         </div>
                         <div class="col-auto d-lg-none">
-                            <button type="button" class="th-menu-toggle d-block d-lg-none"><i
-                                    class="far fa-bars"></i></button>
+                            <button type="button" class="th-menu-toggle d-block d-lg-none" aria-label="Ouvrir le menu"><i class="far fa-bars"></i></button>
                         </div>
                     </div>
                     <div class="main-menu-area">
@@ -225,30 +162,16 @@
                             <div class="col-auto">
                                 <nav class="main-menu d-none d-lg-inline-block">
                                     <ul>
-                                        <li>
-                                            <a href="accueil">Accueil</a>
-                                        </li>
-                                        <li>
-                                            <a href="nos-services">Nos Services</a>
-                                        </li>
-                                        <li>
-                                            <a href="nos-realisations">Nos Réalisations</a>
-                                        </li>
-                                        <li>
-                                            <a href="a-propos-de-nous">À Propos de Nous</a>
-                                        </li>
-                                        <li>
-                                            <a href="contact">Contact</a>
-                                        </li>
+                                        <?php foreach ($nav as $slug => $libelle): ?>
+                                            <li class="<?= $page_active === $slug ? 'active' : '' ?>"><a href="<?= $slug ?>"><?= $libelle ?></a></li>
+                                        <?php endforeach; ?>
                                     </ul>
                                 </nav>
                             </div>
                             <div class="col-auto d-none d-lg-block">
                                 <div class="header-button">
-                                    <button type="button" class="icon-btn style2 searchBoxToggler"><i
-                                            class="far fa-search"></i></button>
-                                    <a href="contact" class="th-btn style8 ml-25">OBTENIR UN DEVIS <i
-                                            class="fas fa-arrow-right ms-1"></i></a>
+                                    <a href="<?= htmlspecialchars($whatsapp, ENT_QUOTES) ?>" class="icon-btn style2 header-whatsapp" target="_blank" rel="noopener" title="Écrire sur WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                                    <a href="contact" class="th-btn style8 ml-25">OBTENIR UN DEVIS <i class="fas fa-arrow-right ms-1"></i></a>
                                 </div>
                             </div>
                         </div>

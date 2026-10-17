@@ -1,0 +1,193 @@
+{
+    "images": [
+        {
+            "id": "2ab6dc0cb720",
+            "src": "assets/img/realisations/production-presse-01.jpeg",
+            "categorie": "production",
+            "legende": "Presse Hydraform en action sur le site de production Kané Eco-Construction",
+            "ajoute_le": "2025-07-30 10:01:00"
+        },
+        {
+            "id": "45e1089bab92",
+            "src": "assets/img/realisations/production-presse-03.jpeg",
+            "categorie": "production",
+            "legende": "Remplissage de la presse M7MI Super avec la terre tamisée",
+            "ajoute_le": "2025-07-30 10:02:00"
+        },
+        {
+            "id": "ee3a791eca47",
+            "src": "assets/img/realisations/production-presse-02.jpeg",
+            "categorie": "production",
+            "legende": "Fabrication de briques de terre compressée à Niamey",
+            "ajoute_le": "2025-07-30 10:03:00"
+        },
+        {
+            "id": "c0604ff8c53d",
+            "src": "assets/img/realisations/production-briques-01.jpeg",
+            "categorie": "production",
+            "legende": "Briques de terre compressée en cours de séchage",
+            "ajoute_le": "2025-07-30 10:04:00"
+        },
+        {
+            "id": "d4d1cda52e7a",
+            "src": "assets/img/realisations/production-briques-02.jpeg",
+            "categorie": "production",
+            "legende": "Rangées de briques de terre compressée prêtes à la livraison",
+            "ajoute_le": "2025-07-30 10:05:00"
+        },
+        {
+            "id": "7c7db8cffce7",
+            "src": "assets/img/realisations/production-briques-03.jpeg",
+            "categorie": "production",
+            "legende": "Stock de briques de terre compressée Kané Eco-Construction",
+            "ajoute_le": "2025-07-30 10:06:00"
+        },
+        {
+            "id": "26b0b7f5d19b",
+            "src": "assets/img/realisations/production-equipe-01.jpeg",
+            "categorie": "production",
+            "legende": "L'équipe Kané Eco-Construction sur la chaîne de production",
+            "ajoute_le": "2025-07-30 10:07:00"
+        },
+        {
+            "id": "fdc04ead4571",
+            "src": "assets/img/realisations/production-equipe-02.jpeg",
+            "categorie": "production",
+            "legende": "Équipe technique Kané autour de la presse à briques",
+            "ajoute_le": "2025-07-30 10:08:00"
+        },
+        {
+            "id": "8f9c7057980d",
+            "src": "assets/img/realisations/realisation_5.jpg",
+            "categorie": "production",
+            "legende": "Briques de terre compressée stockées sous hangar",
+            "ajoute_le": "2025-07-30 10:09:00"
+        },
+        {
+            "id": "1976867d6469",
+            "src": "assets/img/realisations/realisation_7.jpg",
+            "categorie": "production",
+            "legende": "Approvisionnement en briques sur le site de production",
+            "ajoute_le": "2025-07-30 10:10:00"
+        },
+        {
+            "id": "ce0572ee9745",
+            "src": "assets/img/realisations/realisation_11.jpg",
+            "categorie": "production",
+            "legende": "Ouvriers Kané Eco-Construction équipés sur le site",
+            "ajoute_le": "2025-07-30 10:11:00"
+        },
+        {
+            "id": "63742c1b87bc",
+            "src": "assets/img/realisations/realisation_12.jpg",
+            "categorie": "production",
+            "legende": "Aire de séchage des briques de terre compressée",
+            "ajoute_le": "2025-07-30 10:12:00"
+        },
+        {
+            "id": "d6184d9d3a20",
+            "src": "assets/img/realisations/realisation_2.jpg",
+            "categorie": "chantier",
+            "legende": "Terrassement et fondations d'un chantier Kané Eco-Construction",
+            "ajoute_le": "2025-07-30 10:13:00"
+        },
+        {
+            "id": "4e5648500633",
+            "src": "assets/img/realisations/realisation_4.jpg",
+            "categorie": "chantier",
+            "legende": "Ferraillage des semelles de fondation",
+            "ajoute_le": "2025-07-30 10:14:00"
+        },
+        {
+            "id": "b4a417d00963",
+            "src": "assets/img/realisations/realisation_6.jpg",
+            "categorie": "chantier",
+            "legende": "Mise en place des poteaux d'un chantier à Niamey",
+            "ajoute_le": "2025-07-30 10:15:00"
+        },
+        {
+            "id": "105482e95b8b",
+            "src": "assets/img/realisations/realisation_8.jpg",
+            "categorie": "chantier",
+            "legende": "Coulage des longrines en béton armé",
+            "ajoute_le": "2025-07-30 10:16:00"
+        },
+        {
+            "id": "e8ee8b13f8ae",
+            "src": "assets/img/realisations/realisation_9.jpg",
+            "categorie": "chantier",
+            "legende": "Coulage du béton par l'équipe Kané Eco-Construction",
+            "ajoute_le": "2025-07-30 10:17:00"
+        },
+        {
+            "id": "fd868af5ccd0",
+            "src": "assets/img/realisations/realisation_1.jpg",
+            "categorie": "chantier",
+            "legende": "Maçonnerie en briques de terre compressée",
+            "ajoute_le": "2025-07-30 10:18:00"
+        },
+        {
+            "id": "56b3f78e4576",
+            "src": "assets/img/realisations/realisation_10.jpg",
+            "categorie": "chantier",
+            "legende": "Montage d'un mur de clôture en briques de terre compressée",
+            "ajoute_le": "2025-07-30 10:19:00"
+        },
+        {
+            "id": "aca92b430c0c",
+            "src": "assets/img/realisations/batiment-r2-01.jpeg",
+            "categorie": "batiment",
+            "legende": "Immeuble R+2 en briques de terre compressée apparentes",
+            "ajoute_le": "2025-07-30 10:20:00"
+        },
+        {
+            "id": "7421dd4d37bd",
+            "src": "assets/img/realisations/batiment-r2-03.jpeg",
+            "categorie": "batiment",
+            "legende": "Immeuble R+2 réalisé par Kané Eco-Construction",
+            "ajoute_le": "2025-07-30 10:21:00"
+        },
+        {
+            "id": "b7944768f2b1",
+            "src": "assets/img/realisations/batiment-r2-02.jpeg",
+            "categorie": "batiment",
+            "legende": "Façade latérale d'un immeuble R+2 et son mur de clôture en BTC",
+            "ajoute_le": "2025-07-30 10:22:00"
+        },
+        {
+            "id": "84cdbe6117a0",
+            "src": "assets/img/realisations/batiment-r2-05.jpeg",
+            "categorie": "batiment",
+            "legende": "Bâtiment en briques de terre compressée en cours de finition",
+            "ajoute_le": "2025-07-30 10:23:00"
+        },
+        {
+            "id": "f1bcb9ef0b50",
+            "src": "assets/img/realisations/batiment-r2-04.jpeg",
+            "categorie": "batiment",
+            "legende": "Élévation d'un immeuble en briques de terre compressée",
+            "ajoute_le": "2025-07-30 10:24:00"
+        },
+        {
+            "id": "b45f6768ebfb",
+            "src": "assets/img/realisations/batiment-villa-01.jpeg",
+            "categorie": "batiment",
+            "legende": "Villa R+1 en briques de terre compressée apparentes",
+            "ajoute_le": "2025-07-30 10:25:00"
+        },
+        {
+            "id": "793322d3f2f0",
+            "src": "assets/img/realisations/finition-menuiserie-01.jpeg",
+            "categorie": "batiment",
+            "legende": "Menuiseries et persiennes posées sur une façade en BTC",
+            "ajoute_le": "2025-07-30 10:26:00"
+        },
+        {
+            "id": "fa2c0e85c7ea",
+            "src": "assets/img/realisations/finition-mur-01.jpeg",
+            "categorie": "batiment",
+            "legende": "Détail d'un mur en briques de terre compressée avec chaînage",
+            "ajoute_le": "2025-07-30 10:27:00"
+        }
+    ]
+}

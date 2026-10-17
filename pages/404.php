@@ -1,21 +1,20 @@
 <?php
+$page_title = 'Page introuvable';
+$page_description = "La page demandée n'existe pas ou a été déplacée.";
 include '../includes/header.php';
 ?>
 
-<div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb_shape_1_1.jpg">
+<div class="breadcumb-wrapper">
     <div class="container">
         <div class="breadcumb-content">
-            <h1 class="breadcumb-title">404 ERROR</h1>
+            <h1 class="breadcumb-title">Page introuvable</h1>
             <ul class="breadcumb-menu">
-                <li><a href="accueil">Home</a></li>
-                <li>404 ERROR</li>
+                <li><a href="accueil">Accueil</a></li>
+                <li>Erreur 404</li>
             </ul>
         </div>
     </div>
 </div>
-<!--==============================
-Error Area 
-==============================-->
 <section class="space">
     <div class="container">
         <div class="row justify-content-center">
@@ -23,12 +22,13 @@ Error Area
                 <div class="error-page text-center">
                     <div class="error-content">
                         <div class="error-img mb-50">
-                            <img src="assets/img/normal/404.png" alt="404 image">
+                            <img src="assets/img/normal/404.png" alt="Erreur 404">
                         </div>
-                        <h2 class="error-title mb-20"><span class="text-theme">OooPs!</span> Page Not Found</h2>
-                        <p class="error-text mb-30">Oops! The page you are looking for does not exist. It might have
-                            been moved or deleted.</p>
-                        <a href="accueil" class="th-btn"><i class="fa-solid fa-home me-2"></i> Back To Home </a>
+                        <h2 class="error-title mb-20"><span class="text-theme">Oups !</span> Cette page n'existe pas</h2>
+                        <p class="error-text mb-30">La page que vous cherchez a peut-être été déplacée ou supprimée.
+                            Retrouvez nos services et nos réalisations depuis l'accueil.</p>
+                        <a href="accueil" class="th-btn"><i class="fa-solid fa-home me-2"></i> Retour à l'accueil</a>
+                        <a href="nos-realisations" class="th-btn style2 ms-2">Nos réalisations</a>
                     </div>
                 </div>
             </div>
@@ -38,4 +38,3 @@ Error Area
 
 <?php
 include __DIR__ . '/../includes/footer.php';
-?>

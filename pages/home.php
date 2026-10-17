@@ -1,114 +1,73 @@
 <?php
+$page_title = 'Accueil';
+$page_description = "Kané Eco-Construction fabrique des briques de terre compressée (BTC) à Niamey et construit logements, écoles et bâtiments écologiques, économiques et durables, partout au Niger.";
+require_once __DIR__ . '/../includes/galerie.php';
 include '../includes/header.php';
+
+$slides = [
+    [
+        'image'  => 'assets/img/realisations/batiment-r2-01.jpeg',
+        'sur'    => 'Construction écologique au Niger',
+        'titre'  => "Construire l'avenir,",
+        'accent' => 'innover autrement.',
+        'texte'  => "Des bâtiments solides, sains et économiques grâce à la brique de terre compressée fabriquée à Niamey.",
+    ],
+    [
+        'image'  => 'assets/img/realisations/production-presse-01.jpeg',
+        'sur'    => 'Notre propre unité de production',
+        'titre'  => 'Des briques de terre compressée',
+        'accent' => 'fabriquées sur place.',
+        'texte'  => "Nous maîtrisons toute la chaîne : extraction de la terre, pressage, séchage et pose. Qualité constante, délais tenus.",
+    ],
+    [
+        'image'  => 'assets/img/realisations/batiment-villa-01.jpeg',
+        'sur'    => 'Logements, écoles, centres de santé',
+        'titre'  => 'Des bâtiments économiques,',
+        'accent' => 'faits pour durer.',
+        'texte'  => "Une construction qui respire, reste fraîche la journée et réduit la facture, sans compromis sur la solidité.",
+    ],
+];
 ?>
 <div class="th-hero-wrapper hero-1" id="hero">
     <div class="hero-slider-1 th-carousel" data-fade="true" data-slide-show="1" data-md-slide-show="1" data-dots="true"
         data-adaptive-height="true">
-
-
+        <?php foreach ($slides as $i => $slide): ?>
         <div class="th-hero-slide">
-            <div class="th-hero-bg" data-bg-src="assets/img/hero/hero_bg_1_13.jpg">
-                <img src="assets/img/hero/hero_overlay_1_1.jpg" alt="">
-            </div>
+            <div class="th-hero-bg" data-bg-src="<?= $slide['image'] ?>"></div>
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-xxl-8 col-lg-7 col-md-8">
+                    <div class="col-xl-8 col-lg-9">
                         <div class="hero-style1">
                             <span class="hero-subtitle" data-ani="slideinleft" data-ani-delay="0.1s"><img
-                                    src="assets/img/icon/subtitle-img1-1.svg" alt="img"> Nous construisons, vous
-                                prospérez</span>
-                            <h1 class="hero-title text-white" data-ani="slideinleft" data-ani-delay="0.4s">Construire l'avenir,
-                                <span class="text-theme fw-normal">Innovons autrement.</span>
-                            </h1>
-                            <p class="hero-text" data-ani="slideinleft" data-ani-delay="0.6s">Kané Eco-Constructions est
-                                une société immobilière spécialisée dans les briques de terre compressée au Niger.</p>
+                                    src="assets/img/icon/subtitle-img1-1.svg" alt=""> <?= $slide['sur'] ?></span>
+                            <<?= $i === 0 ? 'h1' : 'h2' ?> class="hero-title text-white" data-ani="slideinleft" data-ani-delay="0.4s"><?= $slide['titre'] ?>
+                                <span class="text-theme fw-normal"><?= $slide['accent'] ?></span>
+                            </<?= $i === 0 ? 'h1' : 'h2' ?>>
+                            <p class="hero-text" data-ani="slideinleft" data-ani-delay="0.6s"><?= $slide['texte'] ?></p>
                             <div class="btn-group" data-ani="slideinleft" data-ani-delay="0.8s">
-                                <a href="contact" class="th-btn style3">En savoir plus<i
-                                        class="fas fa-arrow-right ms-2"></i></a>
-                                <a href="nos-services" class="th-btn style2">Nos services <i
-                                        class="fas fa-arrow-right ms-2"></i></a>
+                                <a href="contact" class="th-btn style3">Demander un devis<i class="fas fa-arrow-right ms-2"></i></a>
+                                <a href="nos-realisations" class="th-btn style2">Voir nos réalisations <i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
+                            <ul class="hero-points" data-ani="slideinleft" data-ani-delay="1s">
+                                <li><i class="fas fa-check-circle"></i>Écologique</li>
+                                <li><i class="fas fa-check-circle"></i>Économique</li>
+                                <li><i class="fas fa-check-circle"></i>Durable</li>
+                                <li><i class="fas fa-check-circle"></i>Fabriqué au Niger</li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="col-xxl-4 col-lg-5 col-md-4">
-                        <div class="hero-video-wrap text-center">
-                            <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn style3 popup-video"><i
-                                    class="fa-sharp fa-solid fa-play"></i></a>
+                    <div class="col-xl-4 col-lg-3 d-none d-lg-block">
+                        <div class="hero-side-card">
+                            <span class="hero-side-card_icone"><i class="fas fa-award"></i></span>
+                            <h3>Une expérience reconnue au Niger</h3>
+                            <p>Logements sociaux, cités, écoles et centres de santé : des projets livrés dans tout le pays, en briques de terre compressée.</p>
+                            <a href="a-propos-de-nous" class="th-btn style2">Qui sommes-nous ? <i class="fas fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-
-        <div class="th-hero-slide">
-            <div class="th-hero-bg" data-bg-src="assets/img/hero/hero_bg_1_23.jpg">
-                <img src="assets/img/hero/hero_overlay_1_1.jpg" alt="">
-            </div>
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-xxl-8 col-lg-7 col-md-8">
-                        <div class="hero-style1">
-                            <span class="hero-subtitle" data-ani="slideinleft" data-ani-delay="0.1s"><img
-                                    src="assets/img/icon/subtitle-img1-1.svg" alt="img"> Nous construisons, vous
-                                prospérez</span>
-                                <h1 class="hero-title text-white" data-ani="slideinleft" data-ani-delay="0.4s">Construire l'avenir,
-                                <span class="text-theme fw-normal">Innovons autrement.</span>
-                            </h1>
-                            <p class="hero-text" data-ani="slideinleft" data-ani-delay="0.6s">Kané Eco-Constructions est
-                                une société immobilière spécialisée dans les briques de terre compressée au Niger.</p>
-                            <div class="btn-group" data-ani="slideinleft" data-ani-delay="0.8s">
-                                <a href="contact" class="th-btn style3">En savoir plus <i
-                                        class="fas fa-arrow-right ms-2"></i></a>
-                                <a href="nos-services" class="th-btn style2">Nos services <i
-                                        class="fas fa-arrow-right ms-2"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xxl-4 col-lg-5 col-md-4">
-                        <div class="hero-video-wrap text-center">
-                            <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn style3 popup-video"><i
-                                    class="fa-sharp fa-solid fa-play"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="th-hero-slide">
-            <div class="th-hero-bg" data-bg-src="assets/img/hero/hero_bg_1_33.jpg">
-                <img src="assets/img/hero/hero_overlay_1_1.jpg" alt="">
-            </div>
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-xxl-8 col-lg-7 col-md-8">
-                        <div class="hero-style1">
-                            <span class="hero-subtitle" data-ani="slideinleft" data-ani-delay="0.1s"><img
-                                    src="assets/img/icon/subtitle-img1-1.svg" alt="img">Nous construisons, vous
-                                prospérez</span>
-                                <h1 class="hero-title text-white" data-ani="slideinleft" data-ani-delay="0.4s">Construire l'avenir,
-                                <span class="text-theme fw-normal">Innovons autrement.</span>
-                            </h1>
-                            <p class="hero-text" data-ani="slideinleft" data-ani-delay="0.6s">Kané Eco-Constructions est
-                                une société immobilière spécialisée dans les briques de terre compressée au Niger.</p>
-                            <div class="btn-group" data-ani="slideinleft" data-ani-delay="0.8s">
-                                <a href="contact" class="th-btn style3">En savoir plus <i
-                                        class="fas fa-arrow-right ms-2"></i></a>
-                                <a href="nos-services" class="th-btn style2">Nos services <i
-                                        class="fas fa-arrow-right ms-2"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xxl-4 col-lg-5 col-md-4">
-                        <div class="hero-video-wrap text-center">
-                            <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn style3 popup-video"><i
-                                    class="fa-sharp fa-solid fa-play"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <?php endforeach; ?>
     </div>
     <div class="hero-shape"></div>
 </div>
@@ -352,8 +311,8 @@ About Area
                             style="width: 331px; height: 621px;" alt="About">
                     </div>
                     <div class="about-grid">
-                        <h3 class="about-grid_year"><span class="counter-number">25</span><span>+</span></h3>
-                        <p class="about-grid_text">Années d'expérience en construction</p>
+                        <h3 class="about-grid_year"><i class="fas fa-industry"></i></h3>
+                        <p class="about-grid_text">Briques fabriquées sur notre site de Niamey</p>
                     </div>
                     <div class="img2">
                         <img class="tilt-active" src="assets/img/products/maison 2.jpeg"
@@ -389,7 +348,7 @@ About Area
                     </div>
                     <div class="about-grid-details">
                         <h3 class="about-grid_title h6">Économique et Durable</h3>
-                        <p>Nos constructions reviennent 30% moins cher avec une durée de vie de plus de 100 ans</p>
+                        <p>Un coût de construction réduit grâce à une matière première locale, pour des bâtiments solides et durables</p>
                     </div>
                 </div>
                 <div class="btn-group mt-40">
@@ -399,51 +358,31 @@ About Area
         </div>
     </div>
 </div>
-<div class="counter-area-1 bg-theme" data-bg-src="assets/img/bg/counter-bg_1">
+<div class="atouts-band">
     <div class="container">
-        <div class="row justify-content-between gy-5">
+        <div class="row gy-4">
             <div class="col-sm-6 col-xl-3">
-                <div class="counter-grid">
-                    <div class="counter-grid_icon">
-                        <img src="assets/img/icon/counter-icon1-1.svg" alt="img">
-                    </div>
-                    <div class="details">
-                        <h2 class="counter-grid_number"><span class="counter-number">500</span>+</h2>
-                        <p class="counter-grid_text">Projets Réalisés</p>
-                    </div>
+                <div class="atout">
+                    <div class="atout_icone"><i class="fas fa-industry"></i></div>
+                    <div><h3 class="atout_titre">Production locale</h3><p class="atout_texte">Nos briques sont fabriquées sur notre propre site, à Niamey.</p></div>
                 </div>
             </div>
             <div class="col-sm-6 col-xl-3">
-                <div class="counter-grid">
-                    <div class="counter-grid_icon">
-                        <img src="assets/img/icon/counter-icon1-2.svg" alt="img">
-                    </div>
-                    <div class="details">
-                        <h2 class="counter-grid_number"><span class="counter-number">50</span>+</h2>
-                        <p class="counter-grid_text">Membres de l'équipe</p>
-                    </div>
+                <div class="atout">
+                    <div class="atout_icone"><i class="fas fa-helmet-safety"></i></div>
+                    <div><h3 class="atout_titre">Équipe qualifiée</h3><p class="atout_texte">Maçons et techniciens formés à la construction en terre compressée.</p></div>
                 </div>
             </div>
             <div class="col-sm-6 col-xl-3">
-                <div class="counter-grid">
-                    <div class="counter-grid_icon">
-                        <img src="assets/img/icon/counter-icon1-3.svg" alt="img">
-                    </div>
-                    <div class="details">
-                        <h2 class="counter-grid_number"><span class="counter-number">1000</span>+</h2>
-                        <p class="counter-grid_text">Clients Satisfaits</p>
-                    </div>
+                <div class="atout">
+                    <div class="atout_icone"><i class="fas fa-handshake"></i></div>
+                    <div><h3 class="atout_titre">Accompagnement complet</h3><p class="atout_texte">Du devis à la remise des clés, un seul interlocuteur.</p></div>
                 </div>
             </div>
             <div class="col-sm-6 col-xl-3">
-                <div class="counter-grid">
-                    <div class="counter-grid_icon">
-                        <img src="assets/img/icon/counter-icon1-4.svg" alt="img">
-                    </div>
-                    <div class="details">
-                        <h2 class="counter-grid_number"><span class="counter-number">25</span>+</h2>
-                        <p class="counter-grid_text">Années d'Expérience</p>
-                    </div>
+                <div class="atout">
+                    <div class="atout_icone"><i class="fas fa-leaf"></i></div>
+                    <div><h3 class="atout_titre">Construction durable</h3><p class="atout_texte">Des bâtiments sains, frais et respectueux de l'environnement.</p></div>
                 </div>
             </div>
         </div>
@@ -571,16 +510,15 @@ About Area
                         <div id="collapse-6" class="accordion-collapse collapse " aria-labelledby="collapse-item-6"
                             data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                <p class="faq-text">La construction avec les BTCS revient 30% moins cher pour les
-                                    raisons suivantes :
-                                <ul>
-                                    <li>la réduction de l’utilisation de ciment, généralement le quart de ciment requis
-                                        pour une construction en béton</li>
-                                    <li>L’accessibilité de la matière première partout au Niger et à moindre coût </li>
-                                    <li>La rapidité dans la construction. Ce qui nécessite moins de jours travaillés
-                                        pour vos ouvriers </li>
-                                </ul>
-                                </p>
+                                <div class="faq-text">
+                                    <p>La construction en briques de terre compressée revient nettement moins cher
+                                        qu'une construction classique en béton, pour plusieurs raisons :</p>
+                                    <ul>
+                                        <li>une consommation de ciment très réduite par rapport à une construction en béton ;</li>
+                                        <li>une matière première, la terre, disponible partout au Niger et à moindre coût ;</li>
+                                        <li>une mise en œuvre rapide, donc moins de jours de travail sur le chantier.</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -595,13 +533,11 @@ About Area
                         <div id="collapse-7" class="accordion-collapse collapse " aria-labelledby="collapse-item-7"
                             data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                <p class="faq-text">La BTCS est un matériau solide et robuste avec une durée de vie de
-                                    plus de 100 ans. Grâce à cette solidité,
-                                    elle est à mesure de résister aux intempéries et aux conditions climatiques sévères.
-                                    D’ailleurs, beaucoup de constructions
-                                    de l’Antiquité sont restées intactes après des centaines d’années. Ces bâtiments ont
-                                    traversé des siècles sans subir beaucoup
-                                    de changements. La BTCS a fait toutes les preuves de durabilité.</p>
+                                <p class="faq-text">La brique de terre compressée est un matériau solide et robuste,
+                                    conçu pour durer sur plusieurs générations. Grâce à cette solidité, elle résiste aux
+                                    intempéries et aux conditions climatiques sévères. De nombreuses constructions en terre
+                                    de l'Antiquité sont d'ailleurs restées intactes au fil des siècles : la terre
+                                    compressée a fait ses preuves en matière de durabilité.</p>
                             </div>
                         </div>
                     </div>
@@ -717,210 +653,86 @@ About Area
     </div>
 </section>
 <!--==============================
-Project Area  
+Dernières réalisations (alimentées par le portail d'administration)
 ==============================-->
-<section class="space overflow-hidden">
+<?php
+$galerie_accueil = galerie_dernieres(galerie_charger(), 7);
+$galerie_total = count(galerie_charger());
+?>
+<section class="space overflow-hidden home-galerie" id="realisations-sec">
     <div class="container">
         <div class="mb-45">
-            <div class="row justify-content-between align-items-center">
+            <div class="row justify-content-between align-items-center gy-3">
                 <div class="col-auto">
                     <div class="title-area mb-md-0">
-                        <span class="sub-title"><img src="assets/img/icon/subtitle-img1-1.svg" alt="img"> Photo
-                            Galerie</span>
-                        <h2 class="sec-title mb-0">Nos derniers travaux complets</h2>
+                        <span class="sub-title"><img src="assets/img/icon/subtitle-img1-1.svg" alt=""> Photo galerie</span>
+                        <h2 class="sec-title mb-0">Nos dernières réalisations</h2>
                     </div>
                 </div>
                 <div class="col-auto">
-                    <a class="th-btn" href="contact">Contactez-nous <i
-                            class="fas fa-arrow-right ms-2"></i></a>
+                    <a class="th-btn" href="nos-realisations">Toute la galerie <i class="fas fa-arrow-right ms-2"></i></a>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row th-carousel project-slider2" data-slide-show="4" data-ml-slide-show="3" data-lg-slide-show="3"
-            data-md-slide-show="2" data-sm-slide-show="1" data-arrows="true">
-            <div class="col-md-6 col-xl-4">
-                <div class="project-card style2">
-                    <div class="project-card-img">
-                        <img src="assets/img/products/cite.jpeg" alt="project image">
-                    </div>
-                    <div class="project-card-details-wrap" >
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-xl-4">
-                <div class="project-card style2">
-                    <div class="project-card-img">
-                        <img src="assets/img/products/cite2.jpeg" alt="project image">
-                    </div>
-                    <div class="project-card-details-wrap">
+        <div class="row gy-4 gx-4">
+            <?php foreach ($galerie_accueil as $img): ?>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="gallery-card">
+                        <span class="gallery-cat"><?= htmlspecialchars(galerie_categorie_libelle($img['categorie']), ENT_QUOTES) ?></span>
+                        <a href="<?= galerie_url($img['src']) ?>" class="galerie-photo" title="<?= htmlspecialchars($img['legende'], ENT_QUOTES) ?>">
+                            <img src="<?= galerie_url($img['src']) ?>" alt="<?= htmlspecialchars($img['legende'], ENT_QUOTES) ?>" loading="lazy">
+                            <div class="gallery-overlay">
+                                <p><?= htmlspecialchars($img['legende'], ENT_QUOTES) ?></p>
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                        </a>
                     </div>
                 </div>
+            <?php endforeach; ?>
+            <div class="col-sm-6 col-lg-3 col-plus">
+                <a href="nos-realisations"><span>+<?= (int) $galerie_total ?></span>photos de nos chantiers, briques et bâtiments</a>
             </div>
-
-            <div class="col-md-6 col-xl-4">
-                <div class="project-card style2">
-                    <div class="project-card-img">
-                        <img src="assets/img/products/cite 3.jpeg" alt="project image">
-                    </div>
-                    <div class="project-card-details-wrap">
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-xl-4">
-                <div class="project-card style2">
-                    <div class="project-card-img">
-                        <img src="assets/img/products/f4 5.jpeg" alt="project image">
-                    </div>
-                    <div class="project-card-details-wrap">
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-xl-4">
-                <div class="project-card style2">
-                    <div class="project-card-img">
-                        <img src="assets/img/products/f4 6.jpeg" alt="project image">
-                    </div>
-                    <div class="project-card-details-wrap">
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-xl-4">
-                <div class="project-card style2">
-                    <div class="project-card-img">
-                        <img src="assets/img/products/f4 7.jpeg" alt="project image">
-                    </div>
-                    <div class="project-card-details-wrap">
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-xl-4">
-                <div class="project-card style2">
-                    <div class="project-card-img">
-                        <img src="assets/img/products/f4 10.jpeg" alt="project image">
-                    </div>
-                    <div class="project-card-details-wrap">
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-xl-4">
-                <div class="project-card style2">
-                    <div class="project-card-img">
-                        <img src="assets/img/products/f4 12.jpeg" alt="project image">
-                    </div>
-                    <div class="project-card-details-wrap">
-                    </div>
-                </div>
-            </div>
-
         </div>
     </div>
 </section>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+
 <!--==============================
-Cta Area  
+Appel à l'action + formulaire de devis
 ==============================-->
 <div class="container" id="contact-sec">
     <div class="cta-area-1">
         <div class="row g-0 align-items-center">
             <div class="col-xl-7">
                 <div class="cta-wrap title-area mb-0 bg-theme">
-                    <span class="sub-title text-white"><img src="assets/img/icon/subtitle-img1-1.svg" alt="img"> Appel à
-                        l'action</span>
-                    <h2 class="sec-title text-white">Avez-vous des projets à venir ? Parlons-en maintenant!</h2>
-                    <p class="sec-text text-white">Nous sommes spécialisés dans la construction écologique avec des briques de terre compressée. Contactez-nous pour un devis gratuit.</p>
+                    <span class="sub-title text-white"><img src="assets/img/icon/subtitle-img1-1.svg" alt=""> Parlons de votre projet</span>
+                    <h2 class="sec-title text-white">Un projet de construction ? Demandez votre devis gratuit.</h2>
+                    <p class="sec-text text-white">Logement, cité, école, centre de santé ou simple mur de clôture : nous étudions
+                        votre projet et vous proposons une solution en briques de terre compressée adaptée à votre budget.</p>
                     <div class="cta-link-wrap mb-40">
                         <div class="cta-link">
-                            <div class="cta-link-icon">
-                                <i class="fas fa-phone"></i>
-                            </div>
+                            <div class="cta-link-icon"><i class="fas fa-phone"></i></div>
                             <div>
-                                <p>Appelez-nous à tout moment:</p>
-                                <a class="cta-single-link" href="tel:+22793333435"
-                                    style="font-size: 13px;">+22793333435</a>
-                                <a class="cta-single-link" href="tel:+22782333433"
-                                    style="font-size: 13px;">+22782333433</a>
+                                <p>Appelez-nous</p>
+                                <?php foreach ($telephones as $tel): ?>
+                                    <a class="cta-single-link d-block" href="tel:<?= $tel[1] ?>"><?= $tel[0] ?></a>
+                                <?php endforeach; ?>
                             </div>
                         </div>
                         <div class="cta-link">
-                            <div class="cta-link-icon">
-                                <i class="fas fa-envelope"></i>
-                            </div>
+                            <div class="cta-link-icon"><i class="fas fa-envelope"></i></div>
                             <div>
-                                <p>Envoyez-nous un mail :</p>
-                                <a class="cta-single-link" href="mailto:contact@kane-eco-contruction.com"
-                                    style="font-size: 13px;">contact@kane-eco-contruction.com</a>
+                                <p>Écrivez-nous</p>
+                                <a class="cta-single-link" href="mailto:contact@kane-eco-construction.com">contact@kane-eco-construction.com</a>
                             </div>
                         </div>
                     </div>
-                    <a href="a-propos-de-nous" class="th-btn style6">En savoir plus sur nous<i
-                            class="fas fa-arrow-right ms-1"></i></a>
+                    <a href="<?= htmlspecialchars($whatsapp, ENT_QUOTES) ?>" class="th-btn style6" target="_blank" rel="noopener"><i class="fab fa-whatsapp me-2"></i>Discuter sur WhatsApp</a>
                 </div>
             </div>
             <div class="col-xl-5">
                 <div class="contact-form-wrap">
                     <h2 class="title h4 text-center">Demander un devis</h2>
-                    <form action="mail.php" method="POST" class="contact-form ajax-contact">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="name" id="name"
-                                        placeholder="Your Name*">
-                                    <i class="fal fa-user"></i>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="email" class="form-control" name="email" id="email"
-                                        placeholder="Email Address*">
-                                    <i class="fal fa-envelope"></i>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <select name="subject" id="subject" class="single-select nice-select form-select">
-                                        <option value="" disabled selected hidden>Select Subject*</option>
-                                        <option value="Construction">Construction</option>
-                                        <option value="Real Estate">Real Estate</option>
-                                        <option value="Industry">Industry</option>
-                                        <option value="Architect">Architect</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="tel" class="form-control" name="number" id="number"
-                                        placeholder="Phone Number*">
-                                    <i class="fal fa-phone"></i>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-group ">
-                                    <textarea name="message" id="message" cols="30" rows="3" class="form-control"
-                                        placeholder="Write Your Message*"></textarea>
-                                    <i class="fal fa-pen"></i>
-                                </div>
-                            </div>
-                            <div class="form-btn col-12">
-                                <button class="th-btn w-100">Send Message<i
-                                        class="fas fa-long-arrow-right ms-2"></i></button>
-                            </div>
-                        </div>
-                        <p class="form-messages mb-0 mt-3"></p>
-                    </form>
+                    <?php include __DIR__ . '/../includes/formulaire_contact.php'; ?>
                 </div>
             </div>
         </div>
@@ -929,4 +741,3 @@ Cta Area
 
 <?php
 include __DIR__ . '/../includes/footer.php';
-?>

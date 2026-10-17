@@ -1,0 +1,4 @@
+# Images envoyées depuis le portail d'administration : jamais versionnées, jamais écrasées au déploiement.
+*
+!.gitignore
+!.htaccess

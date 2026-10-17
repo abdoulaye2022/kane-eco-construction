@@ -1,0 +1,5 @@
+# Données vivantes du site (modifiées par le portail d'administration en production).
+# Elles ne doivent jamais être écrasées par un déploiement : seul le fichier seed est versionné.
+*
+!.gitignore
+!galerie.seed.json
